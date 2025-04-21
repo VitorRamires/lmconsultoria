@@ -29,6 +29,22 @@ export function BannerCards() {
       a equipe, aumenta a previsibilidade e melhora a credibilidade do projeto, impulsionando 
       resultados sustentáveis e de alto impacto.`,
     },
+    {
+      title: `Financeiro`,
+      description: `Projetos e iniciativas precisam continuamente manter sua saúde financeira em dia. 
+      O financeiro é um pilar essencial em qualquer projeto, garantindo a viabilidade e sustentabilidade das iniciativas. 
+      Permite o planejamento adequado de recursos, controle de custos,maximização de margem e P&L , evitando desperdícios 
+      e assegurando a rentabilidade. Além disso, uma gestão financeira eficiente possibilita tomadas de decisão mais estratégicas, 
+      mitigação de riscos e maior previsibilidade, contribuindo diretamente para o sucesso do projeto.`,
+    },
+    {
+      title: `Resultados`,
+      description: `Os resultados de um projeto são a principal medida de seu sucesso, refletindo o impacto das entregas 
+      e a efetividade da execução. Alcançar bons resultados significa atender aos objetivos estratégicos, agregar valor 
+      ao cliente e garantir a sustentabilidade do negócio. Além disso, resultados positivos impulsionam a motivação da 
+      equipe, fortalecem a credibilidade do projeto e geram oportunidades de crescimento e inovação contínua. Em adição, 
+      com bons resultados financeiros, portas são abertas para até mesmo novos projetos com o cliente.`,
+    },
   ];
 
   return (
