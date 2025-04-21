@@ -1,6 +1,6 @@
 .services {
   position: relative;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .service-wrapper {
@@ -17,6 +17,8 @@
   height: 1000px;
   left: -10%;
   object-fit: cover;
+  display: flex;
+  border-radius: 0 15px 0 0;
 }
 
 .service-decoration {
@@ -27,9 +29,10 @@
   width: 1850px;
   max-width: 100%;
   height: 550px;
-  background-color: var(--dark3);
+  background: linear-gradient(0deg, var(--dark3), var(--backgroundColor));
   z-index: 6;
   border-radius: 8px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.404);
 }
 
 .services-box {
@@ -48,7 +51,7 @@
   background-color: #494949;
   width: 70%;
   height: 2px;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: auto;
 }
 
@@ -76,6 +79,7 @@
   color: var(--white);
   box-shadow: inset -5px 5px 7px 0px rgba(0, 0, 0, 0.274);
   border-radius: 5px;
+  border-right: 45px solid #50DCFF;
 }
 
 .title-services {

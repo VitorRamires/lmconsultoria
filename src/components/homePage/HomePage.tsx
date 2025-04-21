@@ -1,4 +1,5 @@
 import { Banner } from "./banner/banner";
+import { Contact } from "./contato";
 import { ProjectsHome } from "./projetosHome";
 import { Services } from "./serviços";
 import { Sobre } from "./sobre";
@@ -12,6 +13,7 @@ export function HomePage() {
       <Technologies />
       <ProjectsHome />
       <Services />
+      <Contact />
     </>
   );
 }
