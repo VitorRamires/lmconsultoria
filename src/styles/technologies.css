@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: space-between;
   z-index: 3;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .tech-title {
@@ -21,23 +23,25 @@
 }
 
 .tech {
-  width: 100%;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-right: 2px solid #4a4949;
+  width: 200px;
+  text-align: center;
 }
 
-.tech:nth-child(3) img {
-  width: 120px;
+.tech:nth-child(3) {
+  width: 110px;
+}
+
+.tech img {
+  width: 100%;
+  height: 100%;
 }
 
 .tech:last-child {
   border-right: none;
 }
 
-.tech-box img {
-  width: 200px;
-  height: auto;
+@media screen and (max-width: 970px) {
+  .tech-box {
+    justify-content: center;
+  }
 }

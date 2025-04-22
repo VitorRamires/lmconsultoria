@@ -53,12 +53,12 @@
 .about h2::before {
   position: relative;
   content: "";
-  width: 40%;
+  width: 30%;
   height: 1px;
   background-color: #494949;
 }
 
-.about p {
+.about p:not(.about .extra-details p, .change-buttons p) {
   margin: 25px 0;
   font-size: 1.1rem;
 }
@@ -68,10 +68,12 @@
   max-width: 100%;
   position: relative;
   margin: 0 auto;
+  padding-top: 25px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 15px;
   border-top: 1px solid #494949;
 }
 
@@ -171,4 +173,40 @@
 
 .change-btn p {
   margin: 0;
+}
+
+@media screen and (max-width: 1492px) {
+  .results {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about h2::after,
+  .about h2::before {
+    display: none;
+  }
+
+  .about h2 {
+    justify-content: center;
+  }
+
+  .about {
+    padding: 185px 25px 20px 25px;
+  }
+
+  .resume p {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .change-buttons {
+    display: block;
+  }
+
+  .change-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
