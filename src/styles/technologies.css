@@ -40,8 +40,16 @@
   border-right: none;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1092px) {
   .tech-box {
     justify-content: center;
+    gap: 80px;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .tech {
+    width: 170px;
+  }
+}
+
