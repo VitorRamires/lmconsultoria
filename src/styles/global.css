@@ -102,3 +102,40 @@ img {
   max-width: 90%;
   margin: 0 auto;
 }
+
+.page-banner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: -170px;
+  background-image: url(../assets/images/projectpage-1.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: start;
+  justify-content: start;
+}
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  width: 600px;
+  z-index: 27;
+  color: var(--blue);
+  font-size: 1.5rem;
+  margin-top: 200px;
+}
+
+.title-line {
+  width: 100%;
+  height: 5px;
+  box-shadow: 20px 10px 4px 0 #00000041;
+  background-color: #636363;
+}
+
+.title-page h2 {
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
