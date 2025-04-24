@@ -65,19 +65,47 @@
   font-family: "Stencil one";
 }
 
+.btn-button-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 55px;
+  width: 100%;
+  background-color: var(--backgroundColor);
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 5px 10px 0 #00000059;
+}
+
+.line {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--blue);
+  transition: 0.5s;
+}
+
 @media screen and (max-width: 1050px) {
   .header {
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     top: 0;
+    transform: unset;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     height: 100vh;
-    width: 100%;
+    width: 0;
     max-width: unset;
-    padding: 0 25px 0 25px;
+    padding: 54px 25px 0 25px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 0;
+    transition: 0.5s;
   }
 
   .banner {
@@ -108,5 +136,54 @@
     justify-content: center;
     align-items: start;
     gap: 35px;
+  }
+
+  .btn-button-header {
+    display: block;
+  }
+
+  .btn-button-header.show ~ .header {
+    width: 100%;
+    z-index: 999;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .btn-menu {
+    position: relative;
+    width: 35px;
+    height: 100%;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .btn-button-header.show .btn-menu {
+    gap: 0;
+  }
+
+  .line1 {
+    top: 15px;
+  }
+
+  .line2 {
+    top: 25px;
+  }
+
+  .line3 {
+    top: 35px;
+  }
+
+  .btn-button-header.show .line1 {
+    transform: rotate(45deg);
+    top: 25px;
+  }
+
+  .btn-button-header.show .line2 {
+    transform: translateX(3000%);
+  }
+
+  .btn-button-header.show .line3 {
+    transform: rotate(-45deg);
+    top: 27px;
   }
 }

@@ -60,6 +60,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   gap: 25px;
   background-color: var(--backgroundColor);
   padding: 65px 100px;
@@ -80,6 +81,7 @@
 @media screen and (max-width: 1500px) {
   .contact-forms {
     flex-wrap: wrap;
+    padding-right: 0;
   }
 
   .contact-forms .form {
@@ -122,5 +124,16 @@
   .contact-forms {
     justify-content: center;
     left: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contact-forms .form {
+    font-size: 1rem;
+  }
+
+  .contact-forms .form img {
+    width: 40px;
+    height: auto;
   }
 }
