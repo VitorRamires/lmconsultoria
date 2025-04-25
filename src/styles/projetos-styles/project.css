@@ -1,0 +1,6 @@
+@import url(../projetos-styles/activity.css);
+
+.project-content {
+  width: 100%;
+  z-index: 29;
+}

@@ -1,0 +1,39 @@
+.activity-area {
+  color: #ffff;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1c1c1c88;
+  padding: 50px;
+}
+
+.activity-box {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  gap: 10px;
+}
+
+.sectors {
+  grid-row: span 2;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+.segments {
+  width: 100%;
+  height: 450px;
+  padding-top: 50px;
+}
+
+.project-types {
+  background-color: #18e45c;
+  width: 100%;
+  height: 100%;
+}
+
+.activity-item {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+}

@@ -1,3 +1,5 @@
+import { Activity } from "./atuacao";
+
 export function Project() {
   return (
     <>
@@ -7,6 +9,11 @@ export function Project() {
           <div className="title-line"></div>
         </div>
         <div className="overlay"></div>
+        <div className="project-content">
+          <div className="center">
+            <Activity />
+          </div>
+        </div>
       </div>
     </>
   );
