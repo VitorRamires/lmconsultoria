@@ -9,7 +9,7 @@ import {
   Tooltip,
 } from "recharts";
 import { CustomTooltip } from "./customTooltip";
-import { data } from "../../utils/chartData";
+import { data } from "../../utils/chartData.ts";
 
 export default class Chart extends PureComponent {
   static demoUrl =
@@ -34,7 +34,7 @@ export default class Chart extends PureComponent {
             stroke="#ffffff"
             scale="point"
             tick={{ textAnchor: "middle", fontSize: 15 }}
-            padding={{ left: 130, right: 130 }}
+            padding={{ left: 50, right: 50 }}
             dy={10}
           />
           <YAxis stroke="#ffffff" />

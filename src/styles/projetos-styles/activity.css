@@ -12,9 +12,23 @@
 .activity-box {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 0.7fr;
   place-items: center;
   gap: 10px;
+}
+
+.activity-item {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  text-align: start;
+  padding-top: 35px;
+}
+
+.activity-item p:not(.type p, .quantities p) {
+  margin-bottom: 35px;
+  color: #c2c2c2;
+  font-family: "Saira condensed regular";
+  font-size: 1.7rem;
 }
 
 .title-activity {
@@ -41,11 +55,12 @@
 
 .sectors {
   grid-row: span 2;
+  place-self: start;
   height: 100%;
   width: 100%;
   text-align: start;
-  padding: 0 30px;
-  max-height: 1010px;
+  padding: 30px;
+  max-height: 860px;
   overflow: auto;
 }
 
@@ -54,26 +69,14 @@
   height: 500px;
 }
 
-.segments h2 {
+.segments p,
+.project-types p {
   margin-left: 65px;
 }
 
 .project-types {
   width: 100%;
   height: 100%;
-}
-
-.activity-item {
-  background-color: #1f1f1f;
-  border-radius: 8px;
-  text-align: start;
-  padding-top: 35px;
-}
-
-.activity-item h2 {
-  margin-bottom: 35px;
-  color: #c2c2c2;
-  font-family: "Saira condensed light";
 }
 
 .sectors ul li {
@@ -83,6 +86,79 @@
   margin-top: 10px;
   padding: 15px 5px;
   font-size: 1.4rem;
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-family: "Saira Condensed light";
+}
+
+.project-types {
+  place-self: start;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.project-types-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+  padding: 0 65px;
+}
+
+.type {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  height: 70px;
+}
+
+.type .type-name,
+.type .quantities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.type p {
+  margin: unset;
+  font-size: 1.3rem;
+  font-family: "Saira Condensed light";
+}
+
+.type .type-name {
+  width: 100%;
+}
+
+.type .quantities {
+  width: 30%;
+  background-color: #d9d9d9;
+  color: var(--backgroundColor);
+}
+
+/* Chrome, Edge and Safari */
+.project-types::-webkit-scrollbar,
+.sectors::-webkit-scrollbar {
+  width: 1.5px;
+}
+.project-types::-webkit-scrollbar-track,
+.sectors::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.project-types::-webkit-scrollbar-track:active,
+.sectors::-webkit-scrollbar-track:active {
+  background-color: #ffffff;
+}
+
+.project-types::-webkit-scrollbar-thumb,
+.sectors::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+.type::-webkit-scrollbar-thumb:active,
+.sectors::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
 }

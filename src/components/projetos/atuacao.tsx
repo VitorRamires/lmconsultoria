@@ -1,5 +1,6 @@
 import Chart from "../charts/chart";
 import { sectors } from "../../utils/sectors";
+import { ProjectType } from "./project_type";
 
 export function Activity() {
   return (
@@ -10,11 +11,11 @@ export function Activity() {
         </div>
         <div className="activity-box">
           <div className="segments activity-item">
-            <h2>Segmentos</h2>
+            <p>Segmentos</p>
             <Chart />
           </div>
           <div className="sectors activity-item">
-            <h2>Setores</h2>
+            <p>Setores</p>
             <ul>
               {sectors.map((sector) => {
                 return <li key={sector}>{sector}</li>;
@@ -23,6 +24,7 @@ export function Activity() {
           </div>
           <div className="project-types activity-item">
             <p>Tipos e quantidade</p>
+            <ProjectType />
           </div>
         </div>
       </div>
