@@ -1,0 +1,26 @@
+.all-projects {
+  height: 350px;
+}
+
+.all-projects .center {
+  height: 100%;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background-color: bisque;
+  transition: 0.3s;
+}
+
+.swiper-slide.swiper-slide-active {
+  border: 1px solid blue;
+  transform: scale(1);
+}
+
+.swiper-slide:not(.swiper-slide.swiper-slide-active) {
+  transform: scale(0.8);
+}

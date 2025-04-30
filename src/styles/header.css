@@ -98,13 +98,15 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    height: 0;
+    height: 100vh;
     width: 100%;
     max-width: unset;
     padding: 54px 25px 0 25px;
     overflow: hidden;
     z-index: 0;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
+    opacity: 0;
+    transform: translateX(-130%);
   }
 
   .banner {
@@ -124,12 +126,14 @@
     height: unset;
     border-radius: 0 0 5px 5px;
     width: 100px;
+    min-width: 100px;
   }
 
   .languages {
     justify-content: start;
     align-items: start;
     height: unset;
+    opacity: 0;
   }
 
   .header nav ul {
@@ -145,9 +149,10 @@
   }
 
   .btn-button-header.show ~ .header {
-    height: 100vh;
+    width: 100%;
     z-index: 999;
-    transition: 0.3s;
+    opacity: 1;
+    transform: translateX(0);
   }
 
   .btn-menu {
@@ -180,7 +185,8 @@
   }
 
   .btn-button-header.show .line2 {
-    transform: translateX(3000%);
+    transform: translateX(300%);
+    opacity: 0;
   }
 
   .btn-button-header.show .line3 {

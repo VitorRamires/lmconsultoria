@@ -1,4 +1,5 @@
 import { Activity } from "./atuacao";
+import { SliderProjects } from "./slider_projects";
 
 export function Project() {
   return (
@@ -13,6 +14,11 @@ export function Project() {
           <div className="center">
             <Activity />
           </div>
+        </div>
+      </div>
+      <div className="all-projects">
+        <div className="center">
+          <SliderProjects />
         </div>
       </div>
     </>
