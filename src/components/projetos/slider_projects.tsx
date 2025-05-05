@@ -20,7 +20,12 @@ export function SliderProjects() {
         className="mySwiper"
       >
         {projectsInfos.map((project) => {
-          return <SwiperSlide>{project.projeto}</SwiperSlide>;
+          return (
+        
+          <SwiperSlide>
+            <img src={project.logo} alt="logo empresa" />
+          </SwiperSlide>)
+          ;
         })}
       </Swiper>
     </>

@@ -12,8 +12,13 @@
 
 .swiper-slide {
   text-align: center;
-  background-color: bisque;
+  background-color: rgb(54, 54, 54);
   transition: 0.3s;
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 300px;
 }
 
 .swiper-slide.swiper-slide-active {
@@ -24,3 +29,4 @@
 .swiper-slide:not(.swiper-slide.swiper-slide-active) {
   transform: scale(0.8);
 }
+

@@ -1,21 +1,21 @@
-// Importações das imagens
-/*import outsystems from "@/assets/images/outsystems.png";
-import msoffice from "@/assets/images/msoffice.png";
-import uipath from "@/assets/images/ui-path.png";
-import oracle from "@/assets/images/oracle.png";
-import automationAnywhere from "@/assets/images/automation-anywhere.png";
-import pegasystems from "@/assets/images/pegasystems.png";
-import blueprism from "@/assets/images/blueprism.png";
-import servicenow from "@/assets/images/servicenow.png";
-import sap from "@/assets/images/sap.png";
-import citrix from "@/assets/images/citrix.png";
-import java from "@/assets/images/java.png";
-import salesforce from "@/assets/images/salesforce.png";
-import php from "@/assets/images/php.png";
-import javascript from "@/assets/images/javascript.png";
-import html from "@/assets/images/html.png";
-import css from "@/assets/images/css.png";
-import mysql from "@/assets/images/mysql.png";*/
+// Importações das imlogo
+import americanexpress from '@/assets/images/americaexpress.png';
+import apple from '@/assets/images/apple.jpg';
+import arcelormittal from '@/assets/images/arcelormital.jpeg';
+import autoliv from '@/assets/images/autoliv.webp';
+import avery from '@/assets/images/avery.jpeg';
+import exlon from '@/assets/images/exlon.jpeg';
+import fairisaac from '@/assets/images/fairisaac.jpeg';
+import frontier from '@/assets/images/frontier.png';
+import boticario from '@/assets/images/boticario.jpg';
+import nextera from '@/assets/images/nextera.webp';
+import petrobras from '@/assets/images/petrobras.jpeg';
+import roche from '@/assets/images/roche.jpg';
+import selective from '@/assets/images/selective.svg';
+import siteimprove from '@/assets/images/siteimprove.png';
+import triptri from '@/assets/images/trip.png';
+import yara from '@/assets/images/yara.jpg';
+
 
 export const projectsInfos = [
   {
@@ -27,8 +27,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área Financeira",
     ],
     extras: ["Core: OutSystems", "Uruguai", "financeiro"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: americanexpress, 
+    techs: ['outsystems', 'msoffice'],
   },
+
   {
     projeto: "Apple",
     descricao:
@@ -38,8 +40,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área Tecnológica",
     ],
     extras: ["Core: OutSystems", "EUA", "tecnologia"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: apple, 
+    techs: ['outsystems', 'msoffice'],
   },
+
   {
     projeto: "ArcelorMittal",
     descricao:
@@ -51,8 +55,10 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["Core: RPA", "Brasil", "industrial"],
-    imagens: ['automationAnywhere', 'msoffice'],
+    logo: arcelormittal, 
+    techs: ['automationAnywhere', 'msoffice'],
   },
+
   {
     projeto: "Autoliv",
     descricao:
@@ -62,8 +68,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Suprimentos",
     ],
     extras: ["Core: OutSystems", "EUA", "automotiva"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: autoliv, 
+    techs: ['outsystems', 'msoffice'],
   },
+
   {
     projeto: "Avery Dennison",
     descricao:
@@ -73,8 +81,11 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Produção",
     ],
     extras: ["Core: OutSystems", "EUA", "industrial"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: avery, 
+    techs: ['outsystems', 'msoffice'],
   },
+
+
   {
     projeto: "Exelon",
     descricao:
@@ -86,8 +97,11 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["Core: RPA", "EUA", "energia"],
-    imagens: ['uipath', 'msoffice', 'oracle'],
+    logo: exlon, 
+    techs: ['uipath', 'msoffice', 'oracle'],
   },
+
+
   {
     projeto: "Fair Isaac",
     descricao:
@@ -97,8 +111,11 @@ export const projectsInfos = [
       "Criação de Aplicações para área Tecnológica",
     ],
     extras: ["Core: OutSystems", "EUA", "tecnologia"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: fairisaac, 
+    techs: ['outsystems', 'msoffice'],
   },
+
+
   {
     projeto: "Frontier",
     descricao:
@@ -109,8 +126,10 @@ export const projectsInfos = [
       "Redução de Custos",
     ],
     extras: ["Core: RPA", "Brasil", "comunicação"],
-    imagens: ['uipath', 'msoffice', 'pegasystems'],
+    logo: frontier, 
+    techs: ['uipath', 'msoffice', 'pegasystems'],
   },
+
   {
     projeto: "Grupo Boticário",
     descricao:
@@ -122,8 +141,10 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["Core: RPA", "Brasil", "cosméticos"],
-    imagens: ['automationAnywhere', 'msoffice', 'blueprism'],
+    logo: boticario, 
+    techs: ['automationAnywhere', 'msoffice', 'blueprism'],
   },
+
   {
     projeto: "NextEra",
     descricao:
@@ -134,8 +155,10 @@ export const projectsInfos = [
       "Melhoria de Infraestrutura",
     ],
     extras: ["Core: ServiceNow", "EUA", "energia"],
-    imagens: ['servicenow', 'msoffice'],
+    logo: nextera, 
+    techs: ['servicenow', 'msoffice'],
   },
+
   {
     projeto: "Petrobras",
     descricao:
@@ -147,24 +170,30 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["Core: RPA", "Brasil", "energia"],
-    imagens: ['automationAnywhere', 'msoffice', 'sap', 'citrix'],
+    logo: petrobras, 
+    techs: ['automationAnywhere', 'msoffice', 'sap', 'citrix'],
   },
+
   {
     projeto: "Petrobras",
     descricao:
       "A Petrobras é uma das maiores empresas de energia e petróleo do mundo, especializada na exploração, produção, refino e distribuição de petróleo, gás natural e derivados. Fundada em 1953, a Petrobras tem uma presença significativa no Brasil e em diversos países, com operações em mais de 20 países e uma força de trabalho de mais de 50.000 colaboradores. A empresa desempenha um papel essencial no desenvolvimento do setor energético global e é reconhecida por sua liderança em inovação e sustentabilidade na indústria de energia. Este projeto de OutSystems tem como principal objetivo apoiar a transformação digital da Petrobras, com a modernização de aplicações legadas utilizando .NET. A iniciativa visa atualizar e integrar sistemas antigos, proporcionando maior agilidade, escalabilidade e eficiência operacional. O uso da plataforma OutSystems permite à Petrobras modernizar seus processos de TI, otimizar o desenvolvimento de novas aplicações e aumentar a flexibilidade para adaptar-se rapidamente às mudanças no mercado de energia. Através dessa transformação, a Petrobras fortalece sua posição no setor de energia, buscando maior eficiência e inovação nos seus processos internos e oferecendo soluções mais ágeis e modernas para seus desafios operacionais e estratégicos. Este projeto é um verdadeiro case global de sucesso, com resultados excepcionais, incluindo uma economia de mais de R$ 6 bilhões em um ano e R$ 120 milhões em apenas 3 semanas. A implementação da automação tem gerado ganhos expressivos em produtividade, reduzido erros humanos e acelerado processos críticos, posicionando a Petrobras na vanguarda da inovação no setor de energia.",
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
     extras: ["Core: OutSystems", "Brasil", "energia"],
-    imagens: ['outsystems', 'msoffice', 'sap', 'citrix'],
+    logo: petrobras, 
+    techs: ['outsystems', 'msoffice', 'sap', 'citrix'],
   },
+
   {
     projeto: "Roche",
     descricao:
       "A Roche é uma das principais empresas farmacêuticas e de diagnóstico do mundo, especializada no desenvolvimento de medicamentos inovadores e tecnologias de diagnóstico avançadas. Com mais de 120 anos de história, a Roche tem presença global, com operações em mais de 100 países e uma força de trabalho de mais de 90.000 colaboradores. A empresa é reconhecida por sua liderança no combate a doenças graves e por seu compromisso com a saúde global. Este projeto de desenvolvimento utilizando Java tem como objetivo impulsionar a transformação digital da Roche, através da criação de aplicações PMO (Project Management Office) que otimizem o gerenciamento de projetos e aprimorem a colaboração entre equipes. Com foco na inovação e na melhoria contínua dos processos internos, o projeto visa integrar soluções tecnológicas que aumentem a eficiência, agilidade e precisão no acompanhamento e execução de projetos. A iniciativa é parte da estratégia digital da Roche para fortalecer a gestão de seus projetos, garantindo maior controle, transparência e alinhamento com os objetivos estratégicos da empresa.",
     objetivos: ["Desenvolvimento de Aplicações PMO"],
     extras: ["Core: Development", "EUA", "farmacêutico"],
-    imagens: ['java'],
+    logo: roche, 
+    techs: ['java'],
   },
+
   {
     projeto: "Selective",
     descricao:
@@ -174,8 +203,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Seguros",
     ],
     extras: ["Core: OutSystems", "EUA", "seguros"],
-    imagens: ['outsystems', 'msoffice'],
+    logo: selective, 
+    techs: ['outsystems', 'msoffice'],
   },
+
   {
     projeto: "Site Improve",
     descricao:
@@ -187,8 +218,10 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["Core: RPA", "EUA", "tecnologia"],
-    imagens: ['automationAnywhere', 'msoffice', 'salesforce'],
+    logo: siteimprove, 
+    techs: ['automationAnywhere', 'msoffice', 'salesforce'],
   },
+
   {
     projeto: "Trip Tri",
     descricao:
@@ -199,8 +232,10 @@ export const projectsInfos = [
       "Controle Geral dos Setores",
     ],
     extras: ["Core: Desenvolvimento de E-Commerce", "Brasil", "turismo"],
-    imagens: ['php', 'javascript', 'html', 'css', 'mysql'],
+    logo: triptri, 
+    techs: ['php', 'javascript', 'html', 'css', 'mysql'],
   },
+
   {
     projeto: "Yara Internacional",
     descricao:
@@ -211,6 +246,7 @@ export const projectsInfos = [
       "Melhoria de Infraestrutura",
     ],
     extras: ["Core: ServiceNow", "Argentina", "agricola"],
-    imagens: ['servicenow', 'msoffice'],
+    logo: yara, 
+    techs: ['servicenow', 'msoffice'],
   },
 ];
