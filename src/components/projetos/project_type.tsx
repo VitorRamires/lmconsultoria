@@ -4,9 +4,9 @@ export function ProjectType() {
   return (
     <>
       <div className="project-types-wrapper">
-        {projectTypes.map((project) => {
+        {projectTypes.map((project, index) => {
           return (
-            <div className="type">
+            <div className="type" key={index}>
               <div className="type-name">
                 <p>{project.tipo}</p>
               </div>

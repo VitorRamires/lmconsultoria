@@ -17,9 +17,7 @@ export function Project() {
         </div>
       </div>
       <div className="all-projects">
-        <div className="center">
-          <SliderProjects />
-        </div>
+        <SliderProjects />
       </div>
     </>
   );
