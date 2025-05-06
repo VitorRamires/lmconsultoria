@@ -2,9 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { projectsInfos } from "../../utils/projects-infos";
 
 import "swiper/swiper-bundle.css";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { Content } from "./content.jsx";
 import { useState } from "react";
+
+import arrow from "@/assets/icons/arrow.svg";
 
 export function SliderProjects() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -15,29 +17,42 @@ export function SliderProjects() {
 
   return (
     <>
-      <div className="center">
+      <div className="center slider-general">
+        <div className="prev-btn btn-swiper">
+          <img src={arrow} alt="" />
+        </div>
         <Swiper
           slidesPerView={3}
-          spaceBetween={30}
+          spaceBetween={20}
           loop={true}
           centeredSlides={true}
           pagination={{
             clickable: true,
           }}
-          navigation={true}
-          modules={[Pagination, Navigation]}
+          navigation={{
+            prevEl: ".prev-btn",
+            nextEl: ".next-btn",
+          }}
+          modules={[Navigation]}
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}
         >
           {projectsInfos.map((project) => {
             return (
               <SwiperSlide key={project.id}>
-                <p>{project.projeto}</p>
-                <img src={project.logo} alt="logo empresa" />
+                <div className="slider-img">
+                  <img src={project.logo} alt="logo empresa" />
+                </div>
+                <div className="name-project">
+                  <p>{project.projeto}</p>
+                </div>
               </SwiperSlide>
             );
           })}
         </Swiper>
+        <div className="next-btn btn-swiper">
+          <img src={arrow} alt="" />
+        </div>
       </div>
       <div className="content">
         <Content actualSlide={activeIndex} />

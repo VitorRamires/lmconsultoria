@@ -1,21 +1,24 @@
 // Importações das imlogo
-import americanexpress from '@/assets/images/americaexpress.png';
-import apple from '@/assets/images/apple.jpg';
-import arcelormittal from '@/assets/images/arcelormital.jpeg';
-import autoliv from '@/assets/images/autoliv.webp';
-import avery from '@/assets/images/avery.jpeg';
-import exlon from '@/assets/images/exlon.jpeg';
-import fairisaac from '@/assets/images/fairisaac.jpeg';
-import frontier from '@/assets/images/frontier.png';
-import boticario from '@/assets/images/boticario.jpg';
-import nextera from '@/assets/images/nextera.webp';
-import petrobras from '@/assets/images/petrobras.jpeg';
-import roche from '@/assets/images/roche.jpg';
-import selective from '@/assets/images/selective.svg';
-import siteimprove from '@/assets/images/siteimprove.png';
-import triptri from '@/assets/images/trip.png';
-import yara from '@/assets/images/yara.jpg';
+import americanexpress from "@/assets/images/automation.png";
+import apple from "@/assets/images/automation.png";
+import arcelormittal from "@/assets/images/automation.png";
+import autoliv from "@/assets/images/automation.png";
+import avery from "@/assets/images/automation.png";
+import exlon from "@/assets/images/automation.png";
+import fairisaac from "@/assets/images/automation.png";
+import frontier from "@/assets/images/automation.png";
+import boticario from "@/assets/images/automation.png";
+import nextera from "@/assets/images/automation.png";
+import petrobras from "@/assets/images/automation.png";
+import roche from "@/assets/images/automation.png";
+import selective from "@/assets/images/automation.png";
+import siteimprove from "@/assets/images/automation.png";
+import triptri from "@/assets/images/automation.png";
+import yara from "@/assets/images/automation.png";
 
+import automation from "@/assets/images/automation.png";
+import uipath from "@/assets/images/ui-path.png";
+import sap from "@/assets/images/sap.png";
 
 export const projectsInfos = [
   {
@@ -27,9 +30,9 @@ export const projectsInfos = [
       "Criação de Aplicações para área Financeira",
     ],
     extras: ["OutSystems", "Uruguai", "financeiro"],
-    logo: americanexpress, 
-    techs: ['outsystems', 'msoffice'],
-    id:1
+    logo: americanexpress,
+    techs: [automation, uipath, sap],
+    id: 1,
   },
 
   {
@@ -41,9 +44,9 @@ export const projectsInfos = [
       "Criação de Aplicações para área Tecnológica",
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
-    logo: apple, 
-    techs: ['outsystems', 'msoffice'],
-    id:2
+    logo: apple,
+    techs: [automation, uipath, sap],
+    id: 2,
   },
 
   {
@@ -57,9 +60,9 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["RPA", "Brasil", "industrial"],
-    logo: arcelormittal, 
-    techs: ['automationAnywhere', 'msoffice'],
-    id:3
+    logo: arcelormittal,
+    techs: [automation, uipath, sap],
+    id: 3,
   },
 
   {
@@ -71,9 +74,9 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Suprimentos",
     ],
     extras: ["OutSystems", "EUA", "automotiva"],
-    logo: autoliv, 
-    techs: ['outsystems', 'msoffice'],
-    id:4
+    logo: autoliv,
+    techs: [automation, uipath, sap],
+    id: 4,
   },
 
   {
@@ -85,11 +88,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Produção",
     ],
     extras: ["OutSystems", "EUA", "industrial"],
-    logo: avery, 
-    techs: ['outsystems', 'msoffice'],
-    id:5
+    logo: avery,
+    techs: [automation, uipath, sap],
+    id: 5,
   },
-
 
   {
     projeto: "Exelon",
@@ -102,11 +104,10 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["RPA", "EUA", "energia"],
-    logo: exlon, 
-    techs: ['uipath', 'msoffice', 'oracle'],
-    id:6
+    logo: exlon,
+    techs: [automation, uipath, sap],
+    id: 6,
   },
-
 
   {
     projeto: "Fair Isaac",
@@ -117,11 +118,10 @@ export const projectsInfos = [
       "Criação de Aplicações para área Tecnológica",
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
-    logo: fairisaac, 
-    techs: ['outsystems', 'msoffice'],
-    id:7
+    logo: fairisaac,
+    techs: [automation, uipath, sap],
+    id: 7,
   },
-
 
   {
     projeto: "Frontier",
@@ -133,9 +133,9 @@ export const projectsInfos = [
       "Redução de Custos",
     ],
     extras: ["RPA", "Brasil", "comunicação"],
-    logo: frontier, 
-    techs: ['uipath', 'msoffice', 'pegasystems'],
-    id:8
+    logo: frontier,
+    techs: [automation, uipath, sap],
+    id: 8,
   },
 
   {
@@ -149,9 +149,9 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["RPA", "Brasil", "cosméticos"],
-    logo: boticario, 
-    techs: ['automationAnywhere', 'msoffice', 'blueprism'],
-    id:9
+    logo: boticario,
+    techs: [automation, uipath, sap],
+    id: 9,
   },
 
   {
@@ -164,9 +164,9 @@ export const projectsInfos = [
       "Melhoria de Infraestrutura",
     ],
     extras: ["ServiceNow", "EUA", "energia"],
-    logo: nextera, 
-    techs: ['servicenow', 'msoffice'],
-    id:10
+    logo: nextera,
+    techs: [automation, uipath, sap],
+    id: 10,
   },
 
   {
@@ -180,9 +180,9 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["RPA", "Brasil", "energia"],
-    logo: petrobras, 
-    techs: ['automationAnywhere', 'msoffice', 'sap', 'citrix'],
-    id:11
+    logo: petrobras,
+    techs: [automation, uipath, sap],
+    id: 11,
   },
 
   {
@@ -191,9 +191,9 @@ export const projectsInfos = [
       "A Petrobras é uma das maiores empresas de energia e petróleo do mundo, especializada na exploração, produção, refino e distribuição de petróleo, gás natural e derivados. Fundada em 1953, a Petrobras tem uma presença significativa no Brasil e em diversos países, com operações em mais de 20 países e uma força de trabalho de mais de 50.000 colaboradores. A empresa desempenha um papel essencial no desenvolvimento do setor energético global e é reconhecida por sua liderança em inovação e sustentabilidade na indústria de energia. Este projeto de OutSystems tem como principal objetivo apoiar a transformação digital da Petrobras, com a modernização de aplicações legadas utilizando .NET. A iniciativa visa atualizar e integrar sistemas antigos, proporcionando maior agilidade, escalabilidade e eficiência operacional. O uso da plataforma OutSystems permite à Petrobras modernizar seus processos de TI, otimizar o desenvolvimento de novas aplicações e aumentar a flexibilidade para adaptar-se rapidamente às mudanças no mercado de energia. Através dessa transformação, a Petrobras fortalece sua posição no setor de energia, buscando maior eficiência e inovação nos seus processos internos e oferecendo soluções mais ágeis e modernas para seus desafios operacionais e estratégicos. Este projeto é um verdadeiro case global de sucesso, com resultados excepcionais, incluindo uma economia de mais de R$ 6 bilhões em um ano e R$ 120 milhões em apenas 3 semanas. A implementação da automação tem gerado ganhos expressivos em produtividade, reduzido erros humanos e acelerado processos críticos, posicionando a Petrobras na vanguarda da inovação no setor de energia.",
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
     extras: ["OutSystems", "Brasil", "energia"],
-    logo: petrobras, 
-    techs: ['outsystems', 'msoffice', 'sap', 'citrix'],
-    id:12
+    logo: petrobras,
+    techs: [automation, uipath, sap],
+    id: 12,
   },
 
   {
@@ -202,9 +202,9 @@ export const projectsInfos = [
       "A Roche é uma das principais empresas farmacêuticas e de diagnóstico do mundo, especializada no desenvolvimento de medicamentos inovadores e tecnologias de diagnóstico avançadas. Com mais de 120 anos de história, a Roche tem presença global, com operações em mais de 100 países e uma força de trabalho de mais de 90.000 colaboradores. A empresa é reconhecida por sua liderança no combate a doenças graves e por seu compromisso com a saúde global. Este projeto de desenvolvimento utilizando Java tem como objetivo impulsionar a transformação digital da Roche, através da criação de aplicações PMO (Project Management Office) que otimizem o gerenciamento de projetos e aprimorem a colaboração entre equipes. Com foco na inovação e na melhoria contínua dos processos internos, o projeto visa integrar soluções tecnológicas que aumentem a eficiência, agilidade e precisão no acompanhamento e execução de projetos. A iniciativa é parte da estratégia digital da Roche para fortalecer a gestão de seus projetos, garantindo maior controle, transparência e alinhamento com os objetivos estratégicos da empresa.",
     objetivos: ["Desenvolvimento de Aplicações PMO"],
     extras: ["Development", "EUA", "farmacêutico"],
-    logo: roche, 
-    techs: ['java'],
-    id:13
+    logo: roche,
+    techs: [automation, uipath, sap],
+    id: 13,
   },
 
   {
@@ -216,9 +216,9 @@ export const projectsInfos = [
       "Criação de Aplicações para área de Seguros",
     ],
     extras: ["OutSystems", "EUA", "seguros"],
-    logo: selective, 
-    techs: ['outsystems', 'msoffice'],
-    id:14
+    logo: selective,
+    techs: [automation, uipath, sap],
+    id: 14,
   },
 
   {
@@ -232,9 +232,9 @@ export const projectsInfos = [
       "Diminuição de Falhas Humanas",
     ],
     extras: ["RPA", "EUA", "tecnologia"],
-    logo: siteimprove, 
-    techs: ['automationAnywhere', 'msoffice', 'salesforce'],
-    id:15
+    logo: siteimprove,
+    techs: [automation, uipath, sap],
+    id: 15,
   },
 
   {
@@ -247,9 +247,9 @@ export const projectsInfos = [
       "Controle Geral dos Setores",
     ],
     extras: ["Desenvolvimento de E-Commerce", "Brasil", "turismo"],
-    logo: triptri, 
-    techs: ['php', 'javascript', 'html', 'css', 'mysql'],
-    id:16
+    logo: triptri,
+    techs: [automation, uipath, sap],
+    id: 16,
   },
 
   {
@@ -262,8 +262,8 @@ export const projectsInfos = [
       "Melhoria de Infraestrutura",
     ],
     extras: ["ServiceNow", "Argentina", "agricola"],
-    logo: yara, 
-    techs: ['servicenow', 'msoffice'],
-    id:17
+    logo: yara,
+    techs: [automation, uipath, sap],
+    id: 17,
   },
 ];

@@ -36,6 +36,22 @@ export function Content({ actualSlide }: ActualSlide) {
           <p>{actualProject.descricao}</p>
         </div>
       </div>
+      <div className="tecnologies-related">
+        <div className="center">
+          <h2>Tecnologias relacionadas</h2>
+          <div className="tech-related-wrapper">
+            {projectsInfos[actualSlide].techs.map((tech) => {
+              return (
+                <>
+                  <div className="related-tech">
+                    <img src={tech} alt="" />
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
