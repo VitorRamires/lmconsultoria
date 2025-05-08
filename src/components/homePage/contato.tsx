@@ -5,7 +5,7 @@ import phone from "@/assets/icons/phone.svg";
 
 export function Contact() {
   return (
-    <> 
+    <>
       <div className="contact">
         <div className="contact-banner">
           <div className="get-in-touch">

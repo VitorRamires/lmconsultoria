@@ -194,14 +194,14 @@
     top: 27px;
   }
 
-  ul li {
+  .header ul li {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
   }
 
-  ul li::before {
+  .header ul li::before {
     content: "";
     display: block;
     width: 25px;

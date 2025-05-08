@@ -1,24 +1,37 @@
 // Importações das imlogo
-import americanexpress from "@/assets/images/automation.png";
-import apple from "@/assets/images/automation.png";
-import arcelormittal from "@/assets/images/automation.png";
-import autoliv from "@/assets/images/automation.png";
-import avery from "@/assets/images/automation.png";
-import exlon from "@/assets/images/automation.png";
-import fairisaac from "@/assets/images/automation.png";
-import frontier from "@/assets/images/automation.png";
-import boticario from "@/assets/images/automation.png";
-import nextera from "@/assets/images/automation.png";
-import petrobras from "@/assets/images/automation.png";
-import roche from "@/assets/images/automation.png";
-import selective from "@/assets/images/automation.png";
-import siteimprove from "@/assets/images/automation.png";
-import triptri from "@/assets/images/automation.png";
-import yara from "@/assets/images/automation.png";
+import americanexpress from "@/assets/icons/AEX.svg";
+import apple from "@/assets/icons/apple.svg";
+import arcelormittal from "@/assets/icons/arcelor.svg";
+import autoliv from "@/assets/icons/autoliv.svg";
+import avery from "@/assets/icons/avery.svg";
+import exlon from "@/assets/icons/exlon.svg";
+import fairisaac from "@/assets/icons/fair.svg";
+import frontier from "@/assets/icons/frontier.svg";
+import boticario from "@/assets/icons/boticario.svg";
+import nextera from "@/assets/icons/NEE.svg";
+import petrobras from "@/assets/icons/petrobras.svg";
+import roche from "@/assets/icons/roche.svg";
+import selective from "@/assets/icons/selective.svg";
+import siteimprove from "@/assets/icons/siteimprove.svg";
+import triptri from "@/assets/icons/triptri-placeholder.svg";
+import yara from "@/assets/icons/yara.svg";
 
 import automation from "@/assets/images/automation.png";
 import uipath from "@/assets/images/ui-path.png";
 import sap from "@/assets/images/sap.png";
+import outsystem from "@/assets/images/outsystem.png"
+import office from "@/assets/images/office.png"
+import oracle from "@/assets/images/oracle.png"
+import BluePrism from "@/assets/images/BluePrism.png"
+import pegasystem from "@/assets/images/pegasystem.png"
+import servicenow from "@/assets/images/servicenow.png"
+import citrix from "@/assets/images/citrix.png"
+
+import eua from "@/assets/images/estados-unidos.png"
+import brasil from "@/assets/images/brasil.png"
+import uruguay from "@/assets/icons/uruguay.svg"
+import argentina from "@/assets/icons/argentina.svg"
+
 
 export const projectsInfos = [
   {
@@ -31,8 +44,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "Uruguai", "financeiro"],
     logo: americanexpress,
-    techs: [automation, uipath, sap],
+    techs: [office, outsystem],
     id: 1,
+    pais: uruguay
   },
 
   {
@@ -45,8 +59,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
     logo: apple,
-    techs: [automation, uipath, sap],
+    techs: [],
     id: 2,
+    pais: eua
   },
 
   {
@@ -61,8 +76,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "industrial"],
     logo: arcelormittal,
-    techs: [automation, uipath, sap],
+    techs: [automation, office],
     id: 3,
+    pais: brasil
   },
 
   {
@@ -75,8 +91,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "automotiva"],
     logo: autoliv,
-    techs: [automation, uipath, sap],
+    techs: [office, outsystem],
     id: 4,
+    pais: eua
   },
 
   {
@@ -89,8 +106,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "industrial"],
     logo: avery,
-    techs: [automation, uipath, sap],
+    techs: [office, outsystem],
     id: 5,
+    pais: eua
   },
 
   {
@@ -105,8 +123,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "EUA", "energia"],
     logo: exlon,
-    techs: [automation, uipath, sap],
+    techs: [office, uipath, oracle],
     id: 6,
+    pais: eua
   },
 
   {
@@ -119,8 +138,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
     logo: fairisaac,
-    techs: [automation, uipath, sap],
+    techs: [office, outsystem],
     id: 7,
+    pais: eua
   },
 
   {
@@ -134,8 +154,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "comunicação"],
     logo: frontier,
-    techs: [automation, uipath, sap],
+    techs: [office, pegasystem],
     id: 8,
+    pais: brasil
   },
 
   {
@@ -150,8 +171,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "cosméticos"],
     logo: boticario,
-    techs: [automation, uipath, sap],
+    techs: [automation, office, BluePrism],
     id: 9,
+    pais: brasil
   },
 
   {
@@ -165,12 +187,13 @@ export const projectsInfos = [
     ],
     extras: ["ServiceNow", "EUA", "energia"],
     logo: nextera,
-    techs: [automation, uipath, sap],
+    techs: [office, servicenow],
     id: 10,
+    pais: eua
   },
 
   {
-    projeto: "Petrobras",
+    projeto: "Petrobras(1)",
     descricao:
       "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, SAP, Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
     objetivos: [
@@ -183,17 +206,31 @@ export const projectsInfos = [
     logo: petrobras,
     techs: [automation, uipath, sap],
     id: 11,
+    pais: brasil
   },
 
   {
-    projeto: "Petrobras",
+    projeto: "Petrobras(2)",
     descricao:
-      "A Petrobras é uma das maiores empresas de energia e petróleo do mundo, especializada na exploração, produção, refino e distribuição de petróleo, gás natural e derivados. Fundada em 1953, a Petrobras tem uma presença significativa no Brasil e em diversos países, com operações em mais de 20 países e uma força de trabalho de mais de 50.000 colaboradores. A empresa desempenha um papel essencial no desenvolvimento do setor energético global e é reconhecida por sua liderança em inovação e sustentabilidade na indústria de energia. Este projeto de OutSystems tem como principal objetivo apoiar a transformação digital da Petrobras, com a modernização de aplicações legadas utilizando .NET. A iniciativa visa atualizar e integrar sistemas antigos, proporcionando maior agilidade, escalabilidade e eficiência operacional. O uso da plataforma OutSystems permite à Petrobras modernizar seus processos de TI, otimizar o desenvolvimento de novas aplicações e aumentar a flexibilidade para adaptar-se rapidamente às mudanças no mercado de energia. Através dessa transformação, a Petrobras fortalece sua posição no setor de energia, buscando maior eficiência e inovação nos seus processos internos e oferecendo soluções mais ágeis e modernas para seus desafios operacionais e estratégicos. Este projeto é um verdadeiro case global de sucesso, com resultados excepcionais, incluindo uma economia de mais de R$ 6 bilhões em um ano e R$ 120 milhões em apenas 3 semanas. A implementação da automação tem gerado ganhos expressivos em produtividade, reduzido erros humanos e acelerado processos críticos, posicionando a Petrobras na vanguarda da inovação no setor de energia.",
+      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, SAP, Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
     extras: ["OutSystems", "Brasil", "energia"],
     logo: petrobras,
     techs: [automation, uipath, sap],
     id: 12,
+    pais: brasil
+  },
+
+  {
+    projeto: "Petrobras(3)",
+    descricao:
+      "(Breve Participação) A Petrobras é uma das maiores empresas de energia e petróleo do mundo, especializada na exploração, produção, refino e distribuição de petróleo, gás natural e derivados. Fundada em 1953, a Petrobras tem uma presença significativa no Brasil e em diversos países, com operações em mais de 20 países e uma força de trabalho de mais de 50.000 colaboradores. A empresa desempenha um papel essencial no desenvolvimento do setor energético global e é reconhecida por sua liderança em inovação e sustentabilidade na indústria de energia. Este projeto de OutSystems tem como principal objetivo apoiar a transformação digital da Petrobras, com a modernização de aplicações legadas utilizando .NET. A iniciativa visa atualizar e integrar sistemas antigos, proporcionando maior agilidade, escalabilidade e eficiência operacional. O uso da plataforma OutSystems permite à Petrobras modernizar seus processos de TI, otimizar o desenvolvimento de novas aplicações e aumentar a flexibilidade para adaptar-se rapidamente às mudanças no mercado de energia. Através dessa transformação, a Petrobras fortalece sua posição no setor de energia, buscando maior eficiência e inovação nos seus processos internos e oferecendo soluções mais ágeis e modernas para seus desafios operacionais e estratégicos. Este projeto é um verdadeiro case global de sucesso, com resultados excepcionais, incluindo uma economia de mais de R$ 6 bilhões em um ano e R$ 120 milhões em apenas 3 semanas. A implementação da automação tem gerado ganhos expressivos em produtividade, reduzido erros humanos e acelerado processos ",
+    objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
+    extras: ["OutSystems", "Brasil", "energia"],
+    logo: petrobras,
+    techs: [automation, sap, office, citrix],
+    id: 13,
+    pais: brasil
   },
 
   {
@@ -204,7 +241,8 @@ export const projectsInfos = [
     extras: ["Development", "EUA", "farmacêutico"],
     logo: roche,
     techs: [automation, uipath, sap],
-    id: 13,
+    id: 14,
+    pais: eua
   },
 
   {
@@ -218,7 +256,8 @@ export const projectsInfos = [
     extras: ["OutSystems", "EUA", "seguros"],
     logo: selective,
     techs: [automation, uipath, sap],
-    id: 14,
+    id: 15,
+    pais: brasil
   },
 
   {
@@ -234,7 +273,8 @@ export const projectsInfos = [
     extras: ["RPA", "EUA", "tecnologia"],
     logo: siteimprove,
     techs: [automation, uipath, sap],
-    id: 15,
+    id: 16,
+    pais: eua
   },
 
   {
@@ -249,7 +289,8 @@ export const projectsInfos = [
     extras: ["Desenvolvimento de E-Commerce", "Brasil", "turismo"],
     logo: triptri,
     techs: [automation, uipath, sap],
-    id: 16,
+    id: 17,
+    pais: brasil
   },
 
   {
@@ -264,6 +305,7 @@ export const projectsInfos = [
     extras: ["ServiceNow", "Argentina", "agricola"],
     logo: yara,
     techs: [automation, uipath, sap],
-    id: 17,
+    id: 18,
+    pais: argentina
   },
 ];

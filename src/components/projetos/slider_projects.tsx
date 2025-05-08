@@ -17,6 +17,10 @@ export function SliderProjects() {
 
   return (
     <>
+      <div className="know-titles">
+        <h2>Conheça meus projetos</h2>
+      </div>
+
       <div className="center slider-general">
         <div className="prev-btn btn-swiper">
           <img src={arrow} alt="" />
@@ -36,6 +40,14 @@ export function SliderProjects() {
           modules={[Navigation]}
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}
+          breakpoints={{
+            1050: {
+              slidesPerView: 3,
+            },
+            0: {
+              slidesPerView: 1,
+            },
+          }}
         >
           {projectsInfos.map((project) => {
             return (
@@ -54,6 +66,7 @@ export function SliderProjects() {
           <img src={arrow} alt="" />
         </div>
       </div>
+
       <div className="content">
         <Content actualSlide={activeIndex} />
       </div>

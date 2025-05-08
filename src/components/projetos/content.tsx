@@ -14,15 +14,16 @@ export function Content({ actualSlide }: ActualSlide) {
           Core: <span> {actualProject.extras[0]}</span>
         </p>
         <div className="separated-line"></div>
-        <p>
+        <p className="client-project">
           Cliente: <span> {actualProject.projeto}</span>
+          <img src={actualProject.pais} alt="icon country" />
         </p>
         <div className="separated-line"></div>
         <p>
           Segmento: <span> {actualProject.extras[2]}</span>
         </p>
       </div>
-      <div className="center">
+      <div className="center project-info">
         <div className="project-objectives">
           <h2 className="project-h2">Objetivos do projeto</h2>
           <ul>
@@ -38,7 +39,7 @@ export function Content({ actualSlide }: ActualSlide) {
       </div>
       <div className="tecnologies-related">
         <div className="center">
-          <h2>Tecnologias relacionadas</h2>
+          <p>Tecnologias relacionadas</p>
           <div className="tech-related-wrapper">
             {projectsInfos[actualSlide].techs.map((tech) => {
               return (

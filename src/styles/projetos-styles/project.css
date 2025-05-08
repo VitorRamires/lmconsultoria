@@ -1,6 +1,31 @@
 @import url(../projetos-styles/activity.css);
 @import url(../projetos-styles/swiperProject.css);
 
+.know-titles {
+  width: 1450px;
+  max-width: 90%;
+  margin: 0 auto 80px auto;
+  color: var(--white);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.know-titles::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: #494949;
+}
+
+.know-titles h2 {
+  width: 360px;
+}
+
 .project-content {
   width: 100%;
   z-index: 29;
@@ -12,7 +37,7 @@
   justify-content: center;
   gap: 50px;
   width: 100%;
-  padding: 15px 5px;
+  padding: 25px 5px;
   background-color: #282828;
   margin: 100px 0 100px 0;
   color: #8d8d8d;
@@ -25,26 +50,43 @@
   color: var(--blue);
 }
 
+.client-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.client-project img {
+  width: 50px;
+  height: auto;
+}
+
 .separated-line {
   width: 65px;
   height: 1px;
-  background-color: #d9d9d9;
+  background-color: rgb(73, 73, 73)"";
 }
 
 .project-h2 {
   width: 300px;
+  max-width: 100%;
   padding: 10px 0;
   background-color: #4f4f4f;
   color: var(--white);
-  box-shadow: 9px 9px 0 0 rgba(0, 0, 0, 0.329);
+  box-shadow: 9px 9px 5px 0 rgba(0, 0, 0, 0.329);
   text-align: center;
   margin-bottom: 35px;
+  border-radius: 3px;
+  font-size: 1.8rem;
 }
 
 .project-objectives ul {
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -56,6 +98,7 @@
   color: var(--white);
   font-size: 1.15rem;
   border-bottom: 5px solid var(--blue);
+  border-radius: 3px;
 }
 
 .project-description {
@@ -66,11 +109,19 @@
 }
 
 .tecnologies-related {
-  width: 100%;
+  width: 95%;
   height: 100%;
-  background-color: #212121;
-  margin-top: 100px;
-  padding: 80px 25px;
+  background: var(--dark3);
+  margin: 100px auto 0 auto;
+  padding: 70px 25px 50px 25px;
+  box-shadow: 10px -10px 10px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 10px 10px 0 0;
+}
+
+.tecnologies-related .center p {
+  font-family: "Saira condensed light";
+  font-size: 2rem;
+  color: var(--white);
 }
 
 .tech-related-wrapper {
@@ -85,13 +136,89 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1d1d1d;
+  background-color: var(--backgroundColor);
   width: 300px;
   height: 200px;
   box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.384);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .tech-related-wrapper img {
   width: 200px;
+  max-width: 90%;
   height: auto;
+}
+
+@media screen and (max-width: 1050px) {
+  .title-page {
+    margin-top: 300px;
+  }
+  .activity-box {
+    display: block;
+  }
+
+  .activity-box .activity-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  .tech-related-wrapper {
+    display: block;
+  }
+
+  .related-tech {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .project-content-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .separated-line {
+    width: 70%;
+  }
+
+  .know-titles {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .know-titles h2 {
+    width: 100%;
+  }
+
+  .know-titles::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .project-objectives ul {
+    display: block;
+  }
+
+  .project-objectives ul li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tecnologies-related p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project-description p {
+    text-align: center;
+  }
 }

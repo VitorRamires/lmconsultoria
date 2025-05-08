@@ -24,7 +24,7 @@ export const data = [
     quantidade: 1,
   },
   {
-    name: "Farmacêutico",
+    name: "Farma",
     quantidade: 1,
   },
   {

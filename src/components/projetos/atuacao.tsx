@@ -11,7 +11,7 @@ export function Activity() {
         </div>
         <div className="activity-box">
           <div className="segments activity-item">
-            <p>Segmentos</p>
+            <p>Segmentos e quantidade</p>
             <Chart />
           </div>
           <div className="sectors activity-item">

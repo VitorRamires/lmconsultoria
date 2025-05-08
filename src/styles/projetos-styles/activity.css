@@ -67,6 +67,7 @@
 .segments {
   width: 100%;
   height: 500px;
+  max-height: 100%;
 }
 
 .segments p,
@@ -140,6 +141,7 @@
 .project-types::-webkit-scrollbar,
 .sectors::-webkit-scrollbar {
   width: 1.5px;
+  height: 1.5px;
 }
 .project-types::-webkit-scrollbar-track,
 .sectors::-webkit-scrollbar-track {
@@ -161,4 +163,25 @@
 .type::-webkit-scrollbar-thumb:active,
 .sectors::-webkit-scrollbar-thumb:active {
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 1050px) {
+  .segments {
+    height: 600px; /* Reduz a altura para telas menores que 1050px */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .segments {
+    height: 400px; /* Reduz ainda mais a altura para telas menores que 768px */
+  }
+  .recharts-responsive-container {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .segments {
+    height: 300px; /* Altura mínima para telas muito pequenas */
+  }
 }
