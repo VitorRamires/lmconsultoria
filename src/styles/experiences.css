@@ -1,0 +1,137 @@
+.infos-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-family: "lato-semibold";
+}
+
+.infos-exp h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.infos-exp h3 {
+  font-size: 1.4rem;
+}
+
+.infos-exp h4 {
+  font-size: 1.1rem;
+  font-family: "lato-thin";
+}
+
+.experiencias .section-titulo {
+  color: #ffffff;
+}
+
+.experiencias-box {
+  position: relative;
+  width: 100%;
+  font-family: "lato-regular";
+  color: #ffffff;
+}
+
+.lista-experiencias {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.experiencia {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.01fr 0.93fr;
+  gap: 30px;
+  padding-bottom: 120px;
+}
+
+.dados-experiencia {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+}
+
+.descritivo {
+  font-family: "lato-light";
+  font-size: 0.95rem;
+  line-height: 1.35rem;
+}
+
+.experiencia::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 3px;
+  top: 30px;
+  background: #3e8ca0;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 var(--blue2);
+}
+
+.experiencia::after {
+  content: "";
+  display: block;
+  position: absolute;
+  transform: translateX(calc(3% * 1000));
+  width: 5px;
+  height: 100%;
+  background: #212121;
+  border-radius: 5px;
+}
+
+
+
+.experiencia:first-child::before {
+  background: var(--blue);
+  box-shadow: 0 0 20px 3px var(--blue2);
+}
+
+@media screen and (max-width: 840px) {
+  .experiencias {
+    padding: 180px 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .lista-experiencias {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .descritivo {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+  }
+
+  .infos-exp h2 {
+    font-size: 1.5rem;
+    margin-top: 12px;
+  }
+
+  .infos-exp h3 {
+    font-size: 1.1rem;
+  }
+
+  .infos-exp h4 {
+    font-size: 0.8rem;
+  }
+
+  .experiencia {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .infos-exp h2 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+}

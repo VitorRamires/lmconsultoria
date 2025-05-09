@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   ResponsiveContainer,
   Tooltip,
+  LabelList,
 } from "recharts";
 import { CustomTooltip } from "./customTooltip";
 import { data } from "../../utils/chartData.ts";
@@ -48,7 +49,15 @@ export default class Chart extends PureComponent {
               filter: "drop-shadow(10px -5px 2px rgba(0, 0, 0, 0.082))",
             }}
             radius={[3, 3, 0, 0]}
-          />
+          >
+            <LabelList
+              dataKey="quantidade"
+              position="top"
+              fill="#ffffff"
+              fontSize={14}
+              fontWeight="bold"
+            />
+          </Bar>
           <Tooltip content={<CustomTooltip />} />
         </BarChart>
       </ResponsiveContainer>

@@ -99,6 +99,18 @@ img {
   z-index: 2;
 }
 
+.page-banner .overlay {
+  background: linear-gradient(
+    180deg,
+    var(--backgroundColor),
+    #141414e8,
+    #141414cb,
+    #141414db,
+    #1d1d1d,
+    var(--backgroundColor)
+  );
+}
+
 .center {
   width: 1450px;
   max-width: 90%;

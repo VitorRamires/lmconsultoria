@@ -119,6 +119,22 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .service-wrapper {
+    width: 100%;
+  }
+
+  .service-wrapper img {
+    width: 100%;
+    left: 0;
+  }
+
+  .services .center {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
 @media screen and (max-width: 876px) {
   .title-services {
     margin-bottom: 50px;

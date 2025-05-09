@@ -4,8 +4,8 @@ import { servicesInformation } from "../../utils/services";
 export function Services() {
   return (
     <>
-      <div className="center">
-        <section className="services">
+      <section className="services">
+        <div className="center">
           <div className="service-wrapper">
             <img src={serviceImg} alt="" />
             <div className="services-box">
@@ -24,8 +24,8 @@ export function Services() {
             </div>
           </div>
           <div className="service-decoration"></div>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 }
