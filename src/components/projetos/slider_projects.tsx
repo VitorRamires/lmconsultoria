@@ -21,13 +21,13 @@ export function SliderProjects() {
         <h2>Conheça meus projetos</h2>
       </div>
 
-      <div className="center slider-general">
+      <div className="slider-general">
         <div className="prev-btn btn-swiper">
           <img src={arrow} alt="" />
         </div>
         <Swiper
           slidesPerView={3}
-          spaceBetween={20}
+          spaceBetween={10}
           loop={true}
           centeredSlides={true}
           pagination={{
@@ -37,6 +37,7 @@ export function SliderProjects() {
             prevEl: ".prev-btn",
             nextEl: ".next-btn",
           }}
+          parallax={true}
           modules={[Navigation]}
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}

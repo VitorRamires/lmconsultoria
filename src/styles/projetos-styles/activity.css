@@ -3,7 +3,7 @@
   margin: 0 auto;
   text-align: center;
   background-color: #1c1c1c88;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
   margin-top: 150px;
   border-radius: 15px;
   box-shadow: 10px 10px 15px 0 #0000003a;
@@ -17,14 +17,28 @@
   gap: 10px;
 }
 
+.activity-item-title {
+  position: sticky;
+  top: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  padding: 20px 35px 20px 35px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.219);
+  border-bottom: 1px solid var(--blue);
+}
+
 .activity-item {
   background-color: #1f1f1f;
   border-radius: 8px;
   text-align: start;
-  padding-top: 35px;
 }
 
-.activity-item p:not(.type p, .quantities p) {
+.activity-item ul,
+.project-types-wrapper {
+  padding: 0 35px;
+}
+
+.activity-item p:not(.type p, .quantities p, .mobile-segment p) {
   margin-bottom: 35px;
   color: #c2c2c2;
   font-family: "Saira condensed regular";
@@ -59,20 +73,46 @@
   height: 100%;
   width: 100%;
   text-align: start;
-  padding: 30px;
-  max-height: 860px;
+  max-height: 1030px;
   overflow: auto;
 }
 
 .segments {
+  overflow: auto;
   width: 100%;
-  height: 500px;
+  height: 670px;
   max-height: 100%;
 }
 
-.segments p,
-.project-types p {
-  margin-left: 65px;
+.mobile-segment {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  padding: 0 30px;
+}
+
+.segment-name {
+  width: 100%;
+  background-color: var(--blue);
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-segment .quantity {
+  width: 100%;
+  background-color: var(--dark4);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recharts-responsive-container {
+  position: relative;
+  right: 35px;
 }
 
 .project-types {
@@ -99,9 +139,8 @@
 
 .project-types-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 35px;
-  padding: 0 65px;
 }
 
 .type {
@@ -139,35 +178,55 @@
 
 /* Chrome, Edge and Safari */
 .project-types::-webkit-scrollbar,
-.sectors::-webkit-scrollbar {
+.sectors::-webkit-scrollbar,
+.segments::-webkit-scrollbar {
   width: 1.5px;
   height: 1.5px;
 }
 .project-types::-webkit-scrollbar-track,
-.sectors::-webkit-scrollbar-track {
+.sectors::-webkit-scrollbar-track,
+.segments::-webkit-scrollbar-track {
   border-radius: 0px;
   background-color: transparent;
 }
 
 .project-types::-webkit-scrollbar-track:active,
-.sectors::-webkit-scrollbar-track:active {
+.sectors::-webkit-scrollbar-track:active,
+.segments::-webkit-scrollbar-track:active {
   background-color: #ffffff;
 }
 
 .project-types::-webkit-scrollbar-thumb,
-.sectors::-webkit-scrollbar-thumb {
+.sectors::-webkit-scrollbar-thumb,
+.segments::-webkit-scrollbar-thumb {
   border-radius: 0px;
   background-color: #ffffff;
 }
 
 .type::-webkit-scrollbar-thumb:active,
-.sectors::-webkit-scrollbar-thumb:active {
+.sectors::-webkit-scrollbar-thumb:active,
+.segments::-webkit-scrollbar-thumb:active {
   background-color: #ffffff;
 }
 
 @media screen and (max-width: 1050px) {
+  .title-page {
+    margin-top: 300px;
+  }
+  .activity-box {
+    display: block;
+  }
+
+  .activity-box .activity-item {
+    margin-bottom: 20px;
+  }
+
   .segments {
     height: 600px; /* Reduz a altura para telas menores que 1050px */
+  }
+
+  .sectors {
+    height: 800px;
   }
 }
 
@@ -180,8 +239,28 @@
   }
 }
 
-@media screen and (max-width: 590px) {
-  .segments {
-    height: 300px; /* Altura mínima para telas muito pequenas */
+@media screen and (max-width: 700px) {
+  .mobile-segment,
+  .project-types-wrapper {
+    display: block;
   }
+
+  .type {
+    margin-bottom: 15px;
+    display: block;
+    height: unset;
+  }
+
+  .type .quantities {
+    width: 100%;
+  }
+
+  .type .type-name {
+    padding: 15px 0;
+  }
+
+  .activity-area {
+    padding: 50px 10px;
+  }
+  
 }

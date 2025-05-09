@@ -16,21 +16,16 @@ import siteimprove from "@/assets/icons/siteimprove.svg";
 import triptri from "@/assets/icons/triptri-placeholder.svg";
 import yara from "@/assets/icons/yara.svg";
 
-import automation from "@/assets/images/automation.png";
-import uipath from "@/assets/images/ui-path.png";
-import sap from "@/assets/images/sap.png";
-import outsystem from "@/assets/images/outsystem.png"
-import office from "@/assets/images/office.png"
-import oracle from "@/assets/images/oracle.png"
-import BluePrism from "@/assets/images/BluePrism.png"
-import pegasystem from "@/assets/images/pegasystem.png"
-import servicenow from "@/assets/images/servicenow.png"
-import citrix from "@/assets/images/citrix.png"
+import eua from "@/assets/images/estados-unidos.png";
+import brasil from "@/assets/images/brasil.png";
+import uruguay from "@/assets/icons/uruguay.svg";
+import argentina from "@/assets/icons/argentina.svg";
+import { technologies } from "./technologies";
 
-import eua from "@/assets/images/estados-unidos.png"
-import brasil from "@/assets/images/brasil.png"
-import uruguay from "@/assets/icons/uruguay.svg"
-import argentina from "@/assets/icons/argentina.svg"
+const techsData = technologies.reduce((acc, tech) => {
+  acc[tech.name] = tech.url;
+  return acc;
+}, {} as { [key: string]: string });
 
 
 export const projectsInfos = [
@@ -44,9 +39,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "Uruguai", "financeiro"],
     logo: americanexpress,
-    techs: [office, outsystem],
+    techs: [techsData.office, techsData.outsystem],
     id: 1,
-    pais: uruguay
+    pais: uruguay,
   },
 
   {
@@ -61,7 +56,7 @@ export const projectsInfos = [
     logo: apple,
     techs: [],
     id: 2,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -76,9 +71,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "industrial"],
     logo: arcelormittal,
-    techs: [automation, office],
+    techs: [techsData.automation, techsData.office],
     id: 3,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -91,9 +86,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "automotiva"],
     logo: autoliv,
-    techs: [office, outsystem],
+    techs: [techsData.office, techsData.outsystem],
     id: 4,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -106,9 +101,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "industrial"],
     logo: avery,
-    techs: [office, outsystem],
+    techs: [techsData.office, techsData.outsystem],
     id: 5,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -123,9 +118,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "EUA", "energia"],
     logo: exlon,
-    techs: [office, uipath, oracle],
+    techs: [techsData.office, techsData.uipath, techsData.oracle],
     id: 6,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -138,9 +133,9 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
     logo: fairisaac,
-    techs: [office, outsystem],
+    techs: [techsData.office, techsData.outsystem],
     id: 7,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -154,9 +149,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "comunicação"],
     logo: frontier,
-    techs: [office, pegasystem],
+    techs: [techsData.office, techsData.pegasystem],
     id: 8,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -171,9 +166,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "cosméticos"],
     logo: boticario,
-    techs: [automation, office, BluePrism],
+    techs: [techsData.automation, techsData.office, techsData.BluePrism],
     id: 9,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -187,15 +182,15 @@ export const projectsInfos = [
     ],
     extras: ["ServiceNow", "EUA", "energia"],
     logo: nextera,
-    techs: [office, servicenow],
+    techs: [techsData.office, techsData.servicenow],
     id: 10,
-    pais: eua
+    pais: eua,
   },
 
   {
     projeto: "Petrobras(1)",
     descricao:
-      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, SAP, Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
+      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, techsData.SAP, techsData.Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
     objetivos: [
       "Transformação Digital",
       "Economia de Horas",
@@ -204,21 +199,21 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "Brasil", "energia"],
     logo: petrobras,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 11,
-    pais: brasil
+    pais: brasil,
   },
 
   {
     projeto: "Petrobras(2)",
     descricao:
-      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, SAP, Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
+      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, techsData.SAP, techsData.Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
     extras: ["OutSystems", "Brasil", "energia"],
     logo: petrobras,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 12,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -228,9 +223,14 @@ export const projectsInfos = [
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
     extras: ["OutSystems", "Brasil", "energia"],
     logo: petrobras,
-    techs: [automation, sap, office, citrix],
+    techs: [
+      techsData.automation,
+      techsData.sap,
+      techsData.office,
+      techsData.citrix,
+    ],
     id: 13,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -240,9 +240,9 @@ export const projectsInfos = [
     objetivos: ["Desenvolvimento de Aplicações PMO"],
     extras: ["Development", "EUA", "farmacêutico"],
     logo: roche,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 14,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -255,15 +255,15 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "seguros"],
     logo: selective,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 15,
-    pais: brasil
+    pais: brasil,
   },
 
   {
     projeto: "Site Improve",
     descricao:
-      "A SiteImprove é uma empresa líder no fornecimento de soluções de otimização de websites, especializada em ferramentas de análise de performance digital, acessibilidade e SEO. Com uma base de clientes global e uma forte presença no mercado, a SiteImprove ajuda empresas a melhorar a experiência do usuário e a garantir que seus sites estejam otimizados para desempenho, segurança e conformidade com as normas. O projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, tem como objetivo promover a transformação digital da SiteImprove, com a economia de horas operacionais e a redução de custos. A automação foi implementada em processos críticos, utilizando sistemas como Microsoft Excel, SAP, Citrix e Salesforce, para otimizar fluxos de trabalho, reduzir erros humanos e melhorar a eficiência operacional. A iniciativa visa não apenas aumentar a produtividade, mas também garantir maior precisão nos processos internos, permitindo que as equipes da SiteImprove se concentrem em atividades de maior valor estratégico. Com essa abordagem, a SiteImprove continua a se posicionar na vanguarda da inovação digital, oferecendo soluções mais eficientes e de maior qualidade para seus clientes.",
+      "A SiteImprove é uma empresa líder no fornecimento de soluções de otimização de websites, especializada em ferramentas de análise de performance digital, acessibilidade e SEO. Com uma base de clientes global e uma forte presença no mercado, a SiteImprove ajuda empresas a melhorar a experiência do usuário e a garantir que seus sites estejam otimizados para desempenho, segurança e conformidade com as normas. O projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, tem como objetivo promover a transformação digital da SiteImprove, com a economia de horas operacionais e a redução de custos. A automação foi implementada em processos críticos, utilizando sistemas como Microsoft Excel, techsData.SAP, techsData.Citrix e Salesforce, para otimizar fluxos de trabalho, reduzir erros humanos e melhorar a eficiência operacional. A iniciativa visa não apenas aumentar a produtividade, mas também garantir maior precisão nos processos internos, permitindo que as equipes da SiteImprove se concentrem em atividades de maior valor estratégico. Com essa abordagem, a SiteImprove continua a se posicionar na vanguarda da inovação digital, oferecendo soluções mais eficientes e de maior qualidade para seus clientes.",
     objetivos: [
       "Transformação Digital",
       "Economia de Horas",
@@ -272,9 +272,9 @@ export const projectsInfos = [
     ],
     extras: ["RPA", "EUA", "tecnologia"],
     logo: siteimprove,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 16,
-    pais: eua
+    pais: eua,
   },
 
   {
@@ -288,9 +288,9 @@ export const projectsInfos = [
     ],
     extras: ["Desenvolvimento de E-Commerce", "Brasil", "turismo"],
     logo: triptri,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 17,
-    pais: brasil
+    pais: brasil,
   },
 
   {
@@ -304,8 +304,8 @@ export const projectsInfos = [
     ],
     extras: ["ServiceNow", "Argentina", "agricola"],
     logo: yara,
-    techs: [automation, uipath, sap],
+    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 18,
-    pais: argentina
+    pais: argentina,
   },
 ];

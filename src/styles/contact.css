@@ -67,10 +67,10 @@
   flex-wrap: wrap;
   gap: 25px;
   background-color: var(--backgroundColor);
-  padding: 65px 100px;
+  padding: 35px 100px;
   width: max-content;
   max-width: 100%;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: var(--white);
   border-right: 10px solid var(--blue);
   box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.199);

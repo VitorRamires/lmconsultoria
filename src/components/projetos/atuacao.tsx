@@ -1,8 +1,17 @@
 import Chart from "../charts/chart";
 import { sectors } from "../../utils/sectors";
 import { ProjectType } from "./project_type";
+import { MobileSegment } from "../charts/mobile-segment";
+import { useState } from "react";
 
 export function Activity() {
+  const [matchMediaSize, setMatchMediaSize] = useState<boolean>(false);
+  const widthMedia = window.matchMedia("(max-width: 750px)");
+
+  window.addEventListener("resize", () => {
+    setMatchMediaSize(widthMedia.matches);
+  });
+
   return (
     <>
       <div className="activity-area">
@@ -11,11 +20,11 @@ export function Activity() {
         </div>
         <div className="activity-box">
           <div className="segments activity-item">
-            <p>Segmentos e quantidade</p>
-            <Chart />
+            <p className="activity-item-title">Segmentos e quantidade</p>
+            {matchMediaSize ? <MobileSegment /> : <Chart />}
           </div>
           <div className="sectors activity-item">
-            <p>Setores</p>
+            <p className="activity-item-title">Setores</p>
             <ul>
               {sectors.map((sector) => {
                 return <li key={sector}>{sector}</li>;
@@ -23,7 +32,7 @@ export function Activity() {
             </ul>
           </div>
           <div className="project-types activity-item">
-            <p>Tipos e quantidade</p>
+            <p className="activity-item-title">Tipos e quantidade</p>
             <ProjectType />
           </div>
         </div>

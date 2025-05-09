@@ -6,22 +6,25 @@ interface ActualSlide {
 
 export function Content({ actualSlide }: ActualSlide) {
   const actualProject = projectsInfos[actualSlide];
+  const techsVerification = projectsInfos[actualSlide].techs.length > 0;
 
   return (
     <div className="content-project">
       <div className="project-content-header">
-        <p>
-          Core: <span> {actualProject.extras[0]}</span>
-        </p>
-        <div className="separated-line"></div>
-        <p className="client-project">
-          Cliente: <span> {actualProject.projeto}</span>
-          <img src={actualProject.pais} alt="icon country" />
-        </p>
-        <div className="separated-line"></div>
-        <p>
-          Segmento: <span> {actualProject.extras[2]}</span>
-        </p>
+        <div className="center">
+          <p>
+            Core: <span> {actualProject.extras[0]}</span>
+          </p>
+
+          <p className="client-project">
+            Cliente: <span> {actualProject.projeto}</span>
+            <img src={actualProject.pais} alt="icon country" />
+          </p>
+
+          <p>
+            Segmento: <span> {actualProject.extras[2]}</span>
+          </p>
+        </div>
       </div>
       <div className="center project-info">
         <div className="project-objectives">
@@ -32,6 +35,7 @@ export function Content({ actualSlide }: ActualSlide) {
             })}
           </ul>
         </div>
+        <div className="separated-line"></div>
         <div className="project-description">
           <h2 className="project-h2">Sobre o projeto</h2>
           <p>{actualProject.descricao}</p>
@@ -41,15 +45,19 @@ export function Content({ actualSlide }: ActualSlide) {
         <div className="center">
           <p>Tecnologias relacionadas</p>
           <div className="tech-related-wrapper">
-            {projectsInfos[actualSlide].techs.map((tech) => {
-              return (
-                <>
-                  <div className="related-tech">
+            {techsVerification ? (
+              projectsInfos[actualSlide].techs.map((tech, index) => {
+                return (
+                  <div className="related-tech" key={index}>
                     <img src={tech} alt="" />
                   </div>
-                </>
-              );
-            })}
+                );
+              })
+            ) : (
+              <p className="without-tech">
+                Nenhuma tecnologia está relacionada a este projeto
+              </p>
+            )}
           </div>
         </div>
       </div>

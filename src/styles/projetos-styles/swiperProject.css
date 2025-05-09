@@ -1,19 +1,27 @@
 .all-projects .center {
+  position: relative;
   height: 100%;
+  margin-top: 65px;
 }
 
 .swiper {
   height: 350px;
+  cursor: grabbing;
 }
 
 .swiper-wrapper {
   height: unset;
 }
 
-.swiper-slide.swiper-slide-active {
-  transform: scale(0.95) translateY(-10px);
-  border: 3px solid var(--white);
+.swiper-slide.swiper-slide-active .name-project {
   transition: 0.5s;
+  background-color: var(--blue);
+}
+
+.swiper-slide.swiper-slide-active {
+  transition: 0.5s;
+  box-shadow: 0 0 5px 3px var(--blue2);
+  transform: scale(0.95);
 }
 
 .swiper-slide {
@@ -22,15 +30,12 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  background-color: rgb(54, 54, 54);
+  background: linear-gradient(90deg, var(--dark1), var(--dark3));
   border-radius: 5px;
-  box-shadow: 5px 5px 5px 0 black;
   transition: 0.5s;
+  transform: scale(0.9)
 }
 
-.swiper-slide {
-  transform: scale(0.95);
-}
 
 .slider-img {
   width: 100%;
@@ -51,14 +56,17 @@
   justify-content: center;
   width: 100%;
   height: 150px;
-  background-color: #222222;
   font-size: 1.9rem;
   color: var(--white);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 3px 3px;
+  background-color: var(--blue2);
 }
 
 .slider-general {
   position: relative;
+  top: 35px;
+  width: 100%;
+  margin:0 auto
 }
 
 .btn-swiper {
@@ -82,13 +90,13 @@
 
 .next-btn {
   top: 50%;
-  transform: translate(30%, -50%);
+  transform: translate(-10px, -50%);
   right: 0;
 }
 
 .prev-btn {
   top: 50%;
-  transform: translate(-30%, -50%);
+  transform: translate(10px, -50%);
   left: 0;
 }
 
@@ -101,12 +109,3 @@
   transform: rotate(180deg);
 }
 
-@media screen and (max-width: 610px) {
-  .prev-btn {
-    transform: translate(-5%, -50%);
-  }
-
-  .next-btn {
-    transform: translate(5%, -50%);
-  }
-}

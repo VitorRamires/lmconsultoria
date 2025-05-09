@@ -17,13 +17,14 @@
   content: "";
   display: block;
   position: relative;
-  width: 100%;
+  width: 75%;
   height: 1px;
   background: #494949;
 }
 
 .know-titles h2 {
-  width: 360px;
+  width: 420px;
+  font-size: 2.5rem;
 }
 
 .project-content {
@@ -32,18 +33,23 @@
 }
 
 .project-content-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
   width: 100%;
-  padding: 25px 5px;
+  height: max-content;
+  padding: 30px 5px 50px 5px;
   background-color: #282828;
-  margin: 100px 0 100px 0;
   color: #8d8d8d;
   font-size: 1.6rem;
   font-family: "Saira condensed regular";
   border-radius: 4px;
+  border-bottom: 1px solid var(--blue);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
+}
+
+.project-content-header .center {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
 }
 
 .project-content-header span {
@@ -64,9 +70,10 @@
 }
 
 .separated-line {
-  width: 65px;
+  width: 100%;
   height: 1px;
-  background-color: rgb(73, 73, 73)"";
+  background-color: rgb(44, 44, 44);
+  margin: 80px 0;
 }
 
 .project-h2 {
@@ -102,10 +109,10 @@
 }
 
 .project-description {
-  margin-top: 130px;
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: "Saira condensed light";
+  word-spacing: 2px;
 }
 
 .tecnologies-related {
@@ -114,7 +121,7 @@
   background: var(--dark3);
   margin: 100px auto 0 auto;
   padding: 70px 25px 50px 25px;
-  box-shadow: 10px -10px 10px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 0.301);
   border-radius: 10px 10px 0 0;
 }
 
@@ -150,17 +157,16 @@
   height: auto;
 }
 
-@media screen and (max-width: 1050px) {
-  .title-page {
-    margin-top: 300px;
-  }
-  .activity-box {
-    display: block;
-  }
+.content {
+  background: linear-gradient(360deg, var(--dark2), rgb(16, 19, 20));
+}
 
-  .activity-box .activity-item {
-    margin-bottom: 20px;
-  }
+.without-tech {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.5rem !important;
+  background-color: var(--blue3);
+  color: var(--dark1) !important;
 }
 
 @media screen and (max-width: 1142px) {
@@ -200,6 +206,12 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .project-content-header .center {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 890px) {
   .project-objectives ul {
     display: block;
@@ -214,6 +226,16 @@
 @media screen and (max-width: 450px) {
   .tecnologies-related p {
     text-align: center;
+  }
+
+  .btn-swiper {
+    width: 50px;
+    height: 40px;
+  }
+
+  .btn-swiper img {
+    width: 20px;
+    height: 10px;
   }
 }
 
