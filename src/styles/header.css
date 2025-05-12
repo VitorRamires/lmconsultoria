@@ -1,7 +1,9 @@
 .header {
-  position: sticky;
+  position: fixed;
   margin: 0 auto 80px auto;
   top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 1650px;
   max-width: 95%;
   height: 90px;

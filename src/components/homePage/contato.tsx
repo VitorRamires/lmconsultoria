@@ -21,7 +21,9 @@ export function Contact() {
               </p>
             </div>
           </div>
-          <img src={contactBG} alt="" />
+          <div className="img-contant">
+            <img src={contactBG} alt="" />
+          </div>
         </div>
         <div className="contact-forms">
           <div className="form">

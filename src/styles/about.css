@@ -66,6 +66,7 @@
 .about-panel {
   height: 420px;
   overflow: auto;
+  padding:0 10px;
 }
 
 .extra-details {
@@ -87,7 +88,7 @@
 }
 
 .about-panel::-webkit-scrollbar {
-  width: 6px;
+  width: 3px;
   background: #0000001c;
   transform: translateX(-130px);
 }

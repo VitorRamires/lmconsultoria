@@ -90,7 +90,6 @@ img {
   left: 0;
   background: linear-gradient(
     180deg,
-    var(--backgroundColor),
     #141414e8,
     #141414cb,
     #141414db,
@@ -99,7 +98,18 @@ img {
   z-index: 2;
 }
 
-.page-banner .overlay {
+.projects-home .overlay {
+  background: linear-gradient(
+    180deg,
+    var(--backgroundColor),
+    #141414e8,
+    #141414cb,
+    #141414db,
+    var(--backgroundColor)
+  );
+}
+
+.page-banner .overlay:not(.page-banner.volunteer-banner .overlay) {
   background: linear-gradient(
     180deg,
     var(--backgroundColor),
@@ -121,7 +131,6 @@ img {
   position: relative;
   width: 100%;
   height: 100%;
-  top: -170px;
   background-size: cover;
   background-position: center;
   align-items: start;
@@ -138,14 +147,21 @@ img {
   max-width: 100%;
 }
 
+.page-banner.volunteer-banner {
+  background-image: url(../assets/images/voluntario-bg.jpg);
+  height: 1300px;
+  max-width: 100%;
+}
+
 .title-page {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: end;
   width: 600px;
   max-width: 80%;
-  z-index: 27;
+  z-index: 32;
   color: var(--blue);
   font-size: 1.8rem;
   margin-top: 200px;

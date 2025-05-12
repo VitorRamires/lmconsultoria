@@ -1,0 +1,65 @@
+
+.volunteer-list-wrapper {
+  position: relative;
+  z-index: 32;
+}
+
+.volunteer .title-page {
+  margin-top: 0;
+}
+
+.volunteer-title {
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+}
+
+.volunteer-title::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  height: 13px;
+  background-color: var(--blue);
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.recolocation,
+.leader-formation {
+  position: relative;
+  width: 100%;
+  margin: 100px 0;
+  color: var(--white);
+}
+
+.recolocation-list {
+  margin-top: 25px;
+}
+
+.recolocation-list ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-family: "Saira Condensed light";
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.recolocation-list ul li::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 1px;
+  background-color: var(--blue);
+}
+
+.recolocation-box h4 {
+  font-size: 1.3rem;
+  font-family: "Saira Condensed light";
+}
+
+.leader-formation {
+  font-size: 1.3rem;
+}

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./components/header";
 import { Experiences } from "./components/experiencias/experiecias";
-import { Volunteer } from "./components/voluntario";
+import { Volunteer } from "./components/voluntario/voluntario";
 import { HomePage } from "./components/homePage/HomePage";
 import { Project } from "./components/projetos/projeto";
 
