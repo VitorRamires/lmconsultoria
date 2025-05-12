@@ -3,7 +3,7 @@
   margin: 0 auto;
   text-align: center;
   background-color: #1c1c1c88;
-  padding: 50px 50px 0 50px;
+  padding: 50px;
   margin-top: 150px;
   border-radius: 15px;
   box-shadow: 10px 10px 15px 0 #0000003a;
@@ -12,9 +12,8 @@
 .activity-box {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
-  grid-template-rows: 1fr 0.7fr;
   place-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .activity-item-title {
@@ -31,6 +30,7 @@
   background-color: #1f1f1f;
   border-radius: 8px;
   text-align: start;
+  box-shadow: 4px 4px 5px 0 black;
 }
 
 .activity-item ul,
@@ -115,11 +115,6 @@
   right: 35px;
 }
 
-.project-types {
-  width: 100%;
-  height: 100%;
-}
-
 .sectors ul li {
   width: 100%;
   text-align: center;
@@ -132,9 +127,12 @@
 }
 
 .project-types {
+  width: 100%;
+  height: 100%;
   place-self: start;
-  max-height: 350px;
+  max-height: 340px;
   overflow: auto;
+  padding-bottom: 30px;
 }
 
 .project-types-wrapper {
@@ -222,7 +220,7 @@
   }
 
   .segments {
-    height: 600px; /* Reduz a altura para telas menores que 1050px */
+    height: 600px;
   }
 
   .sectors {
@@ -232,7 +230,7 @@
 
 @media screen and (max-width: 768px) {
   .segments {
-    height: 400px; /* Reduz ainda mais a altura para telas menores que 768px */
+    height: 400px;
   }
   .recharts-responsive-container {
     padding-bottom: 50px;
@@ -260,7 +258,6 @@
   }
 
   .activity-area {
-    padding: 50px 10px;
+    padding: 50px 10px 10px 10px;
   }
-  
 }

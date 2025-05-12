@@ -18,7 +18,7 @@
 .skills,
 .results,
 .resume {
-  margin: 75px 0 125px 0;
+  margin: 25px 0;
   display: none;
 }
 /*em skills, posso acabar usando display flex*/
@@ -61,6 +61,11 @@
 .about p:not(.about .extra-details p, .change-buttons p) {
   margin: 25px 0;
   font-size: 1.1rem;
+}
+
+.about-panel {
+  height: 420px;
+  overflow: auto;
 }
 
 .extra-details {

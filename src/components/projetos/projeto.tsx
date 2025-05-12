@@ -4,7 +4,7 @@ import { SliderProjects } from "./slider_projects";
 export function Project() {
   return (
     <>
-      <div className="page-banner">
+      <div className="page-banner project-banner">
         <div className="title-page">
           <h2>Projetos</h2>
           <div className="title-line"></div>
