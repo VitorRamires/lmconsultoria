@@ -4,7 +4,7 @@
   position: relative;
   margin: 0 auto;
   height: 550px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .contact-banner {
@@ -139,5 +139,15 @@
   .contact-forms .form img {
     width: 40px;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .get-in-touch-text h2 {
+    font-size: 2rem;
+  }
+
+  .get-in-touch-text p {
+    font-size: 1.2rem;
   }
 }

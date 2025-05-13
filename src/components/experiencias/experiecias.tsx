@@ -1,3 +1,4 @@
+import { Footer } from "../footer.tsx";
 import { ExperiencieList } from "./experince-list.tsx";
 
 export function Experiences() {
@@ -15,6 +16,7 @@ export function Experiences() {
               <ExperiencieList />
             </div>
           </div>
+          <Footer />
         </div>
       </section>
     </>

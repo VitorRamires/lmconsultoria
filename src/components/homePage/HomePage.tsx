@@ -1,3 +1,4 @@
+import { Footer } from "../footer";
 import { Banner } from "./banner/banner";
 import { Contact } from "./contato";
 import { ProjectsHome } from "./projetosHome";
@@ -14,6 +15,7 @@ export function HomePage() {
       <ProjectsHome />
       <Services />
       <Contact />
+      <Footer />
     </>
   );
 }

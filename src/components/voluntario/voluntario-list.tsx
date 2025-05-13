@@ -5,7 +5,9 @@ export function VolunteerList() {
     <div className="volunteer-list-wrapper">
       <div className="center">
         <div className="recolocation">
-          <h3 className="volunteer-title">Mentoria de Recolocação no Mercado de Trabalho (TI)</h3>
+          <h3 className="volunteer-title">
+            Mentoria de Recolocação no Mercado de Trabalho (TI)
+          </h3>
           <div className="recolocation-box">
             <h4>
               Ajudo as pessoas a se recolocarem no mercado de TI, auxiliando em

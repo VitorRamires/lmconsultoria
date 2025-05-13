@@ -112,6 +112,12 @@
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .banner {
+    padding-top: 100px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .name {
     font-size: 4rem;

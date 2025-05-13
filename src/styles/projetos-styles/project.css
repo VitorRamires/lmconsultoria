@@ -1,10 +1,14 @@
 @import url(../projetos-styles/activity.css);
 @import url(../projetos-styles/swiperProject.css);
 
+.all-projects {
+  margin-top: 150px;
+}
+
 .know-titles {
   width: 1450px;
   max-width: 90%;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 40px auto;
   color: var(--white);
   font-size: 1.3rem;
   display: flex;
@@ -120,7 +124,7 @@
   height: 100%;
   background: var(--dark3);
   margin: 100px auto 0 auto;
-  padding: 70px 25px 50px 25px;
+  padding: 10px 25px 50px 25px;
   box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 0.301);
   border-radius: 10px 10px 0 0;
 }

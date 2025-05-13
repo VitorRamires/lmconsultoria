@@ -134,7 +134,7 @@ img {
   background-size: cover;
   background-position: center;
   align-items: start;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .page-banner.project-banner {
@@ -177,4 +177,18 @@ img {
 .title-page h2 {
   margin-right: 70px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .title-page {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    max-width: unset;
+    margin: 100px auto 0 auto;
+  }
+
+  .title-page h2 {
+    margin-right: 0;
+  }
 }
