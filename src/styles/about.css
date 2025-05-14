@@ -18,13 +18,21 @@
 .skills,
 .results,
 .resume {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   margin: 25px 0;
-  display: none;
+  display: grid;
+  opacity: 0;
+  transition: 0.2s ease-out;
 }
+
 /*em skills, posso acabar usando display flex*/
 
 .optionOn {
-  display: grid;
+  opacity: 1;
+  z-index: 15;
 }
 
 .about span {
@@ -64,9 +72,10 @@
 }
 
 .about-panel {
+  position: relative;
   height: 420px;
   overflow: auto;
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .extra-details {
@@ -170,6 +179,7 @@
   cursor: pointer;
   color: #a1a1a1;
   transition: 0.2s;
+  border-radius: 5px;
 }
 
 .change-btn.activated {

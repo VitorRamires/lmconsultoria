@@ -11,7 +11,7 @@ export function Sobre() {
 
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <h2>Sobre mim</h2>
         <div className="about-decoration"></div>
         <div className="about-panel">

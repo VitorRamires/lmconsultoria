@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 
+
 export function ProjectsHome() {
   return (
     <>
-      <section className="projects-home">
+      <div className="projects-home">
         <div className="info-project-home">
           <h2>Conheça os projetos</h2>
           <div className="center">
@@ -22,7 +23,7 @@ export function ProjectsHome() {
         </div>
         <div className="overlay"></div>
         <div className="project-home-bg"></div>
-      </section>
+      </div>
     </>
   );
 }

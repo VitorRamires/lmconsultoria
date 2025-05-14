@@ -8,9 +8,9 @@ export function Technologies() {
       <section className="technologies">
         <div className="tech-title">Tecnologias</div>
         <div className="tech-box">
-          {techs.map((tech) => {
+          {techs.map((tech, index) => {
             return (
-              <div className={`tech ${tech.name}`}>
+              <div className={`tech ${tech.name}`} key={index}>
                 <img src={tech.url} alt="" />
               </div>
             );

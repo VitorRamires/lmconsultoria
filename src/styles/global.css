@@ -186,6 +186,7 @@ img {
     justify-content: center;
     max-width: unset;
     margin: 100px auto 0 auto;
+    text-align: center;
   }
 
   .title-page h2 {

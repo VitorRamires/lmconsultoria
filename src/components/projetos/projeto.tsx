@@ -2,6 +2,7 @@ import { Footer } from "../footer";
 import { Activity } from "./atuacao";
 import { SliderProjects } from "./slider_projects";
 
+
 export function Project() {
   return (
     <>

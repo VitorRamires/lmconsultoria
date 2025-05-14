@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import BrasilFlag from "../assets/images/brasil.png";
 import EuaFlag from "../assets/images/estados-unidos.png";
 import { useState } from "react";
@@ -8,6 +9,10 @@ export function Header() {
 
   function handleMenuBehavior() {
     setOpenMenu(!openMenu);
+  }
+
+  function handleNavLinkClick() {
+    setOpenMenu(false);
   }
 
   return (
@@ -38,22 +43,34 @@ export function Header() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/">Sobre</NavLink>
+              <HashLink smooth to="/" onClick={handleNavLinkClick}>
+                Sobre
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/">Serviços</NavLink>
+              <HashLink smooth to="/#" onClick={handleNavLinkClick}>
+                Serviços
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/">Contato</NavLink>
+              <HashLink smooth to="#" onClick={handleNavLinkClick}>
+                Contato
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/project">Projetos</NavLink>
+              <NavLink to="/project" onClick={handleNavLinkClick}>
+                Projetos
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/experience">Experiências</NavLink>
+              <NavLink to="/experience" onClick={handleNavLinkClick}>
+                Experiências
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/volunteer">Voluntário</NavLink>
+              <NavLink to="/volunteer" onClick={handleNavLinkClick}>
+                Voluntário
+              </NavLink>
             </li>
           </ul>
         </nav>

@@ -27,6 +27,11 @@
   gap: 35px;
 }
 
+.name {
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+
 .name-role {
   width: 100%;
   display: flex;
