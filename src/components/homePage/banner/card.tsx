@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+
 interface CardContent {
   title: string;
   description: string;
@@ -16,7 +17,7 @@ export function Card({ title, description }: CardContent) {
 
   const animateStagger = {
     initial: { opacity: 0, y: "-15%" },
-    animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.5 }, once: false },
   };
 
   return (

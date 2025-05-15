@@ -13,7 +13,6 @@
   background-image: url(../assets/images/projetos-bg.webp);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .info-project-home {
@@ -60,6 +59,11 @@
   font-family: "Saira";
   font-weight: bold;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.to-projects:hover {
+  transform: translateY(-15px);
 }
 
 .see-projects::after,

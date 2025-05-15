@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { aboutInformation } from "../../utils/about.ts";
+import { motion } from "framer-motion";
 
 export function Sobre() {
   const [aboutOption, setAboutOption] = useState("resumo");
@@ -12,7 +13,14 @@ export function Sobre() {
   return (
     <>
       <div className="about" id="about">
-        <h2>Sobre mim</h2>
+        <motion.h2
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ margin: "-100px", once: true }}
+        >
+          Sobre mim
+        </motion.h2>
+
         <div className="about-decoration"></div>
         <div className="about-panel">
           <div

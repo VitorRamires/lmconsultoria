@@ -15,11 +15,11 @@ export function BannerCards() {
     <>
       <div className="center">
         <motion.div
+          className="banner-cards"
           variants={containerVariants}
           initial="initial"
-           whileInView="animate"
-          className="banner-cards"
-          viewport={{ once: false, amount: 0.2 }} // quantidade de visibilidade para ativar a animação
+          whileInView="animate"
+          viewport={{ once: true, amount: 0.2 }} // quantidade de visibilidade para ativar a animação
         >
           {cardsData.map((card, index) => (
             <Card

@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import BrasilFlag from "../assets/images/brasil.png";
 import EuaFlag from "../assets/images/estados-unidos.png";
 import { useState } from "react";
@@ -43,19 +42,19 @@ export function Header() {
         <nav>
           <ul>
             <li>
-              <HashLink smooth to="/" onClick={handleNavLinkClick}>
+              <NavLink to="/" onClick={handleNavLinkClick}>
                 Sobre
-              </HashLink>
+              </NavLink>
             </li>
             <li>
-              <HashLink smooth to="/#" onClick={handleNavLinkClick}>
+              <NavLink to="/#" onClick={handleNavLinkClick}>
                 Serviços
-              </HashLink>
+              </NavLink>
             </li>
             <li>
-              <HashLink smooth to="#" onClick={handleNavLinkClick}>
+              <NavLink to="#" onClick={handleNavLinkClick}>
                 Contato
-              </HashLink>
+              </NavLink>
             </li>
             <li>
               <NavLink to="/project" onClick={handleNavLinkClick}>

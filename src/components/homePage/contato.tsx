@@ -2,11 +2,22 @@ import contactBG from "@/assets/images/contato-bg.jpg";
 import linkedin from "@/assets/icons/linkedin.svg";
 import email from "@/assets/icons/email.svg";
 import phone from "@/assets/icons/phone.svg";
+import { motion } from "framer-motion";
 
 export function Contact() {
   return (
     <>
-      <div className="contact" id="contact">
+      <motion.div
+        initial={{ y: "-5%", opacity: 0 }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+          transition: { duration: 1, ease: "easeInOut" },
+        }}
+        viewport={{ amount: 0.4, once: true }}
+        className="contact"
+        id="contact"
+      >
         <div className="contact-banner">
           <div className="get-in-touch">
             <div className="get-in-touch-text">
@@ -39,7 +50,7 @@ export function Contact() {
             <img src={email} alt="" />
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

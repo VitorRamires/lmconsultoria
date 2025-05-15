@@ -5,6 +5,7 @@
   height: 100%;
   box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.479);
   z-index: 31;
+  background-color: var(--backgroundColor);
 }
 
 .service-wrapper {

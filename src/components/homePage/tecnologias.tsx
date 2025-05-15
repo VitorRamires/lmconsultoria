@@ -1,21 +1,42 @@
 import { technologies } from "../../utils/technologies";
+import { motion } from "framer-motion";
 
 export function Technologies() {
   const techs = technologies;
-
+  const animateStagger = {
+    initial: { opacity: 0, y: "-15%" },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+  const containerVariants = {
+    animate: {
+      transition: {
+        staggerChildren: 0.1, // tempo entre cada card
+      },
+    },
+  };
   return (
     <>
       <section className="technologies">
         <div className="tech-title">Tecnologias</div>
-        <div className="tech-box">
+        <motion.div
+          className="tech-box"
+          variants={containerVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           {techs.map((tech, index) => {
             return (
-              <div className={`tech ${tech.name}`} key={index}>
+              <motion.div
+                className={`tech ${tech.name}`}
+                variants={animateStagger}
+                key={index}
+              >
                 <img src={tech.url} alt="" />
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
       </section>
     </>
   );

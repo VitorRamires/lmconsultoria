@@ -1,5 +1,7 @@
 .technologies {
-  margin-top: 135px;
+  width: 1650px;
+  max-width: 100%;
+  margin: 135px auto 0 auto;
 }
 
 .tech-box {

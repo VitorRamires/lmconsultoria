@@ -2,15 +2,20 @@ import { projectsInfos } from "../../utils/projects-infos";
 
 interface ActualSlide {
   actualSlide: number;
+  showFixedButtons: boolean;
 }
 
-export function Content({ actualSlide }: ActualSlide) {
+export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
   const actualProject = projectsInfos[actualSlide];
   const techsVerification = projectsInfos[actualSlide].techs.length > 0;
 
   return (
     <div className="content-project">
-      <div className="project-content-header">
+      <div
+        className={`project-content-header ${
+          showFixedButtons ? "hidden" : "show"
+        }`}
+      >
         <div className="center">
           <p>
             Core: <span> {actualProject.extras[0]}</span>
@@ -59,6 +64,26 @@ export function Content({ actualSlide }: ActualSlide) {
               </p>
             )}
           </div>
+        </div>
+      </div>
+      <div
+        className={`project-content-header-fixed ${
+          showFixedButtons ? "show" : "hidden"
+        }`}
+      >
+        <div className="center">
+          <p>
+            Core: <span> {actualProject.extras[0]}</span>
+          </p>
+
+          <p className="client-project">
+            Cliente: <span> {actualProject.projeto}</span>
+            <img src={actualProject.pais} alt="icon country" />
+          </p>
+
+          <p>
+            Segmento: <span> {actualProject.extras[2]}</span>
+          </p>
         </div>
       </div>
     </div>

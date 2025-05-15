@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import { motion } from "framer-motion";
 
 export function ProjectsHome() {
   return (
@@ -22,7 +22,12 @@ export function ProjectsHome() {
           </div>
         </div>
         <div className="overlay"></div>
-        <div className="project-home-bg"></div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, transition: { duration: 2 } }}
+          viewport={{ amount: 0.5, once: true }}
+          className="project-home-bg"
+        ></motion.div>
       </div>
     </>
   );
