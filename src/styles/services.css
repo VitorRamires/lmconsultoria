@@ -29,7 +29,7 @@
 
 .service-decoration {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   width: 1450px;
@@ -38,16 +38,15 @@
   background: linear-gradient(0deg, var(--dark3), var(--backgroundColor));
   z-index: 6;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.404);
+  box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.404);
 }
 
 .services-box {
   position: relative;
   width: 100%;
   max-width: 100%;
-  top: 10%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -7%);
 }
 
 .services-box::after {
@@ -98,9 +97,8 @@
   justify-content: center;
   gap: 35px;
   z-index: 7;
-  top: 5%;
   color: var(--white);
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   padding: 0 25px;
 }
 

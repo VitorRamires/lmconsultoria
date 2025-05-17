@@ -12,7 +12,7 @@ export function Contact() {
         whileInView={{
           y: 0,
           opacity: 1,
-          transition: { duration: 1, ease: "easeInOut" },
+          transition: { duration: 0.5, ease: "easeInOut" },
         }}
         viewport={{ amount: 0.4, once: true }}
         className="contact"

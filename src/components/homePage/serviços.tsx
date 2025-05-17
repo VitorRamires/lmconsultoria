@@ -40,7 +40,16 @@ export function Services() {
               </motion.div>
             </div>
           </div>
-          <div className="service-decoration"></div>
+          <motion.div
+            initial={{ opacity: 0, width: 0 }}
+            whileInView={{
+              opacity: 1,
+              width: "1450px",
+              transition: { delay: 0.2, duration: 0.3 },
+            }}
+            viewport={{ amount: 0.4, once: true }}
+            className="service-decoration"
+          ></motion.div>
         </div>
       </section>
     </>
