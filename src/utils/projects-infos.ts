@@ -16,10 +16,10 @@ import siteimprove from "@/assets/icons/siteimprove.svg";
 import triptri from "@/assets/icons/triptri-placeholder.svg";
 import yara from "@/assets/icons/yara.svg";
 
-import eua from "@/assets/images/estados-unidos.png";
-import brasil from "@/assets/images/brasil.png";
-import uruguay from "@/assets/icons/uruguay.svg";
-import argentina from "@/assets/icons/argentina.svg";
+import eua from "@/assets/icons/us.svg";
+import brasil from "@/assets/icons/br.svg";
+import uruguay from "@/assets/icons/ug.svg";
+import argentina from "@/assets/icons/ar.svg";
 import { technologies } from "./technologies";
 
 const techsData = technologies.reduce((acc, tech) => {

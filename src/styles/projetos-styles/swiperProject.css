@@ -1,9 +1,3 @@
-.all-projects .center {
-  position: relative;
-  height: 100%;
-  margin-top: 65px;
-}
-
 .swiper {
   height: 350px;
   cursor: grabbing;
@@ -113,35 +107,36 @@
 
 .fixed-btn {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom:10%;
   right: 0;
   z-index: 30;
 }
+
+
 
 .btn-swiper {
   outline: none;
   border: none;
 }
 
-.hidden:not(.fixed-swiper-buttons.hidden) {
-  opacity: 0;
-  transition: 0.2s;
-  transform: translateY(-30px);
+.hidden-btn:not(.fixed-swiper-buttons.hidden-btn) {
+  opacity: 0 !important;
+  transition: 0.4s;
+  transform: translate(0, -50px);
 }
 
-.show:not(.fixed-swiper-buttons.show) {
-  opacity: 1;
-  transition: 0.2s;
-  transform: translateY(0);
+.show-btn:not(.fixed-swiper-buttons.show-btn) {
+  opacity: 1 !important;
+  transition: 0.4s;
+  transform: translate(0, 0);
 }
 
-.fixed-swiper-buttons.show {
-  opacity: 1;
+.fixed-swiper-buttons.show-btn {
+  opacity: 1 !important;
 }
 
-.fixed-swiper-buttons.hidden {
-  opacity: 0;
+.fixed-swiper-buttons.hidden-btn {
+  opacity: 0 !important;
 }
 
 .fixed-btn-right {
@@ -150,5 +145,8 @@
 
 .fixed-btn-left {
   left: 1%;
+}
+
+.fixed-btn-left img {
   transform: rotate(180deg);
 }

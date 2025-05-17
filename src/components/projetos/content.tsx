@@ -1,4 +1,5 @@
 import { projectsInfos } from "../../utils/projects-infos";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface ActualSlide {
   actualSlide: number;
@@ -10,68 +11,85 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
   const techsVerification = projectsInfos[actualSlide].techs.length > 0;
 
   return (
-    <div className="content-project">
-      <div
-        className={`project-content-header ${
-          showFixedButtons ? "hidden" : "show"
-        }`}
-      >
-        <div className="center">
-          <p>
-            Core: <span> {actualProject.extras[0]}</span>
-          </p>
+    <>
+      <div className="content-project">
+        <div
+          className={`project-content-header ${
+            showFixedButtons ? "hidden-btn" : "show-btn"
+          }`}
+        >
+          <div className="center">
+            <p>
+              Core: <span> {actualProject.extras[0]}</span>
+            </p>
 
-          <p className="client-project">
-            Cliente: <span> {actualProject.projeto}</span>
-            <img src={actualProject.pais} alt="icon country" />
-          </p>
+            <p className="client-project">
+              Cliente: <span> {actualProject.projeto}</span>
+              <img src={actualProject.pais} alt="icon country" />
+            </p>
 
-          <p>
-            Segmento: <span> {actualProject.extras[2]}</span>
-          </p>
-        </div>
-      </div>
-      <div className="center project-info">
-        <div className="project-objectives">
-          <h2 className="project-h2">Objetivos do projeto</h2>
-          <ul>
-            {actualProject.objetivos.map((objective, index) => {
-              return <li key={index}>{objective}</li>;
-            })}
-          </ul>
-        </div>
-        <div className="separated-line"></div>
-        <div className="project-description">
-          <h2 className="project-h2">Sobre o projeto</h2>
-          <p>{actualProject.descricao}</p>
-        </div>
-      </div>
-      <div className="tecnologies-related">
-        <div className="center">
-          <p>Tecnologias relacionadas</p>
-          <div className="tech-related-wrapper">
-            {techsVerification ? (
-              projectsInfos[actualSlide].techs.map((tech, index) => {
-                return (
-                  <div className="related-tech" key={index}>
-                    <img src={tech} alt="" />
-                  </div>
-                );
-              })
-            ) : (
-              <p className="without-tech">
-                Nenhuma tecnologia está relacionada a este projeto
-              </p>
-            )}
+            <p>
+              Segmento: <span> {actualProject.extras[2]}</span>
+            </p>
           </div>
         </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={actualSlide}
+            initial={{ opacity: 0, x: "-100px" }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: "100px" }}
+            className={`project-content-wrapper ${
+              showFixedButtons ? "up" : "down"
+            }`}
+          >
+            <div className={`center project-info ${actualSlide}`}>
+              <div className="project-objectives">
+                <h2 className="project-h2">Objetivos do projeto</h2>
+                <ul>
+                  {actualProject.objetivos.map((objective, index) => {
+                    return <li key={index}>{objective}</li>;
+                  })}
+                </ul>
+              </div>
+              <div className="separated-line"></div>
+              <div className="project-description">
+                <h2 className="project-h2">Sobre o projeto</h2>
+                <p>{actualProject.descricao}</p>
+              </div>
+            </div>
+
+            <div className="tecnologies-related">
+              <div className="center">
+                <p>Tecnologias relacionadas</p>
+                <div className="tech-related-wrapper">
+                  {techsVerification ? (
+                    projectsInfos[actualSlide].techs.map((tech, index) => {
+                      return (
+                        <div className="related-tech" key={index}>
+                          <img src={tech} alt="" />
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <p className="without-tech">
+                      Nenhuma tecnologia está relacionada a este projeto
+                    </p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </AnimatePresence>
       </div>
+
       <div
         className={`project-content-header-fixed ${
-          showFixedButtons ? "show" : "hidden"
+          showFixedButtons ? "show-btn" : "hidden-btn"
         }`}
       >
-        <div className="center">
+        <div className="center-header-fixed">
           <p>
             Core: <span> {actualProject.extras[0]}</span>
           </p>
@@ -86,6 +104,6 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }

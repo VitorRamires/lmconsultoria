@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import BrasilFlag from "../assets/images/brasil.png";
-import EuaFlag from "../assets/images/estados-unidos.png";
+import BrasilFlag from "../assets/icons/br.svg";
+import EuaFlag from "../assets/icons/us.svg";
 import { useState } from "react";
 
 export function Header() {

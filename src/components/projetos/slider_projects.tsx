@@ -19,7 +19,7 @@ export function SliderProjects() {
     function onScroll() {
       if (!swiperContainerRef.current) return;
       const rect = swiperContainerRef.current.getBoundingClientRect();
-      setShowFixedButtons(rect.top <= -150);
+      setShowFixedButtons(rect.top <= -280);
     }
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -48,7 +48,7 @@ export function SliderProjects() {
       </div>
 
       <div
-        className={`slider-general ${showFixedButtons ? "hidden" : "show"}`}
+        className={`slider-general ${showFixedButtons ? "hidden-btn" : "show-btn"}`}
         ref={swiperContainerRef}
       >
         <div className="prev-btn btn-swiper">
@@ -101,7 +101,7 @@ export function SliderProjects() {
 
       <div
         className={`fixed-swiper-buttons ${
-          showFixedButtons ? "show" : "hidden"
+          showFixedButtons ? "show-btn" : "hidden-btn"
         }`}
       >
         <button

@@ -67,6 +67,7 @@ body {
   background-color: var(--backgroundColor);
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 ul {
@@ -192,6 +193,7 @@ img {
   }
 
   .title-page h2 {
-    margin-right: 0;
+    margin-right: unset;
+    margin: 0 auto;
   }
 }
