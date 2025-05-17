@@ -248,16 +248,6 @@
   .project-content-header-fixed {
     top: 6%;
   }
-
-  /*.up {
-    transform: translateY(-10%) !important;
-    transition: 0.4s;
-  }
-
-  .down {
-    transform: translateY(0);
-    transition: 0.4s;
-  }*/
 }
 
 @media screen and (max-width: 950px) {
