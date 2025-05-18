@@ -54,6 +54,7 @@
   box-shadow: 0 0px 10px var(--blue);
   border: 1px solid var(--blue);
   opacity: 0;
+  border-radius: 0 0 5px 5px;
 }
 
 .center-header-fixed {
@@ -271,8 +272,6 @@
     margin-bottom: 15px;
   }
 }
-
-
 
 @media screen and (max-width: 450px) {
   .tecnologies-related p {
