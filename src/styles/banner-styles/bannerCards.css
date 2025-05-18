@@ -25,11 +25,13 @@
   cursor: pointer;
   overflow: hidden;
   bottom: 0;
+  transform: scale(1);
+  transition: 0.3s;
 }
 
 .card:hover {
+  transform: scale(1.05) !important;
   background-color: #3d3d3d;
-  transition: 0.3s;
 }
 
 .card-title {

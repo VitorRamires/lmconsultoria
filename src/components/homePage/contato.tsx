@@ -14,7 +14,7 @@ export function Contact() {
           opacity: 1,
           transition: { duration: 0.5, ease: "easeInOut" },
         }}
-        viewport={{ amount: 0.4, once: true }}
+        viewport={{ amount: 0.5, once: true }}
         className="contact"
         id="contact"
       >
@@ -38,7 +38,9 @@ export function Contact() {
         </div>
         <div className="contact-forms">
           <div className="form">
-            <p>Linkedin</p>
+            
+              <a href="https://www.linkedin.com/in/lucasmramires/">Linkedin</a>
+       
             <img src={linkedin} alt="" />
           </div>
           <div className="form">

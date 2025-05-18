@@ -67,7 +67,7 @@
   flex-wrap: wrap;
   gap: 25px;
   background-color: var(--backgroundColor);
-  padding: 35px 100px;
+  padding: 35px 50px;
   width: max-content;
   max-width: 100%;
   font-size: 1.4rem;
@@ -75,6 +75,10 @@
   border-right: 10px solid var(--blue);
   border-radius: 7px;
   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.199);
+}
+
+.form a {
+  color: var(--white);
 }
 
 .contact-forms .form img {

@@ -2,15 +2,19 @@ import Chart from "../charts/chart";
 import { sectors } from "../../utils/sectors";
 import { ProjectType } from "./project_type";
 import { MobileSegment } from "../charts/mobile-segment";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Activity() {
   const [matchMediaSize, setMatchMediaSize] = useState<boolean>(false);
   const widthMedia = window.matchMedia("(max-width: 750px)");
 
-  window.addEventListener("resize", () => {
+  useEffect(() => {
     setMatchMediaSize(widthMedia.matches);
-  });
+
+    window.addEventListener("resize", () => {
+      setMatchMediaSize(widthMedia.matches);
+    });
+  }, []);
 
   return (
     <>

@@ -291,7 +291,7 @@
 
   .center-header-fixed {
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 25px;
   }
 }
@@ -302,6 +302,6 @@
   }
 
   .client-project {
-    justify-content: start;
+    justify-content: center;
   }
 }

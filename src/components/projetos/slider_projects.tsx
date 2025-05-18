@@ -56,7 +56,7 @@ export function SliderProjects() {
         </div>
         <Swiper
           slidesPerView={3}
-          spaceBetween={10}
+          spaceBetween={100}
           loop={true}
           centeredSlides={true}
           pagination={{

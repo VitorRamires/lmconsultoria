@@ -50,10 +50,16 @@
   content: "";
   display: block;
   position: relative;
-  width: 15%;
+  width: 0;
   max-width: 100%;
   height: 1px;
   background-color: #ffffff34;
+  transition: width 0.5s 0.5s ease-in-out;
+}
+
+.view.name-role::after,
+.view.name-role::before {
+  width: 15%;
 }
 
 .name-role span {
@@ -96,13 +102,18 @@
   position: absolute;
   content: "";
   display: block;
-  width: 1100px;
-  max-width: 100%;
+  width: 0;
   height: 1px;
   background-color: #ffffff34;
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
+  transition: width 0.5s 0.8s ease-in-out;
+}
+
+.main-image.view::after {
+  width: 1100px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1120px) {

@@ -10,7 +10,7 @@ footer {
   z-index: 33;
 }
 
-footer span {
+footer span a {
   font-size: 1.5rem;
   font-family: "Saira Condensed bold";
   color: var(--blue);

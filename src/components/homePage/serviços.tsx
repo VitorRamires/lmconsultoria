@@ -8,18 +8,19 @@ export function Services() {
       <section className="services" id="services">
         <div className="center">
           <div className="service-wrapper">
-            <motion.img
-              initial={{ opacity: 0, x: "-100px" }}
-              whileInView={{ opacity: 1, x: 0, transition: { duration: 0.3 } }}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1, transition: { duration: 0.3 } }}
               viewport={{ amount: 0.4, once: true }}
-              src={serviceImg}
-              alt=""
-            />
+            >
+              <img src={serviceImg} alt="" />
+            </motion.div>
 
             <div className="services-box">
               <div className="title-services">
                 <h2>Serviços Prestados</h2>
               </div>
+
               <motion.div
                 initial={{ opacity: 0, x: "-100px" }}
                 whileInView={{
@@ -27,7 +28,7 @@ export function Services() {
                   x: 0,
                   transition: { delay: 0.2, duration: 0.3 },
                 }}
-                viewport={{ amount: 0.4, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 className="services-listed"
               >
                 {servicesInformation.map((service) => {
@@ -40,12 +41,13 @@ export function Services() {
               </motion.div>
             </div>
           </div>
+
           <motion.div
             initial={{ opacity: 0, width: 0 }}
             whileInView={{
               opacity: 1,
               width: "1450px",
-              transition: { delay: 0.2, duration: 0.3 },
+              transition: { duration: 0.3 },
             }}
             viewport={{ amount: 0.4, once: true }}
             className="service-decoration"

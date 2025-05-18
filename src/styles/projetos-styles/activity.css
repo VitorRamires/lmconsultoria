@@ -39,7 +39,7 @@
 }
 
 .activity-item p:not(.type p, .quantities p, .mobile-segment p) {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   color: #c2c2c2;
   font-family: "Saira condensed regular";
   font-size: 1.7rem;
@@ -75,6 +75,7 @@
   text-align: start;
   max-height: 1030px;
   overflow: auto;
+  padding-bottom: 15px;
 }
 
 .segments {
