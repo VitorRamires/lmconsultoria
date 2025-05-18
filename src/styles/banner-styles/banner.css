@@ -10,7 +10,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url(../assets/images/banner-bg.webp);
+  background: url(../../assets/images/banner-bg.webp);
   background-size: cover;
   background-position: center;
 }
