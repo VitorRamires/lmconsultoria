@@ -114,17 +114,17 @@ export function Header() {
               </HashLink>
             </li>
             <li>
-              <HashLink to="/#project" onClick={handleNavLinkClick}>
+              <HashLink to="/project" onClick={handleNavLinkClick}>
                 Projetos
               </HashLink>
             </li>
             <li>
-              <HashLink to="/#experience" onClick={handleNavLinkClick}>
+              <HashLink to="/experience" onClick={handleNavLinkClick}>
                 Experiências
               </HashLink>
             </li>
             <li>
-              <HashLink to="/#volunteer" onClick={handleNavLinkClick}>
+              <HashLink to="/volunteer" onClick={handleNavLinkClick}>
                 Voluntário
               </HashLink>
             </li>
