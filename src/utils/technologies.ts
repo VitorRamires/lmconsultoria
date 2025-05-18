@@ -8,7 +8,7 @@ import BluePrism from "@/assets/images/BluePrism.png";
 import pegasystem from "@/assets/images/pegasystem.png";
 import servicenow from "@/assets/images/servicenow.png";
 import citrix from "@/assets/images/citrix.png";
-import excel from "@/assets/images/excel.png";
+import excel from "@/assets/images/excelicon.png";
 
 export const technologies = [
   {
