@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export function Experiences() {
   return (
     <>
-      <section className="experiencias" id="experiencias">
+      <section className="experiencias" id="experience">
         <div className="page-banner experience-banner">
           <div className="title-page">
             <motion.h2

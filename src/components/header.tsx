@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 //import BrasilFlag from "../assets/icons/br.svg";
 //import EuaFlag from "../assets/icons/us.svg";
 import { useEffect, useState } from "react";
@@ -115,19 +114,19 @@ export function Header() {
               </HashLink>
             </li>
             <li>
-              <NavLink to="/project" onClick={handleNavLinkClick}>
+              <HashLink to="/#project" onClick={handleNavLinkClick}>
                 Projetos
-              </NavLink>
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/experience" onClick={handleNavLinkClick}>
+              <HashLink to="/#experience" onClick={handleNavLinkClick}>
                 Experiências
-              </NavLink>
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/volunteer" onClick={handleNavLinkClick}>
+              <HashLink to="/#volunteer" onClick={handleNavLinkClick}>
                 Voluntário
-              </NavLink>
+              </HashLink>
             </li>
           </ul>
         </nav>

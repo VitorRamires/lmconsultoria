@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export function Project() {
   return (
     <>
-      <div className="page-banner project-banner">
+      <div className="page-banner project-banner" id="project">
         <div className="title-page">
           <motion.h2
             initial={{ opacity: 0 }}
