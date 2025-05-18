@@ -11,7 +11,7 @@ import boticario from "@/assets/icons/boticario.svg";
 import nextera from "@/assets/icons/NEE.svg";
 import petrobras from "@/assets/icons/petrobras.svg";
 import roche from "@/assets/icons/roche.svg";
-import selective from "@/assets/icons/selective.svg";
+import selective from "@/assets/icons/selectivelogo.svg";
 import siteimprove from "@/assets/icons/siteimprove.svg";
 import triptri from "@/assets/icons/triptri-placeholder.svg";
 import yara from "@/assets/icons/yara.svg";
