@@ -71,7 +71,7 @@
 }
 
 .about p:not(.about .extra-details p, .change-buttons p) {
-  margin: 25px 0;
+  margin: 24px 0;
   font-size: 1.1rem;
 }
 
