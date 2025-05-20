@@ -102,6 +102,7 @@
 .client-project img {
   width: 50px;
   height: auto;
+  border-radius: 10px;
 }
 
 .separated-line {

@@ -25,7 +25,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
 
             <p className="client-project">
               Cliente: <span> {actualProject.projeto}</span>
-              <img src={actualProject.pais} alt="icon country" />
+              <img src={actualProject.pais} className="country" alt="icon country" />
             </p>
 
             <p>

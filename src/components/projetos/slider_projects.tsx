@@ -44,7 +44,7 @@ export function SliderProjects() {
   return (
     <>
       <div className="know-titles">
-        <h2>Conheça meus projetos</h2>
+        <h2>Conheça meus Projetos</h2>
       </div>
 
       <div
