@@ -6,7 +6,7 @@ export function ProjectsHome() {
     <>
       <div className="projects-home">
         <div className="info-project-home">
-          <h2>Conheça os projetos</h2>
+          <h2>Conheça os Projetos</h2>
           <div className="center">
             <p>
               Convido você a conhecer um pouco mais do meu trabalho em linhas
@@ -17,7 +17,7 @@ export function ProjectsHome() {
           </div>
           <div className="see-projects">
             <NavLink className="to-projects" to="/project">
-              Visitar os projetos
+              Visitar os Projetos
             </NavLink>
           </div>
         </div>

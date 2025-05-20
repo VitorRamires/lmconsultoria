@@ -24,8 +24,8 @@ export function Project() {
         </div>
         <div className="overlay"></div>
         <motion.div
-          initial={{ y:"-35px", opacity: 0 }}
-          whileInView={{ opacity: 1, y:0 }}
+          initial={{ y: "-35px", opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
           className="project-content"
         >

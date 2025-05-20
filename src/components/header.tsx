@@ -1,10 +1,12 @@
 //import BrasilFlag from "../assets/icons/br.svg";
 //import EuaFlag from "../assets/icons/us.svg";
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
+   const location = useLocation(); 
   const [activeSection, setActiveSection] = useState<string>(
     location.hash || "#home"
   );
@@ -46,6 +48,10 @@ export function Header() {
 
   function isHashActive(hash: string) {
     return activeSection === hash && location.pathname === "/";
+  }
+
+  function isPathActive(path: string) {
+    return location.pathname === path;
   }
 
   return (
@@ -114,17 +120,29 @@ export function Header() {
               </HashLink>
             </li>
             <li>
-              <HashLink to="/project" onClick={handleNavLinkClick}>
+              <HashLink
+                to="/project"
+                className={isPathActive("/project") ? "active" : ""}
+                onClick={handleNavLinkClick}
+              >
                 Projetos
               </HashLink>
             </li>
             <li>
-              <HashLink to="/experience" onClick={handleNavLinkClick}>
+              <HashLink
+                to="/experience"
+                className={isPathActive("/experience") ? "active" : ""}
+                onClick={handleNavLinkClick}
+              >
                 Experiências
               </HashLink>
             </li>
             <li>
-              <HashLink to="/volunteer" onClick={handleNavLinkClick}>
+              <HashLink
+                to="/volunteer"
+                className={isPathActive("/volunteer") ? "active" : ""}
+                onClick={handleNavLinkClick}
+              >
                 Voluntário
               </HashLink>
             </li>

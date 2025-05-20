@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 export function Sobre() {
   const [aboutOption, setAboutOption] = useState("resumo");
 
+  const birthYear = 1993;
+  const age = new Date().getFullYear() - birthYear;
+
   function handleAboutChanger(event: React.MouseEvent) {
     const targetOption = event.currentTarget.getAttribute("data-option") || "";
     setAboutOption(targetOption.toLowerCase());
@@ -18,7 +21,7 @@ export function Sobre() {
           whileInView={{ opacity: 1 }}
           viewport={{ margin: "-100px", once: true }}
         >
-          Sobre mim
+          Sobre Mim
         </motion.h2>
 
         <div className="about-decoration"></div>
@@ -45,17 +48,34 @@ export function Sobre() {
             className={`skills ${aboutOption === "skills" ? "optionOn" : ""}`}
             data-option="skills"
           >
-            {aboutInformation.skills.map((skill, index) => (
-              <div className="skill" key={index}>
-                {skill}
+            <div className="all-skills">
+              <div className="soft-skills">
+                <h3><span>Soft</span> skills</h3>
+                <div className="soft-skills-wrapper">
+                  {aboutInformation.skills.softskills.map((skill, index) => (
+                    <div className="skill" key={index}>
+                      {skill}
+                    </div>
+                  ))}
+                </div>
               </div>
-            ))}
+              <div className="hard-skills">
+                <h3><span>Hard</span> skills</h3>
+                <div className="hard-skills-wrapper">
+                  {aboutInformation.skills.hardskills.map((skill, index) => (
+                    <div className="skill" key={index}>
+                      {skill}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="extra-details">
           <p>
-            Tempo de mercado: <span>3 anos</span>
+            Expêriencia como gerente: <span>3 anos</span>
           </p>
           <p>
             Línguas: <span>Português e Inglês</span>
@@ -64,7 +84,7 @@ export function Sobre() {
             Alcance: <span>Internacional</span>
           </p>
           <p>
-            Idade: <span>32 anos</span>
+            Idade: <span>{age} anos</span>
           </p>
         </div>
 

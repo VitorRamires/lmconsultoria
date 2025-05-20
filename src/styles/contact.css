@@ -1,10 +1,11 @@
 .contact {
-  width: 1920px;
+  width: 1420px;
   max-width: 100%;
   position: relative;
   margin: 0 auto;
   height: 550px;
   margin-bottom: 150px;
+  border-radius: 0 0 10px 10px;
 }
 
 .contact-banner {
@@ -16,6 +17,7 @@
 .contact img {
   height: 550px;
   object-fit: cover;
+  border-radius: 0 0 10px 0;
 }
 
 .get-in-touch {
@@ -26,6 +28,7 @@
   justify-content: center;
   background: linear-gradient(180deg, var(--blue), var(--blue2));
   font-family: "Saira Condensed regular";
+  border-radius: 0 0 0 10px;
 }
 
 .get-in-touch-text {
@@ -41,7 +44,7 @@
 }
 
 .get-in-touch-text p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .contact-forms {

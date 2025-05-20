@@ -27,7 +27,6 @@ const techsData = technologies.reduce((acc, tech) => {
   return acc;
 }, {} as { [key: string]: string });
 
-
 export const projectsInfos = [
   {
     projeto: "American Express",
@@ -54,7 +53,7 @@ export const projectsInfos = [
     ],
     extras: ["OutSystems", "EUA", "tecnologia"],
     logo: apple,
-    techs: [],
+    techs: [techsData.outsystem],
     id: 2,
     pais: eua,
   },
@@ -188,7 +187,7 @@ export const projectsInfos = [
   },
 
   {
-    projeto: "Petrobras(1)",
+    projeto: "Petrobras - RPA",
     descricao:
       "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, techsData.SAP, techsData.Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
     objetivos: [
@@ -203,21 +202,8 @@ export const projectsInfos = [
     id: 11,
     pais: brasil,
   },
-
   {
-    projeto: "Petrobras(2)",
-    descricao:
-      "A Petrobras é uma das maiores empresas de energia do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo. O objetivo deste projeto de RPA (Automação de Processos Robóticos), utilizando a plataforma Automation Anywhere, é realizar uma transformação digital nas operações da Petrobras, promovendo a economia de horas operacionais e a redução de custos. A automação de processos repetitivos e complexos tem sido implementada em sistemas cruciais como Microsoft Excel, techsData.SAP, techsData.Citrix e Petronect, otimizando fluxos de trabalho e garantindo maior eficiência e precisão nas operações.",
-    objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],
-    extras: ["OutSystems", "Brasil", "energia"],
-    logo: petrobras,
-    techs: [techsData.automation, techsData.uipath, techsData.sap],
-    id: 12,
-    pais: brasil,
-  },
-
-  {
-    projeto: "Petrobras(3)",
+    projeto: "Petrobras - OutSystems",
     descricao:
       "(Breve Participação) A Petrobras é uma das maiores empresas de energia e petróleo do mundo, especializada na exploração, produção, refino e distribuição de petróleo, gás natural e derivados. Fundada em 1953, a Petrobras tem uma presença significativa no Brasil e em diversos países, com operações em mais de 20 países e uma força de trabalho de mais de 50.000 colaboradores. A empresa desempenha um papel essencial no desenvolvimento do setor energético global e é reconhecida por sua liderança em inovação e sustentabilidade na indústria de energia. Este projeto de OutSystems tem como principal objetivo apoiar a transformação digital da Petrobras, com a modernização de aplicações legadas utilizando .NET. A iniciativa visa atualizar e integrar sistemas antigos, proporcionando maior agilidade, escalabilidade e eficiência operacional. O uso da plataforma OutSystems permite à Petrobras modernizar seus processos de TI, otimizar o desenvolvimento de novas aplicações e aumentar a flexibilidade para adaptar-se rapidamente às mudanças no mercado de energia. Através dessa transformação, a Petrobras fortalece sua posição no setor de energia, buscando maior eficiência e inovação nos seus processos internos e oferecendo soluções mais ágeis e modernas para seus desafios operacionais e estratégicos. Este projeto é um verdadeiro case global de sucesso, com resultados excepcionais, incluindo uma economia de mais de R$ 6 bilhões em um ano e R$ 120 milhões em apenas 3 semanas. A implementação da automação tem gerado ganhos expressivos em produtividade, reduzido erros humanos e acelerado processos ",
     objetivos: ["Transformação Digital", "Modernização de Aplicações Legado"],

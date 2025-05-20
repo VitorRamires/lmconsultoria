@@ -13,23 +13,17 @@ export function BannerCards() {
 
   return (
     <>
-      <div className="center">
-        <motion.div
-          className="banner-cards"
-          variants={containerVariants}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true, amount: 0.2 }} // quantidade de visibilidade para ativar a animação
-        >
-          {cardsData.map((card, index) => (
-            <Card
-              key={index}
-              title={card.title}
-              description={card.description}
-            />
-          ))}
-        </motion.div>
-      </div>
+      <motion.div
+        className="banner-cards"
+        variants={containerVariants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true, amount: 0.2 }} // quantidade de visibilidade para ativar a animação
+      >
+        {cardsData.map((card, index) => (
+          <Card key={index} title={card.title} description={card.description} />
+        ))}
+      </motion.div>
     </>
   );
 }

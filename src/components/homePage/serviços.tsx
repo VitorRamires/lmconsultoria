@@ -46,7 +46,7 @@ export function Services() {
             initial={{ opacity: 0, width: 0 }}
             whileInView={{
               opacity: 1,
-              width: "1450px",
+              width: "1150px",
               transition: { duration: 0.3 },
             }}
             viewport={{ amount: 0.4, once: true }}

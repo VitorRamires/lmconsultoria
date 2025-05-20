@@ -1,6 +1,7 @@
 .banner-cards {
   position: relative;
-  width: 100%;
+  width: 1450px;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -15,7 +16,7 @@
   position: relative;
   width: 260px;
   padding: 35px;
-  min-height: 350px;
+  min-height: 250px;
   background-color: var(--dark1);
   border-radius: 8px;
   display: flex;
@@ -66,7 +67,7 @@
   top: -350px;
   left: 0;
   transform: translateY(0);
-  padding: 25px;
+  padding: 0 25px;
   text-align: center;
   transition: 0.5s;
   color: var(--white);
@@ -74,7 +75,8 @@
   height: 100%;
   background-color: var(--blue2);
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  overflow: auto;
 }
 
 .show-text .card-text {
@@ -91,6 +93,6 @@
 
 @media screen and (max-width: 609px) {
   .card {
-    width: 100%;
+    width: 90%;
   }
 }

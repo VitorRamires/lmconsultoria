@@ -21,7 +21,7 @@ export function Contact() {
         <div className="contact-banner">
           <div className="get-in-touch">
             <div className="get-in-touch-text">
-              <h2>Entre em contato</h2>
+              <h2>Entre em Contato</h2>
               <p>
                 Será um prazer conversarmos para entender seus desafios e
                 elaborarmos uma solução para eles.
@@ -38,17 +38,16 @@ export function Contact() {
         </div>
         <div className="contact-forms">
           <div className="form">
-            
-              <a href="https://www.linkedin.com/in/lucasmramires/">Linkedin</a>
-       
+            <a href="https://www.linkedin.com/in/lucasmramires/">Linkedin</a>
+
             <img src={linkedin} alt="" />
           </div>
           <div className="form">
-            <p>51 - 983475750</p>
+            <a href="https://wa.me/5551983497704">51 - 983475750</a>
             <img src={phone} alt="" />
           </div>
           <div className="form">
-            <p>lucasramires@hormail.com</p>
+            <a href="mailto:lucasm.ramires@hotmail.com">Lucasm.ramires@hotmail.com</a>
             <img src={email} alt="" />
           </div>
         </div>

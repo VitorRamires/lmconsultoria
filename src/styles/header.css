@@ -4,7 +4,7 @@
   top: 3%;
   left: 50%;
   transform: translateX(-50%);
-  width: 1850px;
+  width: 1250px;
   max-width: 95%;
   height: 90px;
   background-color: var(--headerBg);
@@ -34,6 +34,8 @@
   font-size: 1.2rem;
   text-decoration: none;
 }
+
+
 
 .header-extras,
 .languages {

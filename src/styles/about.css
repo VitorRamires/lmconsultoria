@@ -2,7 +2,7 @@
 
 .about {
   position: relative;
-  width: 1650px;
+  width: 1450px;
   max-width: 95%;
   text-align: center;
   color: #ffffff;
@@ -11,7 +11,7 @@
   font-family: "Saira Condensed regular";
   margin: 0 auto;
   border-radius: 20px;
-  bottom: 45px;
+  bottom: 85px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.356);
 }
 
@@ -28,9 +28,38 @@
   padding: 0 10px;
 }
 
-.results,
 .skills {
-  padding-bottom: 45px;
+  padding-bottom: 25px;
+}
+
+.soft-skills,
+.hard-skills {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.hard-skills h3,
+.soft-skills h3 {
+  position: relative;
+  width: max-content;
+  font-size: 2rem !important;
+  color: #969696;
+  margin-right: auto;
+}
+
+.soft-skills-wrapper,
+.hard-skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.all-skills {
+  width: 100%;
+  display: flex;
+  gap: 50px;
 }
 
 /*em skills, posso acabar usando display flex*/
@@ -71,13 +100,13 @@
 }
 
 .about p:not(.about .extra-details p, .change-buttons p) {
-  margin: 24px 0;
+  margin: 20px 0;
   font-size: 1.1rem;
 }
 
 .about-panel {
   position: relative;
-  height: 330px;
+  height: 350px;
   overflow: auto;
   padding: 0 10px;
 }
@@ -120,6 +149,10 @@
   font-family: "Saira Condensed light";
 }
 
+.resume p {
+  font-size: 1.2rem !important;
+}
+
 /* ========= Resultado ========= */
 .results {
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
@@ -146,11 +179,13 @@
 }
 
 /* ========= Skills ========= */
-.skills {
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  flex-wrap: wrap;
-  gap: 25px;
-}
+/*
+    .skills {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+  */
 
 .skill {
   display: flex;
@@ -201,6 +236,22 @@
   }
 }
 
+@media screen and (max-width: 890px) {
+  .all-skills {
+    display: block;
+    text-align: center;
+  }
+
+  .hard-skills {
+    margin-top: 55px;
+  }
+
+  .hard-skills h3,
+  .soft-skills h3 {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .about h2::after,
   .about h2::before {
@@ -228,5 +279,14 @@
   .change-btn {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .soft-skills-wrapper,
+  .hard-skills-wrapper {
+    display: block;
+  }
+
+  .skill{
+    margin-bottom: 20px;
   }
 }

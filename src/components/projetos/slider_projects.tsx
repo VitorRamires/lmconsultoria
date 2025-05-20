@@ -48,7 +48,9 @@ export function SliderProjects() {
       </div>
 
       <div
-        className={`slider-general ${showFixedButtons ? "hidden-btn" : "show-btn"}`}
+        className={`slider-general ${
+          showFixedButtons ? "hidden-btn" : "show-btn"
+        }`}
         ref={swiperContainerRef}
       >
         <div className="prev-btn btn-swiper">
@@ -56,7 +58,7 @@ export function SliderProjects() {
         </div>
         <Swiper
           slidesPerView={3}
-          spaceBetween={100}
+          spaceBetween={50}
           loop={true}
           centeredSlides={true}
           pagination={{
@@ -71,12 +73,9 @@ export function SliderProjects() {
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}
           breakpoints={{
-            1050: {
-              slidesPerView: 3,
-            },
-            0: {
-              slidesPerView: 1,
-            },
+            1070: { slidesPerView: 3 },
+            550: { slidesPerView: 2 },
+            500: { slidesPerView: 1 },
           }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
         >
@@ -97,7 +96,6 @@ export function SliderProjects() {
           <img src={arrow} alt="" />
         </div>
       </div>
-
 
       <div
         className={`fixed-swiper-buttons ${
@@ -121,7 +119,10 @@ export function SliderProjects() {
       </div>
 
       <div className="content">
-        <Content showFixedButtons={showFixedButtons} actualSlide={activeIndex} />
+        <Content
+          showFixedButtons={showFixedButtons}
+          actualSlide={activeIndex}
+        />
       </div>
     </>
   );

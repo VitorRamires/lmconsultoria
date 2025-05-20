@@ -8,6 +8,7 @@ import {
   ResponsiveContainer,
   Tooltip,
   LabelList,
+  Cell,
 } from "recharts";
 import { CustomTooltip } from "./customTooltip";
 import { data } from "../../utils/chartData.ts";
@@ -39,7 +40,7 @@ export default class Chart extends PureComponent {
             dy={10}
           />
           <YAxis stroke="#ffffff" />
-          <CartesianGrid stroke="#cccccc3d" strokeDasharray="0" />
+          <CartesianGrid stroke="#cccccc3d" strokeDasharray="2" />
           <Bar
             dataKey="quantidade"
             barSize={50}
@@ -57,6 +58,9 @@ export default class Chart extends PureComponent {
               fontSize={14}
               fontWeight="bold"
             />
+            {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={entry.fill} />
+            ))}
           </Bar>
           <Tooltip content={<CustomTooltip />} />
         </BarChart>
