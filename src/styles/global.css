@@ -117,7 +117,7 @@ img {
     180deg,
     var(--backgroundColor),
     #141414e8,
-    #1d1d1d,
+    #121212,
     var(--backgroundColor)
   );
 }
@@ -152,7 +152,8 @@ img {
 
 .page-banner.volunteer-banner {
   background-image: url(../assets/images/voluntario-bg.jpg);
-  height: 1300px;
+  height: 100vh;
+  min-height: 1300px;
   max-width: 100%;
 }
 
@@ -197,5 +198,11 @@ img {
   .title-page h2 {
     margin-right: unset;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .title-page {
+    width: calc(35% * 1.1);
   }
 }

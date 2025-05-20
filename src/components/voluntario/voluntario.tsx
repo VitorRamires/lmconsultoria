@@ -6,6 +6,7 @@ export function Volunteer() {
   return (
     <>
       <div className="page-banner volunteer-banner" id="volunteer">
+        
         <div className="title-page">
           <motion.h2
             initial={{ opacity: 0 }}
