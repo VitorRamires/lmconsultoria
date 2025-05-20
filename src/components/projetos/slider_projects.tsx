@@ -75,7 +75,7 @@ export function SliderProjects() {
           breakpoints={{
             1070: { slidesPerView: 3 },
             550: { slidesPerView: 2 },
-            500: { slidesPerView: 1 },
+            0: { slidesPerView: 1 },
           }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
         >
