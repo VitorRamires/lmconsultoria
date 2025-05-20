@@ -38,7 +38,7 @@ export function Contact() {
         </div>
         <div className="contact-forms">
           <div className="form">
-            <a href="https://www.linkedin.com/in/lucasmramires/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/lucasmramires/">LinkedIn</a>
 
             <img src={linkedin} alt="" />
           </div>

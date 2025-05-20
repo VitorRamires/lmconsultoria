@@ -5,7 +5,7 @@ export function Footer() {
         Está precisando de ajuda? Entre em contato comigo via{" "}
         <span>
           {" "}
-          <a href="https://www.linkedin.com/in/lucasmramires/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/lucasmramires/">LinkedIn</a>
         </span>
       </p>
     </footer>
