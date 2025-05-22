@@ -9,50 +9,70 @@ import pegasystem from "@/assets/images/pegasystem.png";
 import servicenow from "@/assets/images/servicenow.png";
 import citrix from "@/assets/images/citrix.png";
 import excel from "@/assets/images/excelicon.png";
+import devops from "@/assets/images/AzureDevOps.png";
+import freshdesk from "@/assets/images/freshdesk.png";
+import jira from "@/assets/images/jira.png";
+import trello from "@/assets/images/trello.png";
 
 export const technologies = [
   {
-    name: 'automation',
+    name: "automation",
     url: automation,
   },
   {
-    name: 'uipath',
+    name: "uipath",
     url: uipath,
   },
   {
-    name: 'sap',
+    name: "sap",
     url: sap,
   },
   {
-    name: 'outsystem',
+    name: "outsystem",
     url: outsystem,
   },
   {
-    name: 'office',
+    name: "office",
     url: office,
   },
   {
-    name: 'oracle',
+    name: "oracle",
     url: oracle,
   },
   {
-    name: 'BluePrism',
+    name: "BluePrism",
     url: BluePrism,
   },
   {
-    name: 'pegasystem',
+    name: "pegasystem",
     url: pegasystem,
   },
   {
-    name: 'servicenow',
+    name: "servicenow",
     url: servicenow,
   },
   {
-    name: 'citrix',
+    name: "citrix",
     url: citrix,
   },
   {
-    name: 'excel',
+    name: "excel",
     url: excel,
+  },
+  {
+    name: "jira",
+    url: jira,
+  },
+  {
+    name: "devops",
+    url: devops,
+  },
+  {
+    name: "freshdesk",
+    url: freshdesk,
+  },
+  {
+    name: "trello",
+    url: trello,
   },
 ];
