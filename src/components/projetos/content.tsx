@@ -20,7 +20,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
         >
           <div className="center">
             <p>
-              Core: <span> {actualProject.extras[0]}</span>
+              Tecnologia: <span> {actualProject.extras[0]}</span>
             </p>
 
             <p className="client-project">
