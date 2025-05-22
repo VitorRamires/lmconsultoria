@@ -24,7 +24,7 @@ export function Activity() {
         </div>
         <div className="activity-box">
           <div className="segments activity-item">
-            <p className="activity-item-title">Segmentos e quantidade</p>
+            <p className="activity-item-title">Segmentos e Quantidade</p>
             {matchMediaSize ? <MobileSegment /> : <Chart />}
           </div>
           <div className="sectors activity-item">

@@ -29,7 +29,7 @@ export function Banner() {
                 Lucas Martins <span>Ramires</span>
               </p>
               <p className="role">
-                Gerente de Projetos e Delivery <span>internacional</span>
+                Gerente de Projetos e Delivery <span>Internacional</span>
               </p>
             </div>
           </motion.div>
