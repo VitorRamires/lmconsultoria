@@ -4,15 +4,32 @@ footer {
   padding: 20px 5px;
   background-color: #2b2b2b;
   color: var(--white);
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
   text-align: center;
   font-size: 1.1rem;
   z-index: 33;
+  line-height: 25px;
 }
 
 footer span a {
   font-size: 1.5rem;
-  font-family: "Saira Condensed bold";
+  font-family: "Arial Bold";
   color: var(--blue);
   cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  footer {
+    font-size: 0.9rem;
+  }
+
+  footer span a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  footer {
+    font-size: 0.7rem;
+  }
 }

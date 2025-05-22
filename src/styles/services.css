@@ -101,6 +101,7 @@
   margin-bottom: 50px;
   padding: 0 25px;
   bottom: 35px;
+  text-align: center;
 }
 
 .title-services::before {
@@ -116,9 +117,15 @@
   font-size: 2.1rem;
 }
 
+@media screen and (max-width: 1280px) {
+  .title-services h2 {
+    font-size: 1.7rem;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .title-services::before {
-    width: 50%;
+    display: none;
   }
 }
 
@@ -128,8 +135,10 @@
   }
 
   .service-wrapper img {
-    width: 100%;
-    left: 0;
+    width: 650px;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .services .center {
@@ -158,17 +167,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
-  .title-services::before {
-    display: none;
-  }
 
-  .service-wrapper img {
-    left: 0;
-  }
-}
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .service {
     font-size: 0.9rem;
     padding: 10px 10px;

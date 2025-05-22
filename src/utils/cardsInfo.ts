@@ -1,45 +1,27 @@
 export const cardsData = [
   {
+    title: `Estratégia`,
+    description: `Estratégia e planejamento são fundamentais para o sucesso de projetos, pois orientam decisões, 
+    otimizam recursos, reduzem riscos e garantem entregas eficientes, alinhadas aos objetivos do negócio.`,
+  },
+  {
     title: `Crescimento`,
-    description: `O crescimento do time em um projeto é fundamental para garantir a evolução 
-    contínua da equipe e a entrega de melhores resultados. Investir no desenvolvimento dos 
-    profissionais aumenta a produtividade, melhora a qualidade das entregas e fortalece o 
-    engajamento, reduzindo a rotatividade. Além disso, um time em constante aprendizado se 
-    adapta melhor a desafios, impulsiona a inovação e contribui diretamente para o sucesso e 
-    a sustentabilidade do projeto.`,
+    description: `O crescimento de projetos e do portfólio é essencial para ampliar a presença no mercado, 
+    diversificar oportunidades, aumentar a competitividade e garantir a sustentabilidade e inovação contínua do negócio.`,
   },
   {
-    title: `Qualidade`,
-    description: `A qualidade de entrega em um projeto é essencial para garantir 
-    a satisfação do cliente, a confiabilidade do produto e a sustentabilidade do negócio. 
-    Entregas com alto padrão reduzem retrabalho, minimizam custos com correções e fortalecem 
-    a reputação da equipe. Além disso, um compromisso com a qualidade aumenta a eficiência 
-    operacional, melhora a usabilidade e assegura a aderência aos requisitos, contribuindo 
-    diretamente para o sucesso do projeto.`,
-  },
-  {
-    title: `Planejamento`,
-    description: `Um planejamento bem desenhado é essencial para o sucesso de um projeto, 
-    garantindo que prazos e qualidade sejam cumpridos de forma eficiente. Ações 
-    planejadas permitem a redução de riscos, evitando desperdícios e otimizando recursos, 
-    além de assegurar que as entregas atendam às expectativas do cliente. Além disso, fortalece 
-    a equipe, aumenta a previsibilidade e melhora a credibilidade do projeto, impulsionando 
-    resultados sustentáveis e de alto impacto.`,
+    title: `Satisfação`,
+    description: `A satisfação do cliente é essencial para o sucesso de qualquer projeto, pois fortalece a relação de confiança, 
+    fideliza, gera recomendações e impulsiona novas oportunidades e crescimento sustentável.`,
   },
   {
     title: `Financeiro`,
-    description: `Projetos e iniciativas precisam continuamente manter sua saúde financeira em dia. 
-    O financeiro é um pilar essencial em qualquer projeto, garantindo a viabilidade e sustentabilidade das iniciativas. 
-    Permite o planejamento adequado de recursos, controle de custos,maximização de margem e P&L , evitando desperdícios 
-    e assegurando a rentabilidade. Além disso, uma gestão financeira eficiente possibilita tomadas de decisão mais estratégicas, 
-    mitigação de riscos e maior previsibilidade, contribuindo diretamente para o sucesso do projeto.`,
+    description: `A saúde financeira é vital para a viabilidade e sucesso de projetos. Garante controle de custos, rentabilidade, 
+    uso eficiente de recursos e decisões estratégicas, aumentando a previsibilidade e reduzindo riscos.`,
   },
   {
     title: `Resultados`,
-    description: `Os resultados de um projeto são a principal medida de seu sucesso, refletindo o impacto das entregas 
-    e a efetividade da execução. Alcançar bons resultados significa atender aos objetivos estratégicos, agregar valor 
-    ao cliente e garantir a sustentabilidade do negócio. Além disso, resultados positivos impulsionam a motivação da 
-    equipe, fortalecem a credibilidade do projeto e geram oportunidades de crescimento e inovação contínua. Em adição, 
-    com bons resultados financeiros, portas são abertas para até mesmo novos projetos com o cliente.`,
+    description: `Resultados positivos refletem o sucesso do projeto, atendem objetivos, agregam valor ao cliente e garantem sustentabilidade. Motivam a equipe, 
+    fortalecem a credibilidade e abrem portas para novas oportunidades e projetos.`,
   },
 ];

@@ -15,32 +15,20 @@
 }
 
 @font-face {
-  font-family: "Saira Condensed extraBold";
-  src: url(../assets/fonts/Saira_Condensed/SairaCondensed-ExtraBold.ttf);
+  font-family: "Arial Bold";
+  src: url(../assets/fonts/Arial-BD.ttf);
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Saira Condensed Bold";
-  src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Bold.ttf);
+  font-family: "Arial Light";
+  src: url(../assets/fonts/Arial-lgt.ttf);
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Saira Condensed light";
-  src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Light.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Saira Condensed regular";
-  src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Regular.ttf);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Saira Condensed semiBold";
-  src: url(../assets/fonts/Saira_Condensed/SairaCondensed-SemiBold.ttf);
+  font-family: "Arial";
+  src: url(../assets/fonts/Arial.ttf);
   font-display: swap;
 }
 
@@ -50,17 +38,11 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Saira";
-  src: url(../assets/fonts/Saira/Saira.ttf);
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Saira Condensed regular";
+  font-family: "Arial";
 }
 
 body {
@@ -155,6 +137,11 @@ img {
   height: 100vh;
   min-height: 1300px;
   max-width: 100%;
+  justify-content: start;
+}
+
+.page-banner.volunteer-banner footer {
+  margin-top: auto;
 }
 
 .title-page {

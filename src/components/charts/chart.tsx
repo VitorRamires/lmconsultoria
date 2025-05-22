@@ -35,12 +35,12 @@ export default class Chart extends PureComponent {
             dataKey="name"
             stroke="#ffffff"
             scale="point"
-            tick={{ textAnchor: "middle", fontSize: 15 }}
+            tick={{ textAnchor: "middle", fontSize: 10 }}
             padding={{ left: 50, right: 50 }}
             dy={10}
           />
           <YAxis stroke="#ffffff" />
-          <CartesianGrid stroke="#cccccc3d" strokeDasharray="2" />
+          <CartesianGrid stroke="#cccccc3d" strokeDasharray="2"  vertical={false}/>
           <Bar
             dataKey="quantidade"
             barSize={50}
@@ -55,8 +55,8 @@ export default class Chart extends PureComponent {
               dataKey="quantidade"
               position="top"
               fill="#ffffff"
-              fontSize={14}
-              fontWeight="bold"
+              fontSize={18}
+              fontWeight="normal"
             />
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={entry.fill} />

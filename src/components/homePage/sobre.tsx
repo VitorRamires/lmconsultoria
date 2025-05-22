@@ -5,8 +5,10 @@ import { motion } from "framer-motion";
 export function Sobre() {
   const [aboutOption, setAboutOption] = useState("resumo");
 
-  const birthYear = 1993;
-  const age = new Date().getFullYear() - birthYear;
+  const age =
+    new Date().getFullYear() -
+    1993 -
+    (new Date() < new Date(`${new Date().getFullYear()}-07-21`) ? 1 : 0);
 
   function handleAboutChanger(event: React.MouseEvent) {
     const targetOption = event.currentTarget.getAttribute("data-option") || "";
@@ -50,7 +52,9 @@ export function Sobre() {
           >
             <div className="all-skills">
               <div className="soft-skills">
-                <h3><span>Soft</span> skills</h3>
+                <h3>
+                  <span>Soft</span> skills
+                </h3>
                 <div className="soft-skills-wrapper">
                   {aboutInformation.skills.softskills.map((skill, index) => (
                     <div className="skill" key={index}>
@@ -60,7 +64,9 @@ export function Sobre() {
                 </div>
               </div>
               <div className="hard-skills">
-                <h3><span>Hard</span> skills</h3>
+                <h3>
+                  <span>Hard</span> skills
+                </h3>
                 <div className="hard-skills-wrapper">
                   {aboutInformation.skills.hardskills.map((skill, index) => (
                     <div className="skill" key={index}>
@@ -75,7 +81,7 @@ export function Sobre() {
 
         <div className="extra-details">
           <p>
-            Expêriencia como gerente: <span>3 anos</span>
+            Expêriencia como Gerente: <span>3 anos</span>
           </p>
           <p>
             Línguas: <span>Português e Inglês</span>

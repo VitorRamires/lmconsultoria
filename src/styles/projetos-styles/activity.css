@@ -41,7 +41,7 @@
 .activity-item p:not(.type p, .quantities p, .mobile-segment p) {
   margin-bottom: 25px;
   color: #c2c2c2;
-  font-family: "Saira condensed regular";
+  font-family: "Arial";
   font-size: 1.7rem;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .title-activity h2 {
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
 }
 
 .title-activity::after,
@@ -124,7 +124,7 @@
   padding: 15px 5px;
   font-size: 1.4rem;
   color: #c9c9c9;
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
 }
 
 .project-types {
@@ -162,7 +162,7 @@
 .type p {
   margin: unset;
   font-size: 1.3rem;
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
 }
 
 .type .type-name {
@@ -264,7 +264,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
   .activity-item-title {
     font-size: 1.3rem !important;
     padding: 20px 5px 20px 10px;

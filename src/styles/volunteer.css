@@ -1,3 +1,7 @@
+#volunteer .center {
+  margin-top: 80px;
+}
+
 .volunteer-list-wrapper {
   position: relative;
   z-index: 32;
@@ -27,8 +31,11 @@
 .leader-formation {
   position: relative;
   width: 100%;
-  margin: 100px 0;
   color: var(--white);
+}
+
+.recolocation {
+  margin-bottom: 170px;
 }
 
 .recolocation-list {
@@ -41,8 +48,12 @@
   align-items: center;
   justify-content: start;
   gap: 5px;
-  font-family: "Saira Condensed light";
   margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.recolocation-list ul li span {
+  font-family: "Arial Light" !important;
   font-size: 1.1rem;
 }
 
@@ -56,11 +67,22 @@
 
 .recolocation-box h4 {
   font-size: 1.3rem;
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
 }
 
 .leader-formation {
   font-size: 1.3rem;
+}
+
+.leader-formation p {
+  font-family: "Arial Light" !important;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1050px) {
+  #volunteer .center {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 675px) {
@@ -88,7 +110,7 @@
 
   .recolocation-box h4 {
     font-size: 1rem;
-    font-family: "Saira Condensed light";
+    font-family: "Arial Light";
   }
 
   .recolocation-list ul li {
@@ -99,4 +121,3 @@
     font-size: 1rem;
   }
 }
-

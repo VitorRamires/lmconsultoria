@@ -21,7 +21,7 @@
   text-align: center;
   font-size: 3.5rem;
   color: var(--blue);
-  font-family: "Saira Condensed light";
+  font-family: "Arial Light";
 }
 
 .tech {
@@ -56,5 +56,9 @@
 
   .excel {
     width: 250px;
+  }
+  
+  .tech-title{
+    font-size: 2.5rem;
   }
 }

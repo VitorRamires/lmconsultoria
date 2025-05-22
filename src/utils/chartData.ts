@@ -44,4 +44,9 @@ export const data = [
     quantidade: 1,
     fill: "#00BD9D",
   },
+  {
+    name:"Turismo",
+    quantidade:1,
+    fill:"#CEB5A7"
+  }
 ];

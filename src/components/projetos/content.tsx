@@ -46,7 +46,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
           >
             <div className={`center project-info ${actualSlide}`}>
               <div className="project-objectives">
-                <h2 className="project-h2">Objetivos do projeto</h2>
+                <h2 className="project-h2">Objetivos do Projeto</h2>
                 <ul>
                   {actualProject.objetivos.map((objective, index) => {
                     return <li key={index}>{objective}</li>;
@@ -55,7 +55,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
               </div>
               <div className="separated-line"></div>
               <div className="project-description">
-                <h2 className="project-h2">Sobre o projeto</h2>
+                <h2 className="project-h2">Sobre o Projeto</h2>
                 <p>{actualProject.descricao}</p>
               </div>
             </div>

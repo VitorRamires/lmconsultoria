@@ -27,8 +27,9 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, var(--blue), var(--blue2));
-  font-family: "Saira Condensed regular";
+  font-family: "Arial";
   border-radius: 0 0 0 10px;
+  padding: 0 20px;
 }
 
 .get-in-touch-text {
@@ -39,12 +40,13 @@
 
 .get-in-touch-text h2 {
   font-size: 3rem;
-  font-family: "Saira Condensed semiBold";
+  font-family: "Arial Bold";
   margin-bottom: 35px;
 }
 
 .get-in-touch-text p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  font-family: "Arial Light";
 }
 
 .contact-forms {
@@ -123,6 +125,7 @@
 
   .get-in-touch {
     padding: 100px 0;
+    text-align: center;
   }
 }
 

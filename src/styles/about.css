@@ -8,11 +8,16 @@
   color: #ffffff;
   background-color: #1d1c1c;
   padding: 185px 70px 20px 70px;
-  font-family: "Saira Condensed regular";
+  font-family: "Arial";
   margin: 0 auto;
   border-radius: 20px;
   bottom: 85px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.356);
+}
+
+.change-btn:hover {
+  background-color: #b1b1b1;
+  color: var(--white);
 }
 
 .skills,
@@ -62,8 +67,6 @@
   gap: 50px;
 }
 
-/*em skills, posso acabar usando display flex*/
-
 .optionOn {
   display: grid;
 }
@@ -99,7 +102,7 @@
   background-color: #494949;
 }
 
-.about p:not(.about .extra-details p, .change-buttons p) {
+.about p:not(.about .extra-details p, .change-buttons p, .resume p) {
   margin: 20px 0;
   font-size: 1.1rem;
 }
@@ -123,6 +126,7 @@
   gap: 15px;
   border-top: 1px solid #494949;
   padding: 25px 10px;
+  margin-top: 25px;
 }
 
 .extra-details p {
@@ -145,12 +149,12 @@
 }
 
 /* ========= Resumo ========= */
-.resume {
-  font-family: "Saira Condensed light";
-}
 
 .resume p {
   font-size: 1.2rem !important;
+  font-family: "Arial Light";
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 /* ========= Resultado ========= */
@@ -167,6 +171,8 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  font-family: "Arial Light";
+  border-radius: 5px;
 }
 
 .results p:nth-child(even) {
@@ -286,7 +292,7 @@
     display: block;
   }
 
-  .skill{
+  .skill {
     margin-bottom: 20px;
   }
 }

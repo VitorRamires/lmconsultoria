@@ -30,12 +30,30 @@
 }
 
 .header nav ul a {
+  position: relative;
   color: var(--white);
   font-size: 1.2rem;
   text-decoration: none;
+  transition: 0.2s;
 }
 
+.header nav ul a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  width: 0;
+  padding: 1px 0;
+  background-color: var(--blue);
+  color: #d8d8d8;
+  transform: translateY(100%);
+  transition: .2s;
+  transform-origin: center;
+}
 
+.header nav ul a:hover::after {
+  width: 100%;
+}
 
 .header-extras,
 .languages {
