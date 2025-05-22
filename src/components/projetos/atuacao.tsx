@@ -36,7 +36,7 @@ export function Activity() {
             </ul>
           </div>
           <div className="project-types activity-item">
-            <p className="activity-item-title">Tipos e quantidade</p>
+            <p className="activity-item-title">Tipos e Quantidade</p>
             <ProjectType />
           </div>
         </div>

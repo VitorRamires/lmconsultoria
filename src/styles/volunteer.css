@@ -48,13 +48,13 @@
   align-items: center;
   justify-content: start;
   gap: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
   font-size: 1.1rem;
 }
 
 .recolocation-list ul li span {
   font-family: "Arial Light" !important;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .recolocation-list ul li::before {
@@ -76,7 +76,7 @@
 
 .leader-formation p {
   font-family: "Arial Light" !important;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1050px) {
