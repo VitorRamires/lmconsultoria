@@ -4,17 +4,15 @@ import { BannerCards } from "./cards";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
+import { Trans } from "react-i18next";
 
 export function Banner() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-20px" });
-
   return (
     <>
       <div className="banner" id="home">
         <div className="banner-content">
-
-
           <motion.div
             initial={{ opacity: 0 }}
             animate={{
@@ -29,7 +27,8 @@ export function Banner() {
                 Lucas Martins <span>Ramires</span>
               </p>
               <p className="role">
-                Gerente de Projetos e Delivery <span>Internacional</span>
+                {" "}
+                <Trans i18nKey="titleBanner" components={{ span: <span /> }} />
               </p>
             </div>
           </motion.div>
@@ -39,7 +38,7 @@ export function Banner() {
             animate={{
               opacity: 1,
               y: 0,
-              transition: { duration: .7, delay: 0.5 },
+              transition: { duration: 0.7, delay: 0.5 },
             }}
             className={`main-image ${isInView ? "view" : ""}`}
             ref={ref}

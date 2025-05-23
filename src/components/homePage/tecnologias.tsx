@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { technologies } from "../../utils/technologies";
 import { motion } from "framer-motion";
 
@@ -17,7 +18,7 @@ export function Technologies() {
   return (
     <>
       <section className="technologies">
-        <div className="tech-title">Tecnologias</div>
+        <div className="tech-title">{t("techTitle")}</div>
         <motion.div
           className="tech-box"
           variants={containerVariants}

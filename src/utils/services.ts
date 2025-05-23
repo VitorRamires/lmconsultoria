@@ -1,13 +1,12 @@
 export const servicesInformation = [
-  `Gerenciamento de Projetos e Delivery (SCRUM, Waterfall, Lean &
-    Smart)`,
-  `Gerenciamento de Equipes Multidisciplinares.`,
-  `Treinamentos e Capacitação de Lideranças e Pré-Sales.`,
-  `Consultoria de Gestão Empresarial.`,
-  `Elaboração de Estratégias de Negócios.`,
-  `Implementação e Elaboração de Indicadores.`,
-  `Transformação Digital.`,
-  `Mapeamento e Melhoria de Procesos.`,
-  `Automação de Fluxos de Trabalho.`,
-  `Voluntariado para Recolocação no Mercado de Trabalho em TI.`
+  "services.serviceList.0",
+  "services.serviceList.1",
+  "services.serviceList.2",
+  "services.serviceList.3",
+  "services.serviceList.4",
+  "services.serviceList.5",
+  "services.serviceList.6",
+  "services.serviceList.7",
+  "services.serviceList.8",
+  "services.serviceList.9"
 ];

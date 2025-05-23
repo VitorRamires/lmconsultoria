@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface CardContent {
   title: string;
@@ -9,6 +10,7 @@ interface CardContent {
 
 export function Card({ title, description }: CardContent) {
   const [showCardClass, setShowCardClass] = useState(true);
+  const { t } = useTranslation();
 
   function handleCardText() {
     setShowCardClass(!showCardClass);
@@ -27,7 +29,7 @@ export function Card({ title, description }: CardContent) {
         variants={animateStagger}
       >
         <div className="card-title">
-          <h2>{title}</h2>
+          <h2>{t(title)}</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="70"
@@ -40,7 +42,7 @@ export function Card({ title, description }: CardContent) {
           </svg>
         </div>
         <div className="card-text">
-          <p>{description}</p>
+          <p>{t(description)}</p>
         </div>
       </motion.div>
     </>

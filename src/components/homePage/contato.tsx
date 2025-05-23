@@ -3,6 +3,7 @@ import linkedin from "@/assets/icons/linkedin.svg";
 import email from "@/assets/icons/email.svg";
 import phone from "@/assets/icons/phone.svg";
 import { motion } from "framer-motion";
+import { t } from "i18next";
 
 export function Contact() {
   return (
@@ -21,15 +22,9 @@ export function Contact() {
         <div className="contact-banner">
           <div className="get-in-touch">
             <div className="get-in-touch-text">
-              <h2>Entre em Contato</h2>
-              <p>
-                Será um prazer conversarmos para entender seus desafios e
-                elaborarmos uma solução para eles.
-              </p>
-              <p>
-                Gostaria de firmar uma parceria ou entrar em contato? Utilize os
-                canais abaixo.
-              </p>
+              <h2>{t("contact.title")}</h2>
+              <p>{t("contact.text1")}</p>
+              <p>{t("contact.text2")}</p>
             </div>
           </div>
           <div className="img-contant">
@@ -47,7 +42,9 @@ export function Contact() {
             <img src={phone} alt="" />
           </div>
           <div className="form">
-            <a href="mailto:lucasm.ramires@hotmail.com">Lucasm.ramires@hotmail.com</a>
+            <a href="mailto:lucasm.ramires@hotmail.com">
+              Lucasm.ramires@hotmail.com
+            </a>
             <img src={email} alt="" />
           </div>
         </div>

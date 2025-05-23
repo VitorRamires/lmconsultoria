@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { aboutInformation } from "../../utils/about.ts";
 import { motion } from "framer-motion";
+import { Trans, useTranslation } from "react-i18next";
 
 export function Sobre() {
   const [aboutOption, setAboutOption] = useState("resumo");
+  const { t } = useTranslation();
 
   const age =
     new Date().getFullYear() -
@@ -23,7 +25,7 @@ export function Sobre() {
           whileInView={{ opacity: 1 }}
           viewport={{ margin: "-100px", once: true }}
         >
-          Sobre Mim
+          {t("aboutTitle")}
         </motion.h2>
 
         <div className="about-decoration"></div>
@@ -32,7 +34,7 @@ export function Sobre() {
             className={`resume ${aboutOption === "resumo" ? "optionOn" : ""}`}
             data-option="resumo"
           >
-            <p>{aboutInformation.resume}</p>
+            <p>{t("aboutInfo.resume")}</p>
           </div>
 
           <div
@@ -42,7 +44,7 @@ export function Sobre() {
             data-option="resultados"
           >
             {aboutInformation.results.map((result, index) => (
-              <p key={index}>{result}</p> // Adiciona uma key única
+              <p key={index}>{t(result)}</p>
             ))}
           </div>
 
@@ -56,9 +58,9 @@ export function Sobre() {
                   <span>Soft</span> skills
                 </h3>
                 <div className="soft-skills-wrapper">
-                  {aboutInformation.skills.softskills.map((skill, index) => (
+                  {aboutInformation.skills.softSkills.map((skill, index) => (
                     <div className="skill" key={index}>
-                      {skill}
+                      {t(skill)}
                     </div>
                   ))}
                 </div>
@@ -68,9 +70,9 @@ export function Sobre() {
                   <span>Hard</span> skills
                 </h3>
                 <div className="hard-skills-wrapper">
-                  {aboutInformation.skills.hardskills.map((skill, index) => (
+                  {aboutInformation.skills.hardSkills.map((skill, index) => (
                     <div className="skill" key={index}>
-                      {skill}
+                      {t(skill)}
                     </div>
                   ))}
                 </div>
@@ -81,16 +83,16 @@ export function Sobre() {
 
         <div className="extra-details">
           <p>
-            Expêriencia como Gerente: <span>3 anos</span>
+            <Trans i18nKey="aboutInfo.extra.expDetail" components={{ span: <span /> }} />
           </p>
           <p>
-            Línguas: <span>Português e Inglês</span>
+            <Trans i18nKey="aboutInfo.extra.langDetail" components={{ span: <span /> }} />
           </p>
           <p>
-            Alcance: <span>Internacional</span>
+            <Trans i18nKey="aboutInfo.extra.reach" components={{ span: <span /> }} />
           </p>
           <p>
-            Idade: <span>{age} anos</span>
+            {t("aboutInfo.extra.yearsOld.age")}: <span>{age}  {t("aboutInfo.extra.yearsOld.year")}</span>
           </p>
         </div>
 
@@ -102,7 +104,7 @@ export function Sobre() {
             }`}
             data-option="resumo"
           >
-            <p>Resumo</p>
+            <p>{t("aboutInfo.buttons.btnResume")}</p>
           </div>
           <div
             onClick={handleAboutChanger}
@@ -111,7 +113,7 @@ export function Sobre() {
             }`}
             data-option="resultados"
           >
-            <p>Resultados</p>
+            <p>{t("aboutInfo.buttons.btnResults")}</p>
           </div>
           <div
             onClick={handleAboutChanger}
@@ -120,7 +122,7 @@ export function Sobre() {
             }`}
             data-option="skills"
           >
-            <p>Skills</p>
+            <p>{t("aboutInfo.buttons.btnSkills")}</p>
           </div>
         </div>
       </div>

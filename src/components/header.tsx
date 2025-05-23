@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-   const location = useLocation(); 
+  const location = useLocation();
   const [activeSection, setActiveSection] = useState<string>(
     location.hash || "#home"
   );

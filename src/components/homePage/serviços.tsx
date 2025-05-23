@@ -1,6 +1,7 @@
 import serviceImg from "@/assets/images/serviços-bg.png";
 import { servicesInformation } from "../../utils/services";
 import { motion } from "framer-motion";
+import { t } from "i18next";
 
 export function Services() {
   return (
@@ -18,7 +19,7 @@ export function Services() {
 
             <div className="services-box">
               <div className="title-services">
-                <h2>Serviços Prestados</h2>
+                <h2>{t("services.title")}</h2>
               </div>
 
               <motion.div
@@ -34,7 +35,7 @@ export function Services() {
                 {servicesInformation.map((service) => {
                   return (
                     <div className="service" key={service}>
-                      <p>{service}</p>
+                      <p>{t(service)}</p>
                     </div>
                   );
                 })}

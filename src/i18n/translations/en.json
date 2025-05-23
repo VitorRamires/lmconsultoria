@@ -1,0 +1,115 @@
+{
+  "translation": {
+    "titleBanner": "<span>International</span> Manager and Delivery Manager",
+
+    "cards": {
+      "estrategia": {
+        "title": "Strategy",
+        "description": "Strategy and planning are fundamental for the success of projects, as they guide decisions, optimize resources, reduce risks, and ensure efficient deliveries aligned with business objectives."
+      },
+      "crescimento": {
+        "title": "Growth",
+        "description": "The growth of projects and the portfolio is essential to expand market presence, diversify opportunities, increase competitiveness, and ensure the business’s continuous sustainability and innovation."
+      },
+      "satisfacao": {
+        "title": "Satisfaction",
+        "description": "Customer satisfaction is essential for the success of any project, as it strengthens trust, builds loyalty, generates recommendations, and drives new opportunities and sustainable growth."
+      },
+      "financeiro": {
+        "title": "Financial",
+        "description": "Financial health is vital for the viability and success of projects. It ensures cost control, profitability, efficient use of resources, and strategic decisions, increasing predictability and reducing risks."
+      },
+      "resultados": {
+        "title": "Results",
+        "description": "Positive results reflect the success of the project, meet objectives, add value to the client, and ensure sustainability. They motivate the team, strengthen credibility, and open doors to new opportunities and projects."
+      }
+    },
+
+    "aboutTitle": "About me",
+    "aboutInfo": {
+      "resume": "Working as a project and operations manager, I have gained national and international experience with clients from LATAM and the USA. I have led projects in various technologies, including SAP, ServiceNow, RPA, OutSystems, Salesforce, and application modernization, always focusing on efficiency and innovation. My work has generated savings of around R$ 6 billion for clients, in addition to managing contracts exceeding R$ 100 million.\n\nWith over 8 years of leadership experience, I have had the opportunity to manage teams totaling more than 300 professionals in projects across different sectors. My background as a developer and tech lead for four years strengthens my technical profile, providing an in-depth understanding of the operational challenges of projects.\n\nThroughout my career, I have developed solid expertise in operations leadership, team and project management, as well as client relations. I have been directly involved in various initiatives, from e-commerce to process automation and SaaS solutions. As a process automation specialist, I also have experience in Pre-Sales, contributing to the closing of medium and large contracts. My decision-making is data and statistics-driven, ensuring strategic alignment and optimization of results.\n\nAdditionally, I work on training new managers and leaders, delivering training for qualification and development in the job market.",
+      "results": {
+        "0": "Implementation of E-Commerce in companies, generating over R$ 2.4 million in annual revenue.",
+        "1": "Management of TCS's pioneering contract with Petrobras in HyperAutomation.",
+        "2": "Manager of a global project case that saved over R$ 5.78 billion for an oil and gas client, in addition to saving more than R$ 120 million in just 3 weeks.",
+        "3": "Improvement of financial margins by over 400%.",
+        "4": "Reduction of over 2 million work hours through process automation for clients."
+      },
+      "skills": {
+        "softSkills": {
+          "0": "Communication and Public Speaking",
+          "1": "Conflict Management",
+          "2": "Conflict Management",
+          "3": "Team Management and Leadership",
+          "4": "Emotional Intelligence",
+          "5": "Continuous Improvement",
+          "6": "Tactical Relationship Vision",
+          "7": "Productivity"
+        },
+        "hardSkills": {
+          "0": "COE, ITIL & BPM",
+          "1": "Contracts",
+          "2": "Financial Control",
+          "3": "Process Definition and Improvement",
+          "4": "Estimates, Goals and KPIs",
+          "5": "Financial Strategy",
+          "6": "1-1 Feedback",
+          "7": "Delivery Flow",
+          "8": "MySQL, Python, Javascript & PHP",
+          "9": "Client Negotiation",
+          "10": "PMO, PDCA & SDLC",
+          "11": "Pre-Sales, Financial Reports",
+          "12": "Scrum, Kanban, Lean, Waterfall",
+          "13": "Pricing and Budgeting",
+          "14": "Digital Transformation",
+          "15": "Training and Mentoring"
+        }
+      },
+      "buttons": {
+        "btnResume": "Resume",
+        "btnResults": "Results",
+        "btnSkills": "Skills"
+      },
+      "extra": {
+        "expDetail": "Experience as Manager: <span>3 years</span>",
+        "langDetail": "Languages: <span>Portuguese and English</span>",
+        "reach": "Reach: <span>International</span>",
+        "yearsOld": {
+          "age": "age",
+          "year": "years"
+        }
+      }
+    },
+
+    "techTitle": "Technologies",
+
+    "homePageProject": {
+      "title": "Discover the projects",
+      "text": "I invite you to learn a little more about my work in practical terms, where I present the various clients for whom I have worked with project management and digital transformation consultancy, as well as a summary of the activities carried out for each of them.",
+      "btn": "Visit the Projects"
+    },
+
+    "services": {
+      "title": "Provided Services",
+      "serviceList": {
+        "0": "Project and Delivery Management (SCRUM, Waterfall, Lean & Smart)",
+        "1": "Management of Multidisciplinary Teams.",
+        "2": "Leadership and Pre-Sales Training and Qualification.",
+        "3": "Business Management Consulting.",
+        "4": "Development of Business Strategies.",
+        "5": "Implementation and Development of Indicators.",
+        "6": "Digital Transformation.",
+        "7": "Process Mapping and Improvement.",
+        "8": "Workflow Automation.",
+        "9": "Volunteering for IT Job Market Replacement."
+      }
+    },
+
+    "contact": {
+      "title": "Get in touch",
+      "text1": "It will be a pleasure to talk and understand your challenges so we can develop a solution for them.",
+      "text2": "Would you like to establish a partnership or get in touch? Use the channels below."
+    }
+
+  }
+}

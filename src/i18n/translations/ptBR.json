@@ -1,0 +1,114 @@
+{
+  "translation": {
+    "titleBanner": "<span>Internacional</span> Manager e Delivery Manager",
+
+    "cards": {
+      "estrategia": {
+        "title": "Estratégia",
+        "description": "Estratégia e planejamento são fundamentais para o sucesso dos projetos, pois orientam decisões, otimizam recursos, reduzem riscos e garantem entregas eficientes alinhadas aos objetivos do negócio."
+      },
+      "crescimento": {
+        "title": "Crescimento",
+        "description": "O crescimento dos projetos e do portfólio é essencial para ampliar a presença no mercado, diversificar oportunidades, aumentar a competitividade e garantir a sustentabilidade e inovação contínua do negócio."
+      },
+      "satisfacao": {
+        "title": "Satisfação",
+        "description": "A satisfação do cliente é essencial para o sucesso de qualquer projeto, pois fortalece a confiança, fideliza, gera recomendações e impulsiona novas oportunidades e crescimento sustentável."
+      },
+      "financeiro": {
+        "title": "Financeiro",
+        "description": "A saúde financeira é vital para a viabilidade e sucesso dos projetos. Garante o controle de custos, rentabilidade, uso eficiente dos recursos e decisões estratégicas, aumentando a previsibilidade e reduzindo riscos."
+      },
+      "resultados": {
+        "title": "Resultados",
+        "description": "Resultados positivos refletem o sucesso do projeto, atendem objetivos, agregam valor ao cliente e garantem sustentabilidade. Motivam a equipe, fortalecem a credibilidade e abrem portas para novas oportunidades e projetos."
+      }
+    },
+
+    "aboutTitle": "Sobre mim",
+    "aboutInfo": {
+      "resume": "Atuando como gestor de projetos e operações, adquiri experiência nacional e internacional com clientes da LATAM e dos EUA. Liderei projetos em diversas tecnologias, incluindo SAP, ServiceNow, RPA, OutSystems, Salesforce e modernização de aplicações, sempre com foco em eficiência e inovação. Minha atuação gerou economias da ordem de R$ 6 bilhões para clientes, além da gestão de contratos que ultrapassam R$ 100 milhões.\n\nCom mais de 8 anos de experiência em liderança, já tive a oportunidade de gerenciar equipes que somam mais de 300 profissionais em projetos de diversos segmentos. Minha vivência como desenvolvedor e tech lead por quatro anos fortalece meu perfil técnico, proporcionando uma visão aprofundada dos desafios operacionais dos projetos.\n\nAo longo da minha trajetória, desenvolvi sólida expertise em liderança de operações, gestão de equipes e projetos, além de relacionamento com clientes. Atuei diretamente em iniciativas variadas, desde e-commerces até automação de processos e soluções SaaS. Especialista em automação de processos, também possuo experiência em Pré-Sales, contribuindo para o fechamento de contratos de médio e grande porte. Minha tomada de decisão é orientada por dados e estatísticas, garantindo alinhamento estratégico e otimização de resultados.\n\nAlém disso, atuo na formação de novos gestores e líderes, ministrando treinamentos para capacitação e desenvolvimento no mercado de trabalho.",
+      "results": {
+        "0": "Implementação de E-Commerce em empresas, rentabilizando mais de R$ 2,4 milhões anuais.",
+        "1": "Gestão do contrato pioneiro da TCS com a Petrobras, em HiperAutomação.",
+        "2": "Gestor de case global de projeto onde economizou-se mais de R$ 5.78 bilhões de reais em cliente de óleo e gás, além de economizar mais de R$ 120 milhões de reais em apenas 3 semanas.",
+        "3": "Melhoria de margens financeiras na ordem de +400%.",
+        "4": "Redução de +2M de horas de trabalho com automações de processos em clientes."
+      },
+      "skills": {
+        "softSkills": {
+          "0": "Comunicação e Oratória",
+          "1": "Gestão de Conflitos",
+          "2": "Gestão de Conflitos",
+          "3": "Gestão e Liderança de Equipes",
+          "4": "Inteligência Emocional",
+          "5": "Melhoria Contínua",
+          "6": "Visão Tática de Relacionamento",
+          "7": "Produtividade"
+        },
+        "hardSkills": {
+          "0": "COE, ITIL & BPM",
+          "1": "Contratos",
+          "2": "Controle Financeiro",
+          "3": "Definição e Melhoria de Processos",
+          "4": "Estimativas, Metas e KPIs",
+          "5": "Estratégia Financeira",
+          "6": "Feedback 1-1",
+          "7": "Fluxo de Entrega",
+          "8": "MySQL, Python, Javascript & PHP",
+          "9": "Negociação com Clientes",
+          "10": "PMO, PDCA & SDLC",
+          "11": "Pré-Vendas, Reports Financeiros",
+          "12": "Scrum, Kanban, Lean, Waterfall",
+          "13": "Precificação e Orçamento",
+          "14": "Transformação Digital",
+          "15": "Treinamentos e Mentorias"
+        }
+      },
+      "buttons": {
+        "btnResume": "Resumo",
+        "btnResults": "Resultados",
+        "btnSkills": "Skills"
+      },
+      "extra": {
+        "expDetail": "Expêriencia como Gerente: <span>3 anos</span>",
+        "langDetail": "Línguas: <span>Português e Inglês</span>",
+        "reach": "Alcance: <span>Internacional</span>",
+        "yearsOld": {
+          "age": "idade",
+          "year": "anos"
+        }
+      }
+    },
+
+    "techTitle": "Tecnologias",
+
+    "homePageProject": {
+      "title": "Conheça os projetos",
+      "text": "Convido você a conhecer um pouco mais do meu trabalho em linhas práticas, onde apresento os diversos clientes dos quais atuei com gestão de projetos e consultoria em transformação digital, bem como um resumo das atividades realizadas em cada um deles.",
+      "btn": "Visitar os Projetos"
+    },
+
+    "services": {
+      "title": "Serviços Prestados",
+      "serviceList": {
+        "0": "Gerenciamento de Projetos e Delivery (SCRUM, Waterfall, Lean & Smart)",
+        "1": "Gerenciamento de Equipes Multidisciplinares.",
+        "2": "Treinamentos e Capacitação de Lideranças e Pré-Sales.",
+        "3": "Consultoria de Gestão Empresarial.",
+        "4": "Elaboração de Estratégias de Negócios.",
+        "5": "Implementação e Elaboração de Indicadores.",
+        "6": "Transformação Digital.",
+        "7": "Mapeamento e Melhoria de Procesos.",
+        "8": "Automação de Fluxos de Trabalho.",
+        "9": "Voluntariado para Recolocação no Mercado de Trabalho em TI."
+      }
+    },
+
+    "contact": {
+      "title": "Entre em contato",
+      "text1": "Será um prazer conversarmos para entender seus desafios e elaborarmos uma solução para eles.",
+      "text2": "Gostaria de firmar uma parceria ou entrar em contato? Utilize os canais abaixo."
+    }
+  }
+}
