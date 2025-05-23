@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { data } from "../../utils/chartData.ts";
 export function MobileSegment() {
   return (
@@ -6,7 +7,7 @@ export function MobileSegment() {
         return (
           <div className="mobile-segment" key={index}>
             <div className="segment-name">
-              <h3>{segment.name}</h3>
+              <h3>{t(segment.name)}</h3>
             </div>
             <div className="quantity">
               <p>{segment.quantidade}</p>

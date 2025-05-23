@@ -106,9 +106,47 @@
     },
 
     "contact": {
-      "title": "Entre em contato",
+      "title": "Entre em Contato",
       "text1": "Será um prazer conversarmos para entender seus desafios e elaborarmos uma solução para eles.",
       "text2": "Gostaria de firmar uma parceria ou entrar em contato? Utilize os canais abaixo."
+    },
+
+    "project": {
+      "mainTitle": "Atuação",
+      "titleSegments": "Segmentos e Quantidade",
+      "titleTypes": "Tipos e Quantidade",
+      "titleSectors": "Setores",
+      "sectors": {
+        "conformidade": "Conformidade",
+        "educacao": "Educação",
+        "estrategia": "Estratégia",
+        "financas": "Finanças",
+        "governanca": "Governança",
+        "juridico": "Jurídico",
+        "logistica": "Logística",
+        "rh": "RH",
+        "servicos": "Serviços",
+        "suprimentos": "Suprimentos",
+        "tecnologia": "Tecnologia"
+      },
+      "chartData": {
+        "energia": "Energia",
+        "tecnologia": "Tecnologia",
+        "industrial": "Industrial",
+        "financeiro": "Financeiro",
+        "seguro": "Seguro",
+        "agricola": "Agrícola",
+        "farma": "Farma",
+        "cosmeticos": "Cosméticos",
+        "automotiva": "Automotiva",
+        "turismo": "Turismo"
+      }
+    },
+
+    "specificProject": {
+      "tecnologia": "Tecnologia",
+      "cliente": "Cliente",
+      "segmento": "Segmento"
     }
   }
 }

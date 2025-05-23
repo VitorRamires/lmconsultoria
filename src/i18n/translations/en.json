@@ -106,10 +106,43 @@
     },
 
     "contact": {
-      "title": "Get in touch",
+      "title": "Get in Touch",
       "text1": "It will be a pleasure to talk and understand your challenges so we can develop a solution for them.",
       "text2": "Would you like to establish a partnership or get in touch? Use the channels below."
+    },
+
+    "project": {
+      "mainTitle": "Performance",
+      "titleSegments": "Segments and Quantity",
+      "titleTypes": "Types and Quantity",
+      "titleSectors": "Sectors",
+      "sectors": {
+        "conformidade": "Compliance",
+        "educacao": "Education",
+        "estrategia": "Strategy",
+        "financas": "Finance",
+        "governanca": "Governance",
+        "juridico": "Legal",
+        "logistica": "Logistics",
+        "rh": "HR",
+        "servicos": "Services",
+        "suprimentos": "Supplies",
+        "tecnologia": "Technology"
+      },
+      "chartData": {
+        "energia": "Energy",
+        "tecnologia": "Technology",
+        "industrial": "Industrial",
+        "financeiro": "Financial",
+        "seguro": "Insurance",
+        "agricola": "Agricultural",
+        "farma": "Pharma",
+        "cosmeticos": "Cosmetics",
+        "automotiva": "Automotive",
+        "turismo": "Tourism"
+      }
     }
 
+    
   }
 }

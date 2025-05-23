@@ -3,6 +3,7 @@ import { sectors } from "../../utils/sectors";
 import { ProjectType } from "./project_type";
 import { MobileSegment } from "../charts/mobile-segment";
 import { useEffect, useState } from "react";
+import { t } from "i18next";
 
 export function Activity() {
   const [matchMediaSize, setMatchMediaSize] = useState<boolean>(false);
@@ -20,23 +21,23 @@ export function Activity() {
     <>
       <div className="activity-area">
         <div className="title-activity">
-          <h2>Atuação</h2>
+          <h2>{t("project.mainTitle")}</h2>
         </div>
         <div className="activity-box">
           <div className="segments activity-item">
-            <p className="activity-item-title">Segmentos e Quantidade</p>
+            <p className="activity-item-title">{t("project.titleSegments")}</p>
             {matchMediaSize ? <MobileSegment /> : <Chart />}
           </div>
           <div className="sectors activity-item">
-            <p className="activity-item-title">Setores</p>
+            <p className="activity-item-title">{t("project.titleSectors")}</p>
             <ul>
               {sectors.map((sector) => {
-                return <li key={sector}>{sector}</li>;
+                return <li key={sector}>{t(sector)}</li>;
               })}
             </ul>
           </div>
           <div className="project-types activity-item">
-            <p className="activity-item-title">Tipos e Quantidade</p>
+            <p className="activity-item-title">{t("project.titleTypes")}</p>
             <ProjectType />
           </div>
         </div>

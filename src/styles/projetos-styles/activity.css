@@ -38,7 +38,7 @@
   padding: 0 35px;
 }
 
-.activity-item p:not(.type p, .quantities p, .mobile-segment p) {
+.activity-item p:not(.type p, .Quantity p, .mobile-segment p) {
   margin-bottom: 25px;
   color: #c2c2c2;
   font-family: "Arial";
@@ -153,7 +153,7 @@
 }
 
 .type .type-name,
-.type .quantities {
+.type .Quantity {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,7 +170,7 @@
   width: 100%;
 }
 
-.type .quantities {
+.type .Quantity {
   width: 30%;
   background-color: #d9d9d9;
   color: var(--backgroundColor);
@@ -253,7 +253,7 @@
     height: unset;
   }
 
-  .type .quantities {
+  .type .Quantity {
     width: 100%;
   }
 

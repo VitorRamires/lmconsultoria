@@ -10,7 +10,7 @@ export function ProjectType() {
               <div className="type-name">
                 <p>{project.tipo}</p>
               </div>
-              <div className="quantities">
+              <div className="Quantity">
                 <p>{project.quantidade}</p>
               </div>
             </div>
