@@ -1,8 +1,10 @@
 import { Footer } from "../footer.tsx";
 import { ExperiencieList } from "./experince-list.tsx";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function Experiences() {
+  const { t } = useTranslation();
   return (
     <>
       <section className="experiencias" id="experience">
@@ -13,7 +15,7 @@ export function Experiences() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              Experiências
+              {t("pageTitles.exp")}
             </motion.h2>
             <motion.div
               initial={{ width: 0 }}

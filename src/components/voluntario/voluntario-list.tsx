@@ -1,7 +1,10 @@
 import { volunteer } from "../../utils/volunteer";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function VolunteerList() {
+   const { t } = useTranslation();
+
   return (
     <div className="volunteer-list-wrapper">
       <div className="center">
@@ -10,19 +13,14 @@ export function VolunteerList() {
           whileInView={{ x: 0, opacity: 1, transition: { delay: 0.3 } }}
           className="recolocation"
         >
-          <h3 className="volunteer-title">
-            Mentoria de Recolocação no Mercado de Trabalho (TI)
-          </h3>
+          <h3 className="volunteer-title">{t("volunteer.title1")}</h3>
           <div className="recolocation-box">
-            <h4>
-              Ajudo as pessoas a se recolocarem no mercado de TI, auxiliando em
-              itens como:
-            </h4>
+            <h4>{t("volunteer.volunteerText")}</h4>
             <div className="recolocation-list">
               <ul>
                 {volunteer.map((item, index) => (
                   <li key={index}>
-                    <span>{item.item}</span>
+                    <span>{t(item.item)}</span>
                   </li>
                 ))}
               </ul>
@@ -35,12 +33,8 @@ export function VolunteerList() {
           viewport={{ once: true, amount: 0.2 }}
           className="leader-formation"
         >
-          <h3 className="volunteer-title">Mentoria de Formação de Líderes</h3>
-          <p>
-            Realizo mentorias com outras pessoas para trocarmos ideias e
-            experiências acerca da formação de uma liderança voltada à pessoas e
-            ampliando a visão macro em responsabilidades mais gerenciais.
-          </p>
+          <h3 className="volunteer-title">{t("volunteer.title2")}</h3>
+          <p>{t("volunteer.volunteerText2")}</p>
         </motion.div>
       </div>
     </div>

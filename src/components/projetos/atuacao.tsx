@@ -3,11 +3,12 @@ import { sectors } from "../../utils/sectors";
 import { ProjectType } from "./project_type";
 import { MobileSegment } from "../charts/mobile-segment";
 import { useEffect, useState } from "react";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export function Activity() {
   const [matchMediaSize, setMatchMediaSize] = useState<boolean>(false);
   const widthMedia = window.matchMedia("(max-width: 750px)");
+   const { t } = useTranslation();
 
   useEffect(() => {
     setMatchMediaSize(widthMedia.matches);

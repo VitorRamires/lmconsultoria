@@ -1,8 +1,9 @@
-import { t } from "i18next";
 import { technologies } from "../../utils/technologies";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function Technologies() {
+  const { t } = useTranslation();
   const techs = technologies;
   const animateStagger = {
     initial: { opacity: 0, y: "-15%" },

@@ -313,6 +313,11 @@
   .project-description p {
     font-size: 0.9rem;
   }
+
+  .project-content-header,
+  .center-header-fixed {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -320,7 +325,16 @@
     text-align: center;
   }
 
+  .client-project img {
+    width: 30px;
+  }
+
   .client-project {
-    justify-content: center;
+    justify-content: start;
+  }
+
+  .project-content-header .center,
+  .center-header-fixed {
+    align-items: start;
   }
 }

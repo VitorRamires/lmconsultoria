@@ -8,12 +8,14 @@ import { Content } from "./content.jsx";
 import { useRef, useState, useEffect } from "react";
 
 import arrow from "@/assets/icons/arrow.svg";
+import { useTranslation } from "react-i18next";
 
 export function SliderProjects() {
   const [activeIndex, setActiveIndex] = useState(0);
   const swiperRef = useRef<SwiperType | null>(null);
   const [showFixedButtons, setShowFixedButtons] = useState(false);
   const swiperContainerRef = useRef<HTMLDivElement | null>(null);
+   const { t } = useTranslation();
 
   useEffect(() => {
     function onScroll() {
@@ -44,7 +46,7 @@ export function SliderProjects() {
   return (
     <>
       <div className="know-titles">
-        <h2>Conheça meus Projetos</h2>
+        <h2>{t("knowProjects")}</h2>
       </div>
 
       <div

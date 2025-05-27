@@ -1,23 +1,23 @@
 export const volunteer = [
   {
-    item: "Reestruturação do perfil no LinkedIn",
+    item: "volunteer.volunteerList.0",
   },
   {
-    item: "Aprimoramento da organização de informações no currículo;",
+    item: "volunteer.volunteerList.1",
   },
   {
-    item: "Criação conexões e networking com recrutadores de diversos segmentos;",
+    item: "volunteer.volunteerList.2",
   },
   {
-    item: "Dicas de como se apresentar e ter um bom desempenho em uma entrevista;",
+    item: "volunteer.volunteerList.3",
   },
   {
-    item: "Apresentação dos diversos tipos de abordagens, para diversas vagas de emprego;",
+    item: "volunteer.volunteerList.4",
   },
   {
-    item: "Apoio no entendimento da conexão entre o conhecimento da pessoa com o cargo/atribuição que ela traçou como meta;",
+    item: "volunteer.volunteerList.5",
   },
   {
-    item: "Acompanhamento de ponta a ponta o profissional, até o momento da aceitação da proposta de emprego.",
+    item: "volunteer.volunteerList.6",
   },
 ];

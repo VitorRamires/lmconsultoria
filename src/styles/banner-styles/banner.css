@@ -27,11 +27,6 @@
   gap: 35px;
 }
 
-.name {
-  line-height: 75px;
-  margin-bottom: 20px;
-}
-
 .name-role {
   width: 100%;
   display: flex;
@@ -67,11 +62,13 @@
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  line-height: 75px;
+  margin-bottom: 20px;
 }
 
 .role {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .main-image {
@@ -116,6 +113,21 @@
   max-width: 100%;
 }
 
+@media screen and (max-width: 1270px) {
+  .name {
+    font-size: 4rem;
+  }
+
+  .role {
+    font-size: 1.5rem;
+  }
+
+  .view.name-role::after,
+  .view.name-role::before {
+    width: 10%;
+  }
+}
+
 @media screen and (max-width: 1120px) {
   .name-role::after,
   .name-role::before {
@@ -136,11 +148,12 @@
 
 @media screen and (max-width: 750px) {
   .name {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 55px;
   }
 
   .role {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 

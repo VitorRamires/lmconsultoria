@@ -1,6 +1,7 @@
-import { t } from "i18next";
 import { data } from "../../utils/chartData.ts";
+import { useTranslation } from "react-i18next";
 export function MobileSegment() {
+  const { t } = useTranslation();
   return (
     <>
       {data.map((segment, index) => {

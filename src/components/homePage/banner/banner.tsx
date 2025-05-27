@@ -4,11 +4,12 @@ import { BannerCards } from "./cards";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 export function Banner() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-20px" });
+  const { t } = useTranslation();
   return (
     <>
       <div className="banner" id="home">

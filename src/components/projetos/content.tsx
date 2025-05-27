@@ -1,5 +1,6 @@
 import { projectsInfos } from "../../utils/projects-infos";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface ActualSlide {
   actualSlide: number;
@@ -9,6 +10,7 @@ interface ActualSlide {
 export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
   const actualProject = projectsInfos[actualSlide];
   const techsVerification = projectsInfos[actualSlide].techs.length > 0;
+   const { t } = useTranslation();
 
   return (
     <>
@@ -20,16 +22,20 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
         >
           <div className="center">
             <p>
-              Tecnologia: <span> {actualProject.extras[0]}</span>
+              {t("techTitle")}: <span> {actualProject.extras[0]}</span>
             </p>
 
             <p className="client-project">
-              Cliente: <span> {actualProject.projeto}</span>
-              <img src={actualProject.pais} className="country" alt="icon country" />
+              {t("clientTitle")}: <span> {actualProject.projeto}</span>
+              <img
+                src={actualProject.pais}
+                className="country"
+                alt="icon country"
+              />
             </p>
 
             <p>
-              Segmento: <span> {actualProject.extras[2]}</span>
+              {t("segmentTitle")}: <span>{t(actualProject.extras[2])}</span>
             </p>
           </div>
         </div>
@@ -46,23 +52,27 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
           >
             <div className={`center project-info ${actualSlide}`}>
               <div className="project-objectives">
-                <h2 className="project-h2">Objetivos do Projeto</h2>
+                <h2 className="project-h2">
+                  {t("projectsInfo.objectives.objectiveTitle")}
+                </h2>
                 <ul>
-                  {actualProject.objetivos.map((objective, index) => {
-                    return <li key={index}>{objective}</li>;
-                  })}
+                  {actualProject.objetivos.map((objective, index) => (
+                    <li key={index}>{t(objective)}</li>
+                  ))}
                 </ul>
               </div>
               <div className="separated-line"></div>
               <div className="project-description">
-                <h2 className="project-h2">Sobre o Projeto</h2>
-                <p>{actualProject.descricao}</p>
+                <h2 className="project-h2">
+                  {t("projectsInfo.description.titleDescription")}
+                </h2>
+                <p>{t(actualProject.descricao)}</p>
               </div>
             </div>
 
             <div className="tecnologies-related">
               <div className="center">
-                <p>Tecnologias relacionadas</p>
+                <p>{t("projectsInfo.techTitle")}</p>
                 <div className="tech-related-wrapper">
                   {techsVerification ? (
                     projectsInfos[actualSlide].techs.map((tech, index) => {
@@ -91,16 +101,20 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
       >
         <div className="center-header-fixed">
           <p>
-            Core: <span> {actualProject.extras[0]}</span>
+            {t("techTitle")}: <span> {actualProject.extras[0]}</span>
           </p>
 
           <p className="client-project">
-            Cliente: <span> {actualProject.projeto}</span>
-            <img src={actualProject.pais} alt="icon country" />
+            {t("clientTitle")}: <span> {actualProject.projeto}</span>
+            <img
+              src={actualProject.pais}
+              className="country"
+              alt="icon country"
+            />
           </p>
 
           <p>
-            Segmento: <span> {actualProject.extras[2]}</span>
+            {t("segmentTitle")}: <span>{t(actualProject.extras[2])}</span>
           </p>
         </div>
       </div>

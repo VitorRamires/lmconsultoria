@@ -256,9 +256,7 @@
   .soft-skills h3 {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 750px) {
   .about h2::after,
   .about h2::before {
     display: none;
@@ -267,7 +265,9 @@
   .about h2 {
     justify-content: center;
   }
+}
 
+@media screen and (max-width: 750px) {
   .about {
     padding: 185px 0 20px 0;
   }
@@ -294,5 +294,9 @@
 
   .skill {
     margin-bottom: 20px;
+  }
+
+  .extra-details{
+    font-size: 0.8rem;
   }
 }

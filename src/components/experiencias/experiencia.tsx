@@ -1,5 +1,6 @@
 import { useInView } from "motion/react";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Experience {
   role: string;
@@ -14,6 +15,7 @@ interface ExperienciaProps {
 export function Experiencia({ experience }: ExperienciaProps) {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-20px" });
+  const { t } = useTranslation();
 
   return (
     <div
@@ -22,14 +24,14 @@ export function Experiencia({ experience }: ExperienciaProps) {
     >
       <div className="dados-experiencia">
         <article className="infos-expx">
-          <h2 className="cargo">{experience.role}</h2>
-          <h3 className="empresa">{experience.company}</h3>
+          <h2 className="cargo">{t(experience.role)}</h2>
+          <h3 className="empresa">{t(experience.company)}</h3>
         </article>
         <article className="descritivo">
           <ul>
             {experience.activitys.map((activity: string, idx: number) => (
               <li className="atividade" key={idx}>
-                {activity}
+                {t(activity)}
               </li>
             ))}
           </ul>

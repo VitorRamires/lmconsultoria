@@ -172,6 +172,12 @@ img {
   align-self: flex-end;
 }
 
+@media screen and (max-width: 450px) {
+  .title-page {
+    font-size: 1.6rem;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .title-page {
     width: 90%;

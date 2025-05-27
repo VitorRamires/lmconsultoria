@@ -3,9 +3,10 @@ import linkedin from "@/assets/icons/linkedin.svg";
 import email from "@/assets/icons/email.svg";
 import phone from "@/assets/icons/phone.svg";
 import { motion } from "framer-motion";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export function Contact() {
+   const { t } = useTranslation();
   return (
     <>
       <motion.div

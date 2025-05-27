@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export function ProjectsHome() {
+   const { t } = useTranslation();
   return (
     <>
       <div className="projects-home">

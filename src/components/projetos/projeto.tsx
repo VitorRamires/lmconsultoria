@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { Footer } from "../footer";
 import { Activity } from "./atuacao";
 import { SliderProjects } from "./slider_projects";
 import { motion } from "framer-motion";
 
 export function Project() {
+   const { t } = useTranslation();
   return (
     <>
       <div className="page-banner project-banner" id="project">
@@ -13,7 +15,7 @@ export function Project() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Projetos
+            {t("pageTitles.project")}
           </motion.h2>
           <motion.div
             initial={{ width: 0 }}

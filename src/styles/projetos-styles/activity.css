@@ -89,7 +89,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 0.5fr;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 1.2rem;
   padding: 0 30px;
 }
@@ -110,6 +110,7 @@
   align-items: center;
   justify-content: center;
   padding: 15px 5px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.253);
 }
 
 .recharts-responsive-container {
@@ -121,11 +122,12 @@
   width: 100%;
   text-align: center;
   background-color: #252525;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 15px 5px;
   font-size: 1.4rem;
   color: #c9c9c9;
   font-family: "Arial Light";
+  border-left: 1px solid var(--blue2);
 }
 
 .project-types {

@@ -104,6 +104,7 @@
 .cargo {
   font-size: 2rem;
   font-family: "Arial Bold";
+  margin-bottom: 8px;
 }
 
 .empresa {
@@ -164,7 +165,7 @@
   }
 
   .cargo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .empresa {

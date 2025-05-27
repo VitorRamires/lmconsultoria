@@ -1,22 +1,22 @@
 export const cardsData = [
   {
-    title: "cards.estrategia.title",
-    description: "cards.estrategia.description",
+    title: "cards.0.title",
+    description: "cards.0.description",
   },
   {
-    title: "cards.crescimento.title",
-    description: "cards.crescimento.description",
+    title: "cards.1.title",
+    description: "cards.1.description",
   },
   {
-    title: "cards.satisfacao.title",
-    description: "cards.satisfacao.description",
+    title: "cards.2.title",
+    description: "cards.2.description",
   },
   {
-    title: "cards.financeiro.title",
-    description: "cards.financeiro.description",
+    title: "cards.3.title",
+    description: "cards.3.description",
   },
   {
-    title: "cards.resultados.title",
-    description: "cards.resultados.description",
+    title: "cards.4.title",
+    description: "cards.4.description",
   },
 ];

@@ -1,8 +1,10 @@
-//import BrasilFlag from "../assets/icons/br.svg";
-//import EuaFlag from "../assets/icons/us.svg";
+import { t } from "i18next";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import eua from "@/assets/icons/us.svg";
+import brasil from "@/assets/icons/br.svg";
+import { useTranslation } from "react-i18next";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -10,6 +12,8 @@ export function Header() {
   const [activeSection, setActiveSection] = useState<string>(
     location.hash || "#home"
   );
+  const { i18n } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language || "ptBR");
 
   function handleMenuBehavior() {
     setOpenMenu(!openMenu);
@@ -19,7 +23,11 @@ export function Header() {
     setOpenMenu(false);
   }
 
-  // Detecta a seção visível ao scrollar
+  function handleChangeLanguage(lang: string) {
+    setLanguage(lang);
+    i18n.changeLanguage(lang);
+  }
+
   useEffect(() => {
     const sections = ["#home", "#about", "#services", "#contact"];
     function onScroll() {
@@ -80,12 +88,26 @@ export function Header() {
             <p>L</p>
           </HashLink>
 
-          {/*
-            <div className="languages">
-              <img src={BrasilFlag} alt="" />
-              <img src={EuaFlag} alt="" />
-            </div>
-          */}
+          <div className="languages">
+            <img
+              src={brasil}
+              alt="brasil-flag"
+              onClick={() => handleChangeLanguage("ptBR")}
+              style={{
+                opacity: language === "ptBR" ? 1 : 0.5,
+                cursor: "pointer",
+              }}
+            />
+            <img
+              src={eua}
+              alt="eua-flag"
+              onClick={() => handleChangeLanguage("en")}
+              style={{
+                opacity: language === "en" ? 1 : 0.5,
+                cursor: "pointer",
+              }}
+            />
+          </div>
         </div>
         <nav>
           <ul>
@@ -96,7 +118,7 @@ export function Header() {
                 className={isHashActive("#about") ? "active" : ""}
                 onClick={handleNavLinkClick}
               >
-                Sobre
+                {t("header.about")}
               </HashLink>
             </li>
             <li>
@@ -106,7 +128,7 @@ export function Header() {
                 onClick={handleNavLinkClick}
                 className={isHashActive("#services") ? "active" : ""}
               >
-                Serviços
+                {t("header.service")}
               </HashLink>
             </li>
             <li>
@@ -116,7 +138,7 @@ export function Header() {
                 onClick={handleNavLinkClick}
                 className={isHashActive("#contact") ? "active" : ""}
               >
-                Contato
+                {t("header.contact")}
               </HashLink>
             </li>
             <li>
@@ -125,7 +147,7 @@ export function Header() {
                 className={isPathActive("/project") ? "active" : ""}
                 onClick={handleNavLinkClick}
               >
-                Projetos
+                {t("header.project")}
               </HashLink>
             </li>
             <li>
@@ -134,7 +156,7 @@ export function Header() {
                 className={isPathActive("/experience") ? "active" : ""}
                 onClick={handleNavLinkClick}
               >
-                Experiências
+                {t("header.experience")}
               </HashLink>
             </li>
             <li>
@@ -143,7 +165,7 @@ export function Header() {
                 className={isPathActive("/volunteer") ? "active" : ""}
                 onClick={handleNavLinkClick}
               >
-                Voluntário
+                {t("header.volunteer")}
               </HashLink>
             </li>
           </ul>

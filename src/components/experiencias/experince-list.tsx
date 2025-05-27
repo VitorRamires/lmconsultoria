@@ -7,9 +7,7 @@ export function ExperiencieList() {
       <div className="center">
         <div className="lista-experiencias">
           {experiences.map((experience, index) => {
-            return (
-              <Experiencia experience={experience} key={index} />
-            );
+            return <Experiencia experience={experience} key={index} />;
           })}
         </div>
       </div>
