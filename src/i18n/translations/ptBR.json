@@ -1,6 +1,6 @@
 {
   "translation": {
-    "titleBanner": "<span>Internacional</span> Manager e Delivery Manager",
+    "titleBanner": "Gerente de Projetos e Delivery <span>Internacional</span>",
 
     "cards": {
       "0": {
@@ -39,12 +39,11 @@
         "softSkills": {
           "0": "Comunicação e Oratória",
           "1": "Gestão de Conflitos",
-          "2": "Gestão de Conflitos",
-          "3": "Gestão e Liderança de Equipes",
-          "4": "Inteligência Emocional",
-          "5": "Melhoria Contínua",
-          "6": "Visão Tática de Relacionamento",
-          "7": "Produtividade"
+          "2": "Gestão e Liderança de Equipes",
+          "3": "Inteligência Emocional",
+          "4": "Melhoria Contínua",
+          "5": "Visão Tática de Relacionamento",
+          "6": "Produtividade"
         },
         "hardSkills": {
           "0": "COE, ITIL & BPM",

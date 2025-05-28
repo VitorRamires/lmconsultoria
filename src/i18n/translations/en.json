@@ -1,39 +1,39 @@
 {
   "translation": {
-    "titleBanner": "<span>International</span> Manager and Delivery Manager",
+    "titleBanner": "<span>International</span> Project and Delivery Manager",
 
     "cards": {
       "0": {
         "title": "Strategy",
-        "description": "Strategy and planning are fundamental for the success of projects, as they guide decisions, optimize resources, reduce risks, and ensure efficient deliveries aligned with business objectives."
+        "description": "Strategy and planning are fundamental to the success of projects, as they guide decision-making, optimize resources, mitigate risks, and ensure efficient deliveries aligned with business objectives."
       },
       "1": {
         "title": "Growth",
-        "description": "The growth of projects and the portfolio is essential to expand market presence, diversify opportunities, increase competitiveness, and ensure the business’s continuous sustainability and innovation."
+        "description": "Project and portfolio growth is essential to expanding market presence, diversifying opportunities, increasing competitiveness, and ensuring the continuous sustainability and innovation of the business."
       },
       "2": {
         "title": "Satisfaction",
-        "description": "Customer satisfaction is essential for the success of any project, as it strengthens trust, builds loyalty, generates recommendations, and drives new opportunities and sustainable growth."
+        "description": "Customer satisfaction is critical to the success of any project, as it fosters trust, builds loyalty, generates referrals, and drives new opportunities and sustainable growth."
       },
       "3": {
         "title": "Financial",
-        "description": "Financial health is vital for the viability and success of projects. It ensures cost control, profitability, efficient use of resources, and strategic decisions, increasing predictability and reducing risks."
+        "description": "Financial health is vital to the viability and success of projects. It ensures cost control, profitability, efficient resource utilization, and informed strategic decision-making, thereby increasing predictability and reducing risks."
       },
       "4": {
         "title": "Results",
-        "description": "Positive results reflect the success of the project, meet objectives, add value to the client, and ensure sustainability. They motivate the team, strengthen credibility, and open doors to new opportunities and projects."
+        "description": "Positive results reflect project success, fulfill objectives, deliver value to the client, and ensure sustainability. They motivate the team, enhance credibility, and create new opportunities for future projects."
       }
     },
 
     "aboutTitle": "About me",
     "aboutInfo": {
-      "resume": "Working as a project and operations manager, I have gained national and international experience with clients from LATAM and the USA. I have led projects in various technologies, including SAP, ServiceNow, RPA, OutSystems, Salesforce, and application modernization, always focusing on efficiency and innovation. My work has generated savings of around R$ 6 billion for clients, in addition to managing contracts exceeding R$ 100 million.\n\nWith over 8 years of leadership experience, I have had the opportunity to manage teams totaling more than 300 professionals in projects across different sectors. My background as a developer and tech lead for four years strengthens my technical profile, providing an in-depth understanding of the operational challenges of projects.\n\nThroughout my career, I have developed solid expertise in operations leadership, team and project management, as well as client relations. I have been directly involved in various initiatives, from e-commerce to process automation and SaaS solutions. As a process automation specialist, I also have experience in Pre-Sales, contributing to the closing of medium and large contracts. My decision-making is data and statistics-driven, ensuring strategic alignment and optimization of results.\n\nAdditionally, I work on training new managers and leaders, delivering training for qualification and development in the job market.",
+      "resume": "As a Project and Operations Manager, I have acquired both national and international experience, working with clients across LATAM and the USA. I have led projects involving a wide range of technologies, including SAP, ServiceNow, RPA, OutSystems, Salesforce, and application modernization, consistently focusing on efficiency and innovation. My work has generated approximately R$6 billion in savings for clients, in addition to managing contracts worth over R$100 million. With more than eight years of leadership experience, I have had the opportunity to manage teams comprising over 300 professionals across projects in various sectors. My background as a developer and tech lead for four years has further strengthened my technical expertise, providing me with a comprehensive understanding of the operational challenges involved in project delivery.Throughout my career, I have developed solid expertise in operations leadership, project and team management, and client relationship management. I have been directly involved in numerous initiatives, ranging from e-commerce solutions to process automation and SaaS platforms. As a specialist in process automation, I also have experience in pre-sales, contributing to the successful closure of medium- and large-scale contracts.My decision-making approach is strongly data- and statistics-driven, ensuring strategic alignment and the optimization of outcomes. Additionally, I am actively involved in training and mentoring new managers and leaders, delivering programs aimed at qualification and professional development in the job market.",
       "results": {
-        "0": "Implementation of E-Commerce in companies, generating over R$ 2.4 million in annual revenue.",
-        "1": "Management of TCS's pioneering contract with Petrobras in HyperAutomation.",
-        "2": "Manager of a global project case that saved over R$ 5.78 billion for an oil and gas client, in addition to saving more than R$ 120 million in just 3 weeks.",
-        "3": "Improvement of financial margins by over 400%.",
-        "4": "Reduction of over 2 million work hours through process automation for clients."
+        "0": "Led the implementation of e-commerce solutions for companies, generating over R$2.4 million in annual revenue.",
+        "1": "Managed TCS’s pioneering HyperAutomation contract with Petrobras.",
+        "2": "Oversaw a global project that resulted in savings of over R$5.78 billion for an oil and gas client, including more than R$120 million saved within just three weeks.",
+        "3": "Achieved a financial margin improvement of over 400%.",
+        "4": "Reduced more than 2 million work hours for clients through process automation initiatives."
       },
       "skills": {
         "softSkills": {
@@ -84,8 +84,8 @@
     "techTitle": "Technologies",
 
     "homePageProject": {
-      "title": "Discover the projects",
-      "text": "I invite you to learn a little more about my work in practical terms, where I present the various clients for whom I have worked with project management and digital transformation consultancy, as well as a summary of the activities carried out for each of them.",
+      "title": "About my Projects",
+      "text": "I invite you to explore my portfolio of real-world projects, showcasing the clients I have supported through project management and digital transformation consultancy, along with a summary of the key initiatives and outcomes delivered for each.",
       "btn": "Visit the Projects"
     },
 
@@ -93,11 +93,11 @@
       "title": "Provided Services",
       "serviceList": {
         "0": "Project and Delivery Management (SCRUM, Waterfall, Lean & Smart)",
-        "1": "Management of Multidisciplinary Teams.",
-        "2": "Leadership and Pre-Sales Training and Qualification.",
-        "3": "Business Management Consulting.",
+        "1": "Multidisciplinary Team Management.",
+        "2": "Leadership, Pre-Sales Training and Qualification.",
+        "3": "Business Strategies Development.",
         "4": "Development of Business Strategies.",
-        "5": "Implementation and Development of Indicators.",
+        "5": "KPI Implementation and Development.",
         "6": "Digital Transformation.",
         "7": "Process Mapping and Improvement.",
         "8": "Workflow Automation.",
@@ -107,8 +107,8 @@
 
     "contact": {
       "title": "Get in Touch",
-      "text1": "It will be a pleasure to talk and understand your challenges so we can develop a solution for them.",
-      "text2": "Would you like to establish a partnership or get in touch? Use the channels below."
+      "text1": "It would be a pleasure to connect and learn more about your challenges so we can develop tailored solutions together.",
+      "text2": "Interested in a partnership or want to get in touch? Reach out through the channels below — I look forward to hearing from you!"
     },
 
     "project": {
@@ -145,7 +145,7 @@
 
     "projectsInfo": {
       "objectives": {
-        "objectiveTitle": "Project objectives",
+        "objectiveTitle": "Project Objectives",
         "tags": {
           "0": "Digital Transformation",
           "1": "Creation of Applications for the Financial Area",
@@ -154,38 +154,27 @@
           "4": "Cost Reduction",
           "5": "Reduction of Human Errors",
           "6": "Creation of Applications for the Production Area",
-          "7": "Monitoring of technological activities",
+          "7": "Monitoring of Technological Activities",
           "8": "Infrastructure Improvement",
           "9": "PMO Application Development",
-          "10": "Creation of Applications for the Insurance sector",
+          "10": "Creation of Applications for the Insurance Sector",
           "11": "Improvement in the Sales Process",
           "12": "General Control of Sectors"
         }
       },
       "description": {
         "titleDescription": "About the Project",
-        "0": "American Express is one of the global leaders in financial services, specializing in credit cards, digital payments, travel, and banking services. With over 160 years of history, American Express operates in more than 130 countries, offering innovative financial solutions for consumers, businesses, and merchants worldwide. With a customer base that includes millions of individuals and companies of various sizes, the company is recognized for its commitment to excellence and trust in the financial market. This OutSystems project aims primarily at the digital transformation of American Express, creating applications focused on the financial area. The initiative seeks to optimize internal processes, improving agility and efficiency in the company's financial operations. Through the use of the OutSystems platform, American Express seeks to develop innovative and customized solutions that meet the growing demands of the financial sector, ensuring a more agile and secure experience for its customers and business partners. With this project, American Express continues its digital innovation journey, creating a significant impact on its operations and the financial market by adopting new technologies that enhance the management of transactions, payments, and financial services.",
-        "1": "Apple is one of the largest and most influential technology companies in the world, known for its innovation in hardware, software, and digital services. With iconic products such as the iPhone, iPad, MacBook, and Apple Watch, Apple has a global presence and more than 147,000 employees. Its impact on the technology market is unparalleled, with millions of customers worldwide and a strong base of consumer loyalty. This OutSystems project aims to support Apple's digital transformation by creating innovative applications for the technology area. The initiative seeks to optimize and accelerate the development of internal solutions, improving integration between teams and systems, while providing agility in the delivery of new products and services. The use of OutSystems allows Apple to quickly create and adapt applications to meet the growing demands of the market and its internal processes. Through this project, Apple seeks to further strengthen its leadership in innovation by using the OutSystems platform to create faster and more efficient digital solutions, aligning with its goals of technological transformation and continuous evolution in the market.",
-        "2": "ArcelorMittal is one of the largest steel companies in the world, operating in the production of steel and other metals, with a global presence in more than 60 countries. With over 190,000 employees, ArcelorMittal is a leader in steel production and offers products for various sectors, including construction, automotive, and infrastructure. The company is known for its commitment to innovation, sustainability, and operational excellence. The RPA (Robotic Process Automation) project, using the Automation Anywhere platform, aims primarily to promote ArcelorMittal's digital transformation, focusing on saving operational hours and reducing costs. Automation is being implemented in critical processes using Microsoft Excel and SAP, optimizing workflows, reducing reliance on manual tasks, and increasing efficiency in operations. This initiative aims not only to increase productivity but also to ensure greater accuracy and consistency in processes, allowing ArcelorMittal to focus on its strategic activities and continue to lead the industry with more efficient and technologically advanced solutions.",
-        "3": "Autoliv is one of the world's largest global suppliers of automotive safety systems, specializing in airbags, seat belts, and other critical vehicle safety components. With over 70 years of experience, Autoliv operates in more than 27 countries, employing over 60,000 people in its global network, being a key player in the automotive industry with a presence in all major vehicle markets. This OutSystems project aims to drive Autoliv's digital transformation, focusing on creating innovative applications for the supply area. The solution seeks to optimize purchasing management processes, inventory control, and supplier communication, promoting greater efficiency and integration among the various stages of the supply chain. Using the OutSystems platform, Autoliv aims to improve operational agility, reduce response time, and increase information accuracy, aligning technology with the company's strategic needs. This initiative reinforces Autoliv's commitment to innovation and operational efficiency in the automotive sector.",
-        "4": "Avery Dennison is an American multinational and global leader in materials for labels, packaging, and identification solutions, with a presence in more than 50 countries and over 30,000 employees worldwide. The company stands out for its innovation and technology applied to various sectors, including retail, logistics, automotive, and healthcare. To accelerate its digital transformation, applications are being developed with the OutSystems platform, modernizing processes and boosting operational efficiency. The project aims to create agile, scalable, and customized solutions, improving productivity, reducing costs, and enhancing the experience of internal and external users. With this initiative, Avery Dennison reinforces its commitment to innovation and digitalization, ensuring greater competitiveness and adaptation to new market demands.",
-        "5": "Exelon is one of the largest energy companies in the United States, supplying electricity and gas to millions of customers. With operations in several states and a robust energy generation portfolio, Exelon stands out for its continuous pursuit of innovation and operational efficiency. To drive its digital transformation, RPA (Robotic Process Automation) solutions with UiPath are being implemented, automating repetitive and complex tasks. The project's main objectives are to achieve savings in operational hours, allowing employees to focus on strategic activities, reduce costs by eliminating time-consuming and inefficient manual processes, and finally, decrease human errors, ensuring greater accuracy and compliance in operations. Automations are mainly developed for systems such as Oracle and Microsoft Excel, optimizing financial, administrative, and operational flows. With this initiative, Exelon strengthens its efficiency, innovation, and competitiveness in the energy sector.",
-        "6": "Fair Isaac Corporation (FICO) is a global leader in predictive analytics and decision technology, widely recognized for developing the FICO Score, one of the world's leading credit scoring models. With a presence in over 100 countries, the company offers innovative solutions for banks, insurers, retailers, and various industries, helping organizations make smarter, data-driven decisions. Aiming for digital transformation, applications are being developed with the OutSystems platform, modernizing essential systems and processes. The project aims to create agile and scalable solutions that meet business needs, optimize operational efficiency by reducing rework and increasing productivity, and enhance the experience of internal users and customers, making processes more intuitive and effective. With this initiative, FICO reinforces its commitment to technological innovation, ensuring greater agility, competitiveness, and excellence in the credit analysis and data intelligence market.",
-        "7": "Frontier Communications is one of the largest telecommunications service providers in the United States, offering broadband internet, telephony, and digital TV solutions to millions of customers. With a robust infrastructure and national presence, the company constantly seeks innovation to optimize its processes and improve customer experience. As part of its digital transformation, advanced RPA (Robotic Process Automation) solutions are being implemented using UiPath and Pegasystems platforms. Automations are mainly developed for Microsoft Excel, optimizing the processing of large volumes of data and improving decision-making based on structured information. With this initiative, Frontier Communications strengthens its operational efficiency and competitiveness in the telecommunications sector, consolidating itself as an increasingly digital and innovative company.",
-        "8": "Grupo Boticário is one of the largest cosmetics and beauty companies in Brazil, with a strong presence in the global market. With a portfolio of renowned brands such as O Boticário, Eudora, and quem disse, berenice?, the company is present in several countries and stands out for its innovation in product development and customer experience. To enhance its digital transformation, Grupo Boticário has been implementing RPA (Robotic Process Automation) solutions using Automation Anywhere and Blue Prism platforms. Automations are mainly developed for systems such as Microsoft Excel and Citrix, optimizing financial, administrative, and operational flows, as well as speeding up the processing of large volumes of data. With this initiative, Grupo Boticário reinforces its commitment to innovation and efficiency, strengthening its position in the cosmetics and beauty market and promoting an increasingly efficient and intelligent digital journey.",
-        "9": "NextEra Energy is one of the largest renewable energy companies in the world, focusing on clean and sustainable energy generation. With a diversified portfolio, including solar and wind energy, and a global presence in several countries, NextEra stands out for its leadership in sustainability and innovation in the energy sector. For its digital transformation, NextEra is implementing ServiceNow to optimize operations management and improve technological infrastructure efficiency. The project's main objectives are: Monitoring technological activities, ensuring real-time visibility of operations and identifying possible failures before they impact services. Improving infrastructure, promoting automation, and streamlining processes to ensure greater operational efficiency. Digital transformation, enabling a more agile and strategic approach to service and process management, aligning technology with business needs. With this initiative, NextEra Energy reinforces its commitment to innovation and sustainability, ensuring more efficient, agile, and integrated operations to continue its leadership in the renewable energy market.",
-        "10": "Petrobras is one of the largest energy companies in the world, operating in all stages of the oil and gas chain, from exploration to the distribution of fuels and derivatives. With a significant global presence and over 60 years of experience, Petrobras is a leader in the energy sector, contributing to the development of Brazil and other countries around the world. The objective of this RPA (Robotic Process Automation) project, using the Automation Anywhere platform, is to carry out a digital transformation in Petrobras' operations, promoting savings in operational hours and cost reduction. The automation of repetitive and complex processes has been implemented in crucial systems such as Microsoft Excel, SAP, Citrix, and Petronect, optimizing workflows and ensuring greater efficiency and accuracy in operations.",
-        "11": "Petrobras is one of the largest energy and oil companies in the world, specializing in the exploration, production, refining, and distribution of oil, natural gas, and derivatives. Founded in 1953, Petrobras has a significant presence in Brazil and several other countries, operating in more than 20 countries and employing over 50,000 people. The company plays an essential role in the development of the global energy sector and is recognized for its leadership in innovation and sustainability in the energy industry. This OutSystems project aims primarily to support Petrobras' digital transformation by modernizing legacy applications using .NET. The initiative seeks to update and integrate old systems, providing greater agility, scalability, and operational efficiency. The use of the OutSystems platform allows Petrobras to modernize its IT processes, optimize the development of new applications, and increase flexibility to quickly adapt to changes in the energy market. Through this transformation, Petrobras strengthens its position in the energy sector, seeking greater efficiency and innovation in its internal processes and offering more agile and modern solutions for its operational and strategic challenges. This project is a true global success case, with exceptional results, including savings of more than R$ 6 billion in one year and R$ 120 million in just 3 weeks. The implementation of automation has generated significant gains in productivity, reduced human errors, and accelerated critical processes, positioning Petrobras at the forefront of innovation in the energy sector.",
-        "12": "Roche is one of the world's leading pharmaceutical and diagnostics companies, specializing in the development of innovative medicines and advanced diagnostic technologies. With over 120 years of history, Roche has a global presence, operating in more than 100 countries and employing over 90,000 people. The company is recognized for its leadership in combating serious diseases and its commitment to global health. This Java development project aims to drive Roche's digital transformation by creating PMO (Project Management Office) applications that optimize project management and enhance team collaboration. Focusing on innovation and continuous improvement of internal processes, the project aims to integrate technological solutions that increase efficiency, agility, and accuracy in project monitoring and execution. The initiative is part of Roche's digital strategy to strengthen project management, ensuring greater control, transparency, and alignment with the company's strategic objectives.",
-        "13": "Selective is a renowned US insurance company, specializing in offering a wide range of insurance solutions for individuals and companies, focusing on automobiles, property, and commercial insurance. With over 90 years of experience, Selective is recognized for its excellence in personalized services and its strong position in the insurance market, operating in several US states. This OutSystems project aims to support Selective's digital transformation by creating innovative applications for the insurance area. The implementation of agile and scalable solutions aims to optimize processes, improve customer experience, and increase operational efficiency. The project seeks to modernize the way the company manages and offers its insurance products and services, enabling better integration and automation of internal processes, and a more fluid and digital experience for customers. With this initiative, Selective strengthens its position as a leader in the insurance sector by adopting cutting-edge technologies that transform and enhance the way it interacts with customers and manages its operations.",
-        "14": "SiteImprove is a leading provider of website optimization solutions, specializing in digital performance analysis, accessibility, and SEO tools. With a global customer base and a strong market presence, SiteImprove helps companies improve user experience and ensure their websites are optimized for performance, security, and regulatory compliance. The RPA (Robotic Process Automation) project, using the Automation Anywhere platform, aims to promote SiteImprove's digital transformation, achieving savings in operational hours and cost reduction. Automation has been implemented in critical processes, using systems such as Microsoft Excel, SAP, Citrix, and Salesforce, to optimize workflows, reduce human errors, and improve operational efficiency. The initiative aims not only to increase productivity but also to ensure greater accuracy in internal processes, allowing SiteImprove teams to focus on higher-value strategic activities. With this approach, SiteImprove continues to position itself at the forefront of digital innovation, offering more efficient and higher-quality solutions to its customers.",
-        "15": "TripTri is an innovative company in the travel and tourism sector, specializing in providing personalized solutions for clients seeking unique experiences around the world. TripTri offers travel packages, airline tickets, accommodations, and exclusive services, serving both individual travelers and groups. With a strong focus on customer service and innovation, the company is positioned to expand its presence in the global tourism market. This project aims primarily at TripTri's digital transformation, modernizing the company for online sales and overall company management via online administration. The creation of an eCommerce platform will allow TripTri to offer its services in an agile and accessible way, providing a simplified shopping experience for customers. Additionally, the implementation of an integrated management system will enable efficient control of sales, inventory, reservations, and customer data, all in real time. With this transformation, TripTri modernizes itself, gaining more autonomy and flexibility, while offering a more intuitive and efficient digital shopping experience for its customers. This will allow the company to expand its reach, improve its competitiveness, and continue to provide exceptional service in the tourism sector.",
-        "16": "Yara International is a global leader in the fertilizer and agricultural solutions sector, focusing on promoting sustainable agriculture and increasing food security worldwide. Founded in Norway, Yara operates in more than 60 countries, with a team of approximately 17,000 employees, and is recognized for innovation in products and services aimed at optimizing agricultural resources and environmental protection. The ServiceNow project implemented for Yara aims primarily at the digital transformation of the company's technological operations, focusing on monitoring technological activities and improving IT infrastructure. The solution allows for the optimization of internal processes, improved real-time visibility of IT operations, and greater efficiency in incident and service management. The initiative aims to make Yara's operations more agile and integrated, improving management and response to the company's technological needs. The adoption of ServiceNow enables a more effective and strategic approach, aligning technological infrastructure with the company's global objectives and promoting continuous and sustainable transformation."
+        "0": "American Express is one of the global leaders in financial services, specializing in credit cards, digital payments, travel, and banking services. With over 160 years of history, American Express operates in more than 130 countries, offering innovative financial solutions to consumers, businesses, and merchants worldwide. With a customer base that includes millions of individuals and companies of various sizes, the company is recognized for its commitment to excellence and trust in the financial market. This OutSystems project primarily aims to achieve the digital transformation of American Express by creating applications focused on the financial area. The initiative seeks to optimize internal processes, improving agility and efficiency in the company's financial operations. Through the use of the OutSystems platform, American Express aims to develop innovative and customized solutions that meet the growing demands of the financial sector, ensuring a more agile and secure experience for its customers and business partners. With this project, American Express continues its digital innovation journey, creating a significant impact on its operations and the financial market by adopting new technologies that enhance the management of transactions, payments, and financial services.",
+        "1": "Apple is one of the largest and most influential technology companies in the world, known for its innovation in hardware, software, and digital services. With iconic products such as the iPhone, iPad, MacBook, and Apple Watch, Apple has a global presence and more than 147,000 employees. Its impact on the technology market is unparalleled, with millions of customers worldwide and a strong base of consumer loyalty. This OutSystems project aims to support Apple's digital transformation by creating innovative applications for the technology area. The initiative seeks to optimize and accelerate the development of internal solutions, improving integration between teams and systems while providing agility in the delivery of new products and services. The use of OutSystems allows Apple to create and adapt applications quickly to meet the growing demands of the market and its internal processes. Through this project, Apple aims to further strengthen its leadership in innovation by using the OutSystems platform to create faster and more efficient digital solutions, aligning with its goals of technological transformation and continuous evolution in the market.",
+        "2": "ArcelorMittal is one of the largest steel companies in the world, operating in the production of steel and other metals, with a global presence in more than 60 countries. With over 190,000 employees, ArcelorMittal is a leader in steel production and offers products for various sectors, including construction, automotive, and infrastructure. The company is known for its commitment to innovation, sustainability, and operational excellence. The RPA (Robotic Process Automation) project, using the Automation Anywhere platform, primarily aims to promote ArcelorMittal's digital transformation, focusing on saving operational hours and reducing costs. Automation is being implemented in critical processes using Microsoft Excel and SAP, optimizing workflows, reducing reliance on manual tasks, and increasing efficiency in operations. This initiative aims not only to increase productivity but also to ensure greater accuracy and consistency in processes, allowing ArcelorMittal to focus on its strategic activities and continue to lead the industry with more efficient and technologically advanced solutions.",
+        "3": "Autoliv is one of the world's largest global suppliers of automotive safety systems, specializing in airbags, seat belts, and other critical vehicle safety components. With over 70 years of experience, Autoliv operates in more than 27 countries, employing over 60,000 people in its global network, and is a key player in the automotive industry with a presence in all major vehicle markets. This OutSystems project aims to drive Autoliv's digital transformation, focusing on creating innovative applications for the supply area. The solution seeks to optimize purchasing management processes, inventory control, and supplier communication, promoting greater efficiency and integration among the various stages of the supply chain. Using the OutSystems platform, Autoliv aims to improve operational agility, reduce response times, and increase information accuracy, aligning technology with the company's strategic needs. This initiative reinforces Autoliv's commitment to innovation and operational efficiency in the automotive sector.",
+        "4": "Avery Dennison is an American multinational and global leader in materials for labels, packaging, and identification solutions, with a presence in more than 50 countries and over 30,000 employees worldwide. The company stands out for its innovation and technology applied to various sectors, including retail, logistics, automotive, and healthcare. To accelerate its digital transformation, applications are being developed using the OutSystems platform, modernizing processes and boosting operational efficiency. The project aims to create agile, scalable, and customized solutions, improving productivity, reducing costs, and enhancing the experience of internal and external users. With this initiative, Avery Dennison reinforces its commitment to innovation and digitalization, ensuring greater competitiveness and adaptation to new market demands.",
+        "5": "Exelon is one of the largest energy companies in the United States, supplying electricity and gas to millions of customers. With operations in several states and a robust energy generation portfolio, Exelon stands out for its continuous pursuit of innovation and operational efficiency. To drive its digital transformation, RPA (Robotic Process Automation) solutions using UiPath are being implemented, automating repetitive and complex tasks. The project's main objectives are to achieve savings in operational hours, allow employees to focus on strategic activities, reduce costs by eliminating time-consuming and inefficient manual processes, and decrease human errors, ensuring greater accuracy and compliance in operations. Automations are primarily developed for systems such as Oracle and Microsoft Excel, optimizing financial, administrative, and operational flows. With this initiative, Exelon strengthens its efficiency, innovation, and competitiveness in the energy sector."
       },
       "extras": {
         "0": "Energy",
         "1": "Cosmetic",
-        "2": "Comunication",
+        "2": "Communication",
         "3": "Technology",
         "4": "Industry",
         "5": "Automotive",
@@ -226,88 +215,88 @@
       "roleFunctions": {
         "0": {
           "0": "Management of more than 10 projects/accounts for LATAM and US clients.",
-          "1": "Management of more than 100 associates in projects.",
-          "2": "Training and mentoring for project managers.",
-          "3": "Conducting sales/pre-sales meetings and deck presentations.",
+          "1": "Oversight of more than 100 associates across projects.",
+          "2": "Training and mentoring of project managers.",
+          "3": "Conducting sales and pre-sales meetings and delivering deck presentations.",
           "4": "Preparation of RFPs.",
           "5": "Identification of business opportunities with clients and stakeholders.",
           "6": "Creation and implementation of KPIs and project goals.",
-          "7": "Direct involvement in project P&L with MIP actions.",
+          "7": "Direct involvement in project P&L through MIP actions.",
           "8": "Development of financial strategies.",
           "9": "Risk analysis.",
           "10": "Restructuring and standardization of teams.",
-          "11": "Building and maintaining the Pipeline.",
+          "11": "Building and maintaining the pipeline.",
           "12": "Participation in contract renegotiations and claims preparation.",
-          "13": "Adaptation and monitoring of internal audits.",
-          "14": "Reporting to executive management and board.",
-          "15": "Monitoring compliance with contractual clauses between company and client.",
-          "16": "Participation in technological initiatives with the client.",
+          "13": "Adaptation to and monitoring of internal audits.",
+          "14": "Reporting to executive management and the board.",
+          "15": "Monitoring compliance with contractual clauses between the company and clients.",
+          "16": "Participation in technological initiatives with clients.",
           "17": "Implementation of performance improvement plans for associates.",
           "18": "Development of internal processes and task distribution.",
-          "19": "Conducting 1-on-1 and annual feedback sessions."
+          "19": "Conducting one-on-one and annual feedback sessions."
         },
         "1": {
-          "0": "Guidance in building delivery flows in the RPA area.",
+          "0": "Guidance in establishing delivery workflows in the RPA area.",
           "1": "Guidance in implementing documentation standards in the RPA area.",
-          "2": "Comparison between human effort and robot effort.",
+          "2": "Comparison between human effort and robotic effort.",
           "3": "Participation in SCRUM ceremonies.",
-          "4": "Preparation of PDD, TDD, SDD, among other technical documents.",
-          "5": "Reading and mapping AS-IS and TO-BE structures.",
+          "4": "Preparation of PDD, TDD, SDD, and other technical documents.",
+          "5": "Reading and mapping of AS-IS and TO-BE structures.",
           "6": "Requirements and process analysis/specification.",
           "7": "Communication with clients for updates, approvals, and project feasibility.",
           "8": "Feasibility analysis of new automations.",
-          "9": "Estimation of execution time for ongoing projects.",
+          "9": "Estimation of execution times for ongoing projects.",
           "10": "Process automation using Automation Anywhere A360 and Control Room.",
-          "11": "Integrations with software, platforms, and websites.",
-          "12": "Analysis, construction, and standardization of robot architectures and codes.",
-          "13": "Operations and testing inside and outside production.",
-          "14": "Application of BPM, DRY, and SOLID concepts."
+          "11": "Integration with software, platforms, and websites.",
+          "12": "Analysis, construction, and standardization of robot architectures and code.",
+          "13": "Operations and testing in and outside production environments.",
+          "14": "Application of BPM, DRY, and SOLID principles."
         },
         "2": {
           "0": "Process automation using Automation Anywhere A360.",
-          "1": "Integrations with software, platforms, and websites.",
-          "2": "Analysis, construction, and standardization of robot architectures and codes.",
-          "3": "Operations and testing inside and outside production, with client presence when necessary.",
+          "1": "Integration with software, platforms, and websites.",
+          "2": "Analysis, construction, and standardization of robot architectures and code.",
+          "3": "Operations and testing in and outside production, with client involvement when necessary.",
           "4": "Use of Control Room, IQBot, AARI, and Bot Insights.",
-          "5": "Application of BPM, DRY, and SOLID concepts.",
+          "5": "Application of BPM, DRY, and SOLID principles.",
           "6": "Development of POCs.",
-          "7": "Preparation of PDD, TDD, SDD, among other technical documents.",
-          "8": "Team leadership in projects.",
-          "9": "Analysis of team strengths and improvement points.",
-          "10": "Reading and mapping AS-IS and TO-BE structures.",
+          "7": "Preparation of PDD, TDD, SDD, and other technical documents.",
+          "8": "Project team leadership.",
+          "9": "Analysis of team strengths and areas for improvement.",
+          "10": "Reading and mapping of AS-IS and TO-BE structures.",
           "11": "Requirements and process analysis/specification.",
           "12": "Communication with clients for updates, approvals, and project feasibility.",
-          "13": "Evaluation of code construction and adherence to best practices.",
+          "13": "Evaluation of code quality and adherence to best practices.",
           "14": "Implementation of SCRUM methodology in the RPA area.",
           "15": "Feasibility analysis of new automations.",
           "16": "Participation in technical pre-sales meetings.",
-          "17": "Training developers in RPA and SoftSkills."
+          "17": "Training of developers in RPA and soft skills."
         },
         "3": {
-          "0": "Development of E-Commerce platforms and Institutional Websites.",
+          "0": "Development of e-commerce platforms and institutional websites.",
           "1": "Participation in server configuration via AWS.",
-          "2": "Management and participation in SCRUM, Agile Methodology, and KANBAN work models.",
-          "3": "Use of PHP, CSS3, HTML5, MySQL, and Javascript (MVC standard).",
-          "4": "Participation in projects using OpenCart, WooCommerce, and Wordpress.",
-          "5": "Basic work in server maintenance.",
+          "2": "Management and participation in SCRUM, Agile methodology, and KANBAN work models.",
+          "3": "Use of PHP, CSS3, HTML5, MySQL, and JavaScript (MVC pattern).",
+          "4": "Participation in projects using OpenCart, WooCommerce, and WordPress.",
+          "5": "Basic server maintenance tasks.",
           "6": "Use of project management platforms (Jira and Notion).",
-          "7": "Use of development environments (VsCode, Sublime, and Xampp).",
-          "8": "Support and bug resolution with clients.",
-          "9": "Training employees on system functionalities.",
-          "10": "Communication with managers for new projects."
+          "7": "Use of development environments (VSCode, Sublime, and XAMPP).",
+          "8": "Client support and bug resolution.",
+          "9": "Training of employees on system functionalities.",
+          "10": "Communication with managers regarding new projects."
         },
         "4": {
-          "0": "Development of E-Commerce platforms and Institutional Websites.",
+          "0": "Development of e-commerce platforms and institutional websites.",
           "1": "Participation in server configuration via AWS.",
-          "2": "Management and participation in SCRUM, Agile Methodology, and KANBAN work models.",
-          "3": "Use of PHP, CSS3, HTML5, MySQL, and Javascript (MVC standard).",
-          "4": "Participation in projects using OpenCart, WooCommerce, and Wordpress.",
-          "5": "Basic work in server maintenance.",
+          "2": "Management and participation in SCRUM, Agile methodology, and KANBAN work models.",
+          "3": "Use of PHP, CSS3, HTML5, MySQL, and JavaScript (MVC pattern).",
+          "4": "Participation in projects using OpenCart, WooCommerce, and WordPress.",
+          "5": "Basic server maintenance tasks.",
           "6": "Use of project management platforms (Jira and Notion).",
-          "7": "Use of development environments (VsCode, Sublime, and Xampp).",
-          "8": "Support and bug resolution with clients.",
-          "9": "Training employees on system functionalities.",
-          "10": "Communication with managers for new projects."
+          "7": "Use of development environments (VSCode, Sublime, and XAMPP).",
+          "8": "Client support and bug resolution.",
+          "9": "Training of employees on system functionalities.",
+          "10": "Communication with managers regarding new projects."
         }
       }
     },
@@ -315,16 +304,15 @@
     "volunteer": {
       "title1": "Job Market Mentoring (IT)",
       "title2": "Leadership Training Mentoring",
-      "volunteerText": "I help people re-enter the IT job market, assisting with items such as:",
-      "volunteerText2": "I conduct mentoring sessions with other people to exchange ideas and experiences about developing people-oriented leadership and broadening the macro vision regarding more managerial responsibilities.",
+      "volunteerText": "I support individuals re-entering the IT job market by assisting with activities such as:",
+      "volunteerText2": "I lead mentoring sessions focused on exchanging ideas and experiences related to people-centered leadership and expanding one's macro-level understanding of managerial responsibilities.",
       "volunteerList": {
-        "0": "LinkedIn profile restructuring",
-        "1": "Integrations with software, platforms, and websites.",
-        "2": "Creating connections and networking with recruiters from various sectors;",
-        "3": "Tips on how to present yourself and perform well in an interview;",
-        "4": "Presentation of different types of approaches for various job positions;",
-        "5": "Support in understanding the connection between the person's knowledge and the position/role they have set as a goal;",
-        "6": "End-to-end follow-up of the professional, until the moment of job offer acceptance."
+        "0": "LinkedIn profile restructuring.",
+        "1": "Creating connections and networking with recruiters from various sectors.",
+        "2": "Providing tips on how to present oneself and perform effectively in interviews.",
+        "3": "Presenting various approaches tailored to different job roles.",
+        "4": "Offering support in aligning the individual’s knowledge with their desired position or career path.",
+        "5": "Conducting end-to-end professional follow-up until a job offer is accepted."
       }
     },
 
@@ -336,7 +324,6 @@
       "experience": "Experiences",
       "service": "Services"
     },
-
 
     "helMsg": "Do you need help? Contact me with "
   }

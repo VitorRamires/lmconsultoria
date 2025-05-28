@@ -16,7 +16,6 @@ export const aboutInformation = {
       "aboutInfo.skills.softSkills.4",
       "aboutInfo.skills.softSkills.5",
       "aboutInfo.skills.softSkills.6",
-      "aboutInfo.skills.softSkills.7",
     ],
     hardSkills: [
       "aboutInfo.skills.hardSkills.0",
