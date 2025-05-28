@@ -45,7 +45,7 @@
   position: fixed;
   width: 1250px;
   max-width: 95%;
-  top: 15%;
+  top: 122px;
   left: 50%;
   transform: translate(-50%, 0) !important;
   padding: 20px 10px !important;
@@ -152,6 +152,7 @@
   font-family: "Arial Light";
   font-size: 1.1rem;
   font-weight: 200;
+  line-height: 30px;
 }
 
 .tecnologies-related {

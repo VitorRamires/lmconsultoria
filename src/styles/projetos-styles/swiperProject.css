@@ -88,15 +88,15 @@
 
 .next-btn {
   top: 50%;
-  transform: translate(-8px, -50%);
-  right: 0;
+  transform: translate(0, -50%);
+  right: -2%;
   z-index: 33;
 }
 
 .prev-btn {
   top: 50%;
-  transform: translate(10px, -50%);
-  left: 0;
+  transform: translate(0, -50%);
+  left: -2%;
   z-index: 34;
 }
 
@@ -151,4 +151,28 @@
 
 .fixed-btn-left img {
   transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1630px) {
+  .prev-btn {
+    transform: translate(10%, -50%);
+    left: 0;
+  }
+
+  .next-btn {
+    transform: translate(-10%, -50%);
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .prev-btn {
+    transform: translate(25%, -50%);
+    left: 0;
+  }
+
+  .next-btn {
+    transform: translate(-25%, -50%);
+    right: 0;
+  }
 }

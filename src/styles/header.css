@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   margin: 0 auto 80px auto;
-  top: 3%;
+  top: 30px;
   left: 50%;
   transform: translateX(-50%);
   width: 1250px;

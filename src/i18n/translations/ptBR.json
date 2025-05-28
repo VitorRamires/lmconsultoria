@@ -147,18 +147,19 @@
         "objectiveTitle": "Objetivos do projeto",
         "tags": {
           "0": "Transformação Digital",
-          "1": "Criação de Aplicações para a Área Financeira",
-          "2": "Criação de Aplicações para a Área de Tecnologia",
+          "1": "Aplicação Financeira",
+          "2": "Desenvolvimento de Aplicativos.",
           "3": "Economia de Horas",
           "4": "Redução de Custos",
           "5": "Redução de Erros Humanos",
-          "6": "Criação de Aplicações para a Área de Produção",
+          "6": "Aplicação de Produção",
           "7": "Monitoramento de atividades tecnológicas",
           "8": "Melhoria de Infraestrutura",
           "9": "Desenvolvimento de Aplicações PMO",
-          "10": "Criação de Aplicações para o setor de Seguros",
+          "10": "Aplicação de Seguros",
           "11": "Melhoria no Processo de Venda",
-          "12": "Controle Geral dos Setores"
+          "12": "Controle Geral dos Setores",
+          "13": "Aplicação de Energia"
         }
       },
       "description": {
@@ -335,8 +336,6 @@
       "service": "Serviços"
     },
 
-
     "helMsg": "Está precisando de ajuda? Entre em contato comigo via "
-
   }
 }
