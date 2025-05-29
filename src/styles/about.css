@@ -235,6 +235,14 @@
     background-color: unset;
   }
 
+  .results {
+    grid-template-columns: 1fr;
+  }
+
+  .results p {
+    padding: 25px 5px;
+  }
+
   .results p:nth-child(even) {
     background-color: var(--blue);
     color: #242424;
