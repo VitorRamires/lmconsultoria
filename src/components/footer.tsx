@@ -15,7 +15,7 @@ export function Footer() {
         </p>
       </footer>
       <div className="development-by">
-        <p>Desenvolvido por Vitor Martins. <a href="#">Confira o Github</a></p> 
+        <p>Desenvolvido por Vitor Ramires. <a href="https://github.com/VitorRamires">Confira o Github</a></p> 
       </div>
     </React.Fragment>
   );
