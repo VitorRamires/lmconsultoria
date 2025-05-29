@@ -18,11 +18,12 @@
 .international-reach {
   font-size: 0.9rem;
   background-color: var(--gray3);
-  width: 180px;
+  width: 240px;
   max-width: 100%;
   margin: 25px auto 0 auto;
   padding: 10px 5px;
   border-radius: 5px;
+  font-family: 'Arial Light';
 }
 
 .banner-content {

@@ -105,10 +105,13 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
       </div>
 
       <div
+
+                  
         className={`project-content-header-fixed ${
           showFixedButtons ? "show-btn" : "hidden-btn"
         }`}
       >
+
         <div className="center-header-fixed">
           <p>
             {t("techTitle")}: <span> {actualProject.extras[0]}</span>
@@ -127,7 +130,22 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
             {t("segmentTitle")}: <span>{t(actualProject.extras[2])}</span>
           </p>
         </div>
+
+
+
+      <div
+        className={`projects-counter-fixed ${
+          showFixedButtons ? "show-btn" : "hidden-btn"
+        }`}
+      >
+        <p>
+          {actualSlide + 1} / {projectsInfos.length}
+        </p>
       </div>
+
+      </div>
+
+
     </>
   );
 }

@@ -45,15 +45,10 @@
   position: fixed;
   width: 1250px;
   max-width: 95%;
-  top: 122px;
+  top: 121px;
   left: 50%;
   transform: translate(-50%, 0) !important;
-  padding: 20px 10px !important;
-  background-color: var(--dark3);
-  box-shadow: 0 0px 10px var(--blue);
-  border: 1px solid var(--blue);
   opacity: 0;
-  border-radius: 0 0 5px 5px;
 }
 
 .center-header-fixed {
@@ -63,6 +58,11 @@
   gap: 50px;
   font-size: 1.2rem;
   color: var(--white);
+  background-color: var(--dark3);
+  box-shadow: 0 0px 10px var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 0 0 5px 5px;
+  padding: 20px 10px !important;
 }
 
 .project-content-header {
@@ -78,17 +78,18 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
 }
 
-.projects-counter {
+.projects-counter,
+.projects-counter-fixed {
   width: 150px;
   text-align: center;
   padding: 10px 0;
   margin: 0 auto 0 auto;
   background-color: var(--blue);
   border-radius: 0 0 5px 5px;
-
 }
 
-.projects-counter p {
+.projects-counter p,
+.projects-counter-fixed p {
   font-family: "Arial Bold";
   color: var(--gray2);
 }
