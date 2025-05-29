@@ -44,7 +44,7 @@ export function Sobre() {
             data-option="resultados"
           >
             {aboutInformation.results.map((result, index) => (
-              <p key={index}>{t(result)}</p>
+              <p className={result.class} key={index}>{t(result.description)}</p>
             ))}
           </div>
 

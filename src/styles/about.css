@@ -175,23 +175,16 @@
   border-radius: 5px;
 }
 
-.results p:nth-child(even) {
+.results .dark {
   background-color: #242424;
 }
 
-.results p:nth-child(odd) {
+.results .blue {
   background-color: #50dcff;
   color: #242424;
 }
 
 /* ========= Skills ========= */
-/*
-    .skills {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      flex-wrap: wrap;
-      gap: 25px;
-    }
-  */
 
 .skill {
   display: flex;
@@ -296,7 +289,7 @@
     margin-bottom: 20px;
   }
 
-  .extra-details{
+  .extra-details {
     font-size: 0.8rem;
   }
 }

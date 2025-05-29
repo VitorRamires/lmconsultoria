@@ -1,11 +1,26 @@
 export const aboutInformation = {
   resume: `aboutInfo.resume`,
   results: [
-    "aboutInfo.results.0",
-    "aboutInfo.results.1",
-    "aboutInfo.results.2",
-    "aboutInfo.results.3",
-    "aboutInfo.results.4",
+    {
+      description: "aboutInfo.results.0",
+      class: "blue",
+    },
+    {
+      description: "aboutInfo.results.1",
+      class: "dark",
+    },
+    {
+      description: "aboutInfo.results.2",
+      class: "dark",
+    },
+    {
+      description: "aboutInfo.results.3",
+      class: "blue",
+    },
+    {
+      description: "aboutInfo.results.4",
+      class: "blue",
+    },
   ],
   skills: {
     softSkills: [
@@ -33,7 +48,7 @@ export const aboutInformation = {
       "aboutInfo.skills.hardSkills.12",
       "aboutInfo.skills.hardSkills.13",
       "aboutInfo.skills.hardSkills.14",
-      "aboutInfo.skills.hardSkills.15"
+      "aboutInfo.skills.hardSkills.15",
     ],
   },
 };

@@ -81,7 +81,7 @@
 .project-content-header .center {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   gap: 50px;
 }
 
