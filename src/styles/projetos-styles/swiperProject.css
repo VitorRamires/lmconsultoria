@@ -111,9 +111,9 @@
 
 .fixed-btn {
   position: fixed;
-  bottom: 10%;
+  bottom: 20%;
   right: 0;
-  z-index: 30;
+  z-index: 600;
 }
 
 .btn-swiper {
