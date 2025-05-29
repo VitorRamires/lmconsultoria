@@ -159,7 +159,7 @@
 
 /* ========= Resultado ========= */
 .results {
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 8px 25px;
 }
 
@@ -229,9 +229,20 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1492px) {
-  .results {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 1143px) {
+  .results .dark,
+  .results .blue {
+    background-color: unset;
+  }
+
+  .results p:nth-child(even) {
+    background-color: var(--blue);
+    color: #242424;
+  }
+
+  .results p:nth-child(odd) {
+    background-color: #242424;
+    color: var(--white);
   }
 }
 
