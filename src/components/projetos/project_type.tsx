@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { projectTypes } from "../../utils/projectTypes";
 
 export function ProjectType() {
@@ -11,7 +12,7 @@ export function ProjectType() {
                 <p>{project.tipo}</p>
               </div>
               <div className="Quantity">
-                <p>{project.quantidade}</p>
+                <p>{project.quantidade} <span>{t("axisX")}</span></p>
               </div>
             </div>
           );

@@ -1,6 +1,7 @@
 {
   "translation": {
-    "titleBanner": "Gerente de Projetos e Delivery <span>Internacional</span>",
+    "titleBanner": "Gerente de Projetos e Delivery",
+    "titleBanner2": "Alcance <span>Internacional</span>",
 
     "cards": {
       "0": {
@@ -111,11 +112,12 @@
     },
 
     "project": {
-      "mainTitle": "Atuação",
-      "titleSegments": "Segmentos e Quantidade",
-      "titleTypes": "Tipos e Quantidade",
+      "mainTitle": "Projetos",
+      "titleSegments": "Segmentos",
+      "titleTypes": "Tecnologias",
       "titleSectors": "Setores",
       "sectors": {
+        "auditoria": "Auditoria",
         "conformidade": "Conformidade",
         "educacao": "Educação",
         "estrategia": "Estratégia",
@@ -203,7 +205,7 @@
     "knowProjects": "Conheça meus Projetos",
 
     "pageTitles": {
-      "project": "Projetos",
+      "project": "Meus Projetos",
       "volunteer": "Trabalho voluntário",
       "exp": "Experiências"
     },
@@ -336,6 +338,8 @@
       "service": "Serviços"
     },
 
-    "helMsg": "Está precisando de ajuda? Entre em contato comigo via "
+    "helMsg": "Está precisando de ajuda? Entre em contato comigo via ",
+    "axisX": "Projetos",
+    "axisY": "Quantidade"
   }
 }

@@ -1,6 +1,7 @@
 {
   "translation": {
-    "titleBanner": "<span>International</span> Project and Delivery Manager",
+    "titleBanner": "Project and Delivery Manager",
+    "titleBanner2": "<span>Internacional</span> Reach",
 
     "cards": {
       "0": {
@@ -112,11 +113,12 @@
     },
 
     "project": {
-      "mainTitle": "Performance",
-      "titleSegments": "Segments and Quantity",
-      "titleTypes": "Types and Quantity",
+      "mainTitle": "Projects",
+      "titleSegments": "Segments",
+      "titleTypes": "Technologies",
       "titleSectors": "Sectors",
       "sectors": {
+        "auditoria": "Audit",
         "conformidade": "Compliance",
         "educacao": "Education",
         "estrategia": "Strategy",
@@ -203,7 +205,7 @@
     "knowProjects": "Discover my Projects",
 
     "pageTitles": {
-      "project": "Projects",
+      "project": "My Projects",
       "volunteer": "Volunteer Work",
       "exp": "Experiences"
     },
@@ -336,6 +338,8 @@
       "service": "Services"
     },
 
-    "helMsg": "Do you need help? Contact me with "
+    "helMsg": "Do you need help? Contact me with ",
+    "axisX": "Projects",
+    "axisY": "Quantity"
   }
 }

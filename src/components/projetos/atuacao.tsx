@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export function Activity() {
   const [matchMediaSize, setMatchMediaSize] = useState<boolean>(false);
   const widthMedia = window.matchMedia("(max-width: 750px)");
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     setMatchMediaSize(widthMedia.matches);
@@ -27,7 +27,9 @@ export function Activity() {
         <div className="activity-box">
           <div className="segments activity-item">
             <p className="activity-item-title">{t("project.titleSegments")}</p>
+            <p className="chart-title quant-chart">{t("axisY")}</p>
             {matchMediaSize ? <MobileSegment /> : <Chart />}
+            <p className="chart-title proj-chart">{t("axisX")}</p>
           </div>
           <div className="sectors activity-item">
             <p className="activity-item-title">{t("project.titleSectors")}</p>

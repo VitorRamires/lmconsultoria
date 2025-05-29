@@ -5,11 +5,12 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
 import { Trans, useTranslation } from "react-i18next";
+import { t } from "i18next";
 
 export function Banner() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-20px" });
-  useTranslation()
+  useTranslation();
 
   return (
     <>
@@ -28,9 +29,9 @@ export function Banner() {
               <p className="name">
                 Lucas Martins <span>Ramires</span>
               </p>
-              <p className="role">
-                {" "}
-                <Trans i18nKey="titleBanner" components={{ span: <span /> }} />
+              <p className="role">{t("titleBanner")}</p>
+              <p className="international-reach">
+                <Trans i18nKey="titleBanner2" components={{ span: <span /> }} />
               </p>
             </div>
           </motion.div>

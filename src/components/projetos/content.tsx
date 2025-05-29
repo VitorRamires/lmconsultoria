@@ -10,7 +10,7 @@ interface ActualSlide {
 export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
   const actualProject = projectsInfos[actualSlide];
   const techsVerification = projectsInfos[actualSlide].techs.length > 0;
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -38,6 +38,16 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
               {t("segmentTitle")}: <span>{t(actualProject.extras[2])}</span>
             </p>
           </div>
+        </div>
+
+        <div
+          className={`projects-counter ${
+            showFixedButtons ? "hidden-btn" : "show-btn"
+          }`}
+        >
+          <p>
+            {actualSlide + 1} / {projectsInfos.length}
+          </p>
         </div>
 
         <AnimatePresence mode="wait">

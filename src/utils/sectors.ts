@@ -1,4 +1,5 @@
 export const sectors = [
+  "project.sectors.auditoria",
   "project.sectors.conformidade",
   "project.sectors.educacao",
   "project.sectors.estrategia",
