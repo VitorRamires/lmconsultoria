@@ -1,6 +1,7 @@
 Projeto portifólio - Lucas Ramires
+<br />
 Portifólio para um gerente de projetos, com objetivo de ajudar a alavancar a relevancia do mesmo a nivel nacional e internacional. 
-
+<br />
 🛠️ Construído com
 Mencione as ferramentas que você usou para criar seu projeto
 
