@@ -5,8 +5,7 @@ Portifólio para um gerente de projetos, com objetivo de ajudar a alavancar a re
 sua experiência e trajetória profissional. 
 <br />
 <br />
-🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
+🛠️ Construído com:
 <br />
 Typescript -  linguagem base do projeto
 <br />
@@ -17,6 +16,8 @@ Swiper - Biblioteca de slider
 Motion Frame - Biblioteca de animação
 <br />
 i18n - Internacionalização da aplicação
+<br />
+React-Router - Gerenciador de rotas React
 <br />
 <br />
 ✒️ Autores
