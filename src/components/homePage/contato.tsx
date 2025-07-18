@@ -29,7 +29,7 @@ export function Contact() {
             </div>
           </div>
           <div className="img-contant">
-            <img src={contactBG} alt="" />
+            <img src={contactBG} alt="" loading="lazy" />
           </div>
         </div>
         <div className="contact-forms">
