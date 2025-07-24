@@ -30,7 +30,8 @@ const techsData = technologies.reduce((acc, tech) => {
 export const projectsInfos = [
   {
     projeto: "American Express",
-    descricao: "projectsInfo.description.0",
+    descricaoCliente: "projectsInfo.description.aboutClient.0",
+    descricaoProjeto: "projectsInfo.description.aboutProject.0",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.1",
@@ -43,7 +44,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Apple",
-    descricao: "projectsInfo.description.1",
+    descricaoCliente: "projectsInfo.description.aboutClient.1",
+    descricaoProjeto: "projectsInfo.description.aboutProject.1",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.2",
@@ -56,7 +58,8 @@ export const projectsInfos = [
   },
   {
     projeto: "ArcelorMittal",
-    descricao: "projectsInfo.description.2",
+    descricaoCliente: "projectsInfo.description.aboutClient.2",
+    descricaoProjeto: "projectsInfo.description.aboutProject.2",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -71,7 +74,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Autoliv",
-    descricao: "projectsInfo.description.3",
+    descricaoCliente: "projectsInfo.description.aboutClient.3",
+    descricaoProjeto: "projectsInfo.description.aboutProject.3",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.6",
@@ -84,7 +88,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Avery Dennison",
-    descricao: "projectsInfo.description.4",
+    descricaoCliente: "projectsInfo.description.aboutClient.4",
+    descricaoProjeto: "projectsInfo.description.aboutProject.4",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.6",
@@ -97,7 +102,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Exelon",
-    descricao: "projectsInfo.description.5",
+    descricaoCliente: "projectsInfo.description.aboutClient.5",
+    descricaoProjeto: "projectsInfo.description.aboutProject.5",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -112,7 +118,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Fair Isaac",
-    descricao: "projectsInfo.description.6",
+    descricaoCliente: "projectsInfo.description.aboutClient.6",
+    descricaoProjeto: "projectsInfo.description.aboutProject.6",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.2",
@@ -125,7 +132,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Frontier",
-    descricao: "projectsInfo.description.7",
+    descricaoCliente: "projectsInfo.description.aboutClient.7",
+    descricaoProjeto: "projectsInfo.description.aboutProject.7",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -139,7 +147,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Grupo Boticário",
-    descricao: "projectsInfo.description.8",
+    descricaoCliente: "projectsInfo.description.aboutClient.8",
+    descricaoProjeto: "projectsInfo.description.aboutProject.8",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -154,7 +163,8 @@ export const projectsInfos = [
   },
   {
     projeto: "NextEra",
-    descricao: "projectsInfo.description.9",
+    descricaoCliente: "projectsInfo.description.aboutClient.9",
+    descricaoProjeto: "projectsInfo.description.aboutProject.9",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.7",
@@ -168,7 +178,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Petrobras - RPA",
-    descricao: "projectsInfo.description.10",
+    descricaoCliente: "projectsInfo.description.aboutClient.10",
+    descricaoProjeto: "projectsInfo.description.aboutProject.10",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -183,7 +194,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Petrobras - OutSystems",
-    descricao: "projectsInfo.description.11",
+    descricaoCliente: "projectsInfo.description.aboutClient.11",
+    descricaoProjeto: "projectsInfo.description.aboutProject.11",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.13",
@@ -201,7 +213,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Roche",
-    descricao: "projectsInfo.description.12",
+    descricaoCliente: "projectsInfo.description.aboutClient.12",
+    descricaoProjeto: "projectsInfo.description.aboutProject.12",
     objetivos: ["projectsInfo.objectives.tags.9"],
     extras: ["Development", "EUA", "projectsInfo.extras.7"],
     logo: roche,
@@ -211,7 +224,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Selective",
-    descricao: "projectsInfo.description.13",
+    descricaoCliente: "projectsInfo.description.aboutClient.13",
+    descricaoProjeto: "projectsInfo.description.aboutProject.13",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.10",
@@ -224,7 +238,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Site Improve",
-    descricao: "projectsInfo.description.14",
+    descricaoCliente: "projectsInfo.description.aboutClient.14",
+    descricaoProjeto: "projectsInfo.description.aboutProject.14",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.3",
@@ -239,7 +254,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Trip Tri",
-    descricao: "projectsInfo.description.15",
+    descricaoCliente: "projectsInfo.description.aboutClient.15",
+    descricaoProjeto: "projectsInfo.description.aboutProject.15",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.11",
@@ -257,7 +273,8 @@ export const projectsInfos = [
   },
   {
     projeto: "Yara Internacional",
-    descricao: "projectsInfo.description.16",
+    descricaoCliente: "projectsInfo.description.aboutClient.16",
+    descricaoProjeto: "projectsInfo.description.aboutProject.16",
     objetivos: [
       "projectsInfo.objectives.tags.0",
       "projectsInfo.objectives.tags.7",

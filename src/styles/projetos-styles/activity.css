@@ -73,7 +73,7 @@
   height: 100%;
   width: 100%;
   text-align: start;
-  max-height: 1030px;
+  min-height: 1030px;
   overflow: auto;
   padding-bottom: 15px;
 }

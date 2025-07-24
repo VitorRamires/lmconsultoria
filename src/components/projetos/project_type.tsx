@@ -9,10 +9,10 @@ export function ProjectType() {
           return (
             <div className="type" key={index}>
               <div className="type-name">
-                <p>{project.tipo}</p>
+                <p>{t(project.type)}</p>
               </div>
               <div className="Quantity">
-                <p>{project.quantidade} <span>{t("axisX")}</span></p>
+                <p>{project.quantity} <span>{t("axisX")}</span></p>
               </div>
             </div>
           );

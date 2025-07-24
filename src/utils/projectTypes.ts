@@ -1,6 +1,8 @@
 export const projectTypes = [
-  { tipo: "OutSystems", quantidade: 7 },
-  { tipo: "Development", quantidade: 2 },
-  { tipo: "Service Now", quantidade: 2 },
-  { tipo: "RPA", quantidade: 6 },
+  { type: "OutSystems", quantity: 7 },
+  { type: "projectsInfo.techDevelopmentType", quantity: 2 },
+  { type: "Service Now", quantity: 2 },
+  { type: "RPA", quantity: 6 },
+  { type: "IA", quantity: 1 },
+  { type: "projectsInfo.techDataType", quantity: 1 },
 ];

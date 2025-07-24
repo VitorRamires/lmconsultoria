@@ -61,6 +61,17 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
             }`}
           >
             <div className={`center project-info ${actualSlide}`}>
+              
+
+              <div className="about-client">
+                <h2 className="project-h2">
+                  {t("projectsInfo.description.titleDescriptionClient")}
+                </h2>
+                <p>{t(actualProject.descricaoCliente)}</p>
+              </div>
+
+              <div className="separated-line"></div>
+
               <div className="project-objectives">
                 <h2 className="project-h2">
                   {t("projectsInfo.objectives.objectiveTitle")}
@@ -71,12 +82,14 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                   ))}
                 </ul>
               </div>
+
               <div className="separated-line"></div>
-              <div className="project-description">
+
+              <div className="about-project">
                 <h2 className="project-h2">
-                  {t("projectsInfo.description.titleDescription")}
+                  {t("projectsInfo.description.titleDescriptionProject")}
                 </h2>
-                <p>{t(actualProject.descricao)}</p>
+                <p>{t(actualProject.descricaoProjeto)}</p>
               </div>
             </div>
 
@@ -105,13 +118,10 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
       </div>
 
       <div
-
-                  
         className={`project-content-header-fixed ${
           showFixedButtons ? "show-btn" : "hidden-btn"
         }`}
       >
-
         <div className="center-header-fixed">
           <p>
             {t("techTitle")}: <span> {actualProject.extras[0]}</span>
@@ -131,21 +141,16 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
           </p>
         </div>
 
-
-
-      <div
-        className={`projects-counter-fixed ${
-          showFixedButtons ? "show-btn" : "hidden-btn"
-        }`}
-      >
-        <p>
-          {actualSlide + 1} / {projectsInfos.length}
-        </p>
+        <div
+          className={`projects-counter-fixed ${
+            showFixedButtons ? "show-btn" : "hidden-btn"
+          }`}
+        >
+          <p>
+            {actualSlide + 1} / {projectsInfos.length}
+          </p>
+        </div>
       </div>
-
-      </div>
-
-
     </>
   );
 }
