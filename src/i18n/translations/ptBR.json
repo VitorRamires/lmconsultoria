@@ -71,7 +71,7 @@
         "btnSkills": "Skills"
       },
       "extra": {
-        "expDetail": "Expêriencia como Gerente: <span>3 anos</span>",
+        "expDetail": "Expêriencia: <span>+10 anos</span>",
         "langDetail": "Línguas: <span>Português e Inglês</span>",
         "reach": "Alcance: <span>Internacional</span>",
         "yearsOld": {
@@ -81,12 +81,12 @@
       }
     },
 
-    "techTitle": "Tecnologias",
+    "techTitle": "Tecnologia core",
 
     "homePageProject": {
       "title": "Conheça os projetos",
       "text": "Convido você a conhecer um pouco mais do meu trabalho em linhas práticas, onde apresento os diversos clientes dos quais atuei com gestão de projetos e consultoria em transformação digital, bem como um resumo das atividades realizadas em cada um deles.",
-      "btn": "Visitar os Projetos"
+      "btn": "Visitar Portifólio"
     },
 
     "services": {
@@ -226,10 +226,10 @@
 
     "clientTitle": "Cliente",
     "segmentTitle": "Segmento",
-    "knowProjects": "Conheça meus Projetos",
+    "knowProjects": "Portifólio de Projetos e Clientes Atendidos",
 
     "pageTitles": {
-      "project": "Meus Projetos",
+      "project": "Operações",
       "volunteer": "Trabalho voluntário",
       "exp": "Experiências"
     },
@@ -322,17 +322,17 @@
           "10": "Comunicação com gestores para novos projetos."
         },
         "4": {
-          "0": "Desenvolvimento de plataformas E-Commerce e Sites Institucionais.",
-          "1": "Participação em configuração de servidores via AWS.",
-          "2": "Gestão e participação em modelos de trabalho SCRUM, Metodologia Ágil e KANBAN.",
-          "3": "Utilização de PHP, CSS3, HTML5, MySQL e Javascript (padrão MVC).",
-          "4": "Participação em projetos utilizando OpenCart, WooCommerce e Wordpress.",
-          "5": "Atuação básica em manutenção de servidores.",
-          "6": "Utilização de plataformas de gestão de projetos (Jira e Notion).",
-          "7": "Utilização de ambientes de desenvolvimento (VsCode, Sublime e Xampp).",
-          "8": "Suporte e resolução de bugs junto a clientes.",
-          "9": "Treinamento de colaboradores sobre funcionalidades dos sistemas.",
-          "10": "Comunicação com gestores para novos projetos."
+          "0": "Elaboração de documentações e normas;",
+          "1": "Planejamento de recursos financeiros, contas a pagar e emissão de relatórios financeiros mensais;",
+          "2": "Construção de métricas de vendas;",
+          "3": "Análise de mercado Brasileiro para diferentes ramos onde nossos produtos poderiam ser inseridos e serem iniciadas as prospecções;",
+          "4": "Análise de relatórios para possíveis tomadas de decisões no que diz respeito a campo de atuação, meios de relacionamento, eficiência do ciclo de venda, entre outros;",
+          "5": "Análise de necessidades de mercado afim de estar constantemente atualizando o setor operacional para que sempre pudéssemos estar versionando nossos produtos para melhor atender nosso nicho de mercado;",
+          "6": "Acompanhamento de prospecção de novos clientes e fornecedores",
+          "7": "Venda direta com clientes cujos necessitam de produtos de alta individualidade e direcionados a um público em especial;",
+          "8": "Planejamento de melhoria contínua;",
+          "9": "Implementação e acompanhamento de KPI's;",
+          "10": "Precificação de produtos;"
         }
       }
     },
@@ -359,7 +359,8 @@
       "project": "Projetos",
       "volunteer": "Voluntário",
       "experience": "Experiências",
-      "service": "Serviços"
+      "service": "Serviços",
+      "home": "Ínicio"
     },
 
     "helMsg": "Está precisando de ajuda? Entre em contato comigo via ",

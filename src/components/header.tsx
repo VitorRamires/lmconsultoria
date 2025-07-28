@@ -49,7 +49,7 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Atualiza ao trocar de rota (ex: vindo de outra página)
+  // Atualiza ao trocar de rota
   useEffect(() => {
     setActiveSection(location.hash || "#home");
   }, [location.hash]);
@@ -109,8 +109,19 @@ export function Header() {
             />
           </div>
         </div>
+
         <nav>
           <ul>
+            <li>
+              <HashLink
+                className={isHashActive("#home") ? "active" : ""}
+                to="/#home"
+                smooth={true}
+                onClick={handleNavLinkClick}
+              >
+                {t("header.home")}
+              </HashLink>
+            </li>
             <li>
               <HashLink
                 to="/#about"

@@ -72,7 +72,7 @@
         "btnSkills": "Skills"
       },
       "extra": {
-        "expDetail": "Experience as Manager: <span>3 years</span>",
+        "expDetail": "Experience: <span>+10 years</span>",
         "langDetail": "Languages: <span>Portuguese and English</span>",
         "reach": "Reach: <span>International</span>",
         "yearsOld": {
@@ -82,12 +82,12 @@
       }
     },
 
-    "techTitle": "Technologies",
+    "techTitle": "Core Technologie",
 
     "homePageProject": {
       "title": "About my Projects",
       "text": "I invite you to explore my portfolio of real-world projects, showcasing the clients I have supported through project management and digital transformation consultancy, along with a summary of the key initiatives and outcomes delivered for each.",
-      "btn": "Visit the Projects"
+      "btn": "Visit Portifolio"
     },
 
     "services": {
@@ -224,10 +224,10 @@
 
     "clientTitle": "Client",
     "segmentTitle": "Segment",
-    "knowProjects": "Discover my Projects",
+    "knowProjects": "Portfolio of Projects and Clients Served",
 
     "pageTitles": {
-      "project": "My Projects",
+      "project": "Operations",
       "volunteer": "Volunteer Work",
       "exp": "Experiences"
     },
@@ -321,17 +321,17 @@
           "10": "Communication with managers regarding new projects."
         },
         "4": {
-          "0": "Development of e-commerce platforms and institutional websites.",
-          "1": "Participation in server configuration via AWS.",
-          "2": "Management and participation in SCRUM, Agile methodology, and KANBAN work models.",
-          "3": "Use of PHP, CSS3, HTML5, MySQL, and JavaScript (MVC pattern).",
-          "4": "Participation in projects using OpenCart, WooCommerce, and WordPress.",
-          "5": "Basic server maintenance tasks.",
-          "6": "Use of project management platforms (Jira and Notion).",
-          "7": "Use of development environments (VSCode, Sublime, and XAMPP).",
-          "8": "Client support and bug resolution.",
-          "9": "Training of employees on system functionalities.",
-          "10": "Communication with managers regarding new projects."
+          "0": "Preparation of documentation and standards;",
+          "1": "Financial resource planning, accounts payable management, and issuance of monthly financial reports;",
+          "2": "Development of sales metrics;",
+          "3": "Market analysis of the Brazilian sector for different industries where our products could be introduced and prospecting could begin;",
+          "4": "Analysis of reports to support decision-making regarding areas of operation, relationship channels, sales cycle efficiency, among others;",
+          "5": "Assessment of market needs to ensure the operational sector is constantly updated, allowing us to continuously version our products to better serve our market niche;",
+          "6": "Monitoring the prospecting of new clients and suppliers;",
+          "7": "Direct sales to clients requiring highly individualized products tailored to a specific audience;",
+          "8": "Continuous improvement planning;",
+          "9": "Implementation and monitoring of KPIs;",
+          "10": "Product pricing;"
         }
       }
     },
@@ -357,7 +357,8 @@
       "project": "Projects",
       "volunteer": "Volunteer",
       "experience": "Experiences",
-      "service": "Services"
+      "service": "Services",
+      "home": "Home"
     },
 
     "helMsg": "Do you need help? Contact me with ",

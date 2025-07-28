@@ -55,10 +55,13 @@
 .soft-skills-wrapper,
 .hard-skills-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 20px;
+  overflow: auto;
+  height: 268px;
+  padding-bottom:10px;
 }
 
 .all-skills {
@@ -109,9 +112,9 @@
 
 .about-panel {
   position: relative;
-  height: 350px;
-  overflow: auto;
+  height: 410px;
   padding: 0 10px;
+  overflow: auto;
 }
 
 .extra-details {
@@ -151,10 +154,12 @@
 /* ========= Resumo ========= */
 
 .resume p {
-  font-size: 1.25rem !important;
+  position: relative;
+  margin-top:2rem;
+  font-size: 1.1rem !important;
   font-family: "Arial Light";
   text-align: center;
-  line-height: 28px;
+  line-height: 33px;
 }
 
 /* ========= Resultado ========= */
@@ -194,7 +199,7 @@
   max-width: 100%;
   min-height: 70px;
   background-color: #676767;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   border-radius: 5px;
   box-shadow: 10px 5px 10px 0 rgba(0, 0, 0, 0.356);
   padding: 0 10px;
@@ -258,6 +263,12 @@
   .all-skills {
     display: block;
     text-align: center;
+  }
+
+  .soft-skills-wrapper,
+  .hard-skills-wrapper {
+    overflow: unset;
+    height: 100%;
   }
 
   .hard-skills {

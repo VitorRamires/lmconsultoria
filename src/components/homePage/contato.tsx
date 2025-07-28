@@ -39,7 +39,7 @@ export function Contact() {
             <img src={linkedin} alt="" />
           </div>
           <div className="form">
-            <a href="https://wa.me/5551983497704">51 - 983475750</a>
+            <a href="https://wa.me/5551983497704">51 - 983497704</a>
             <img src={phone} alt="" />
           </div>
           <div className="form">

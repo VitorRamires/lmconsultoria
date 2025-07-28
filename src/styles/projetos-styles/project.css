@@ -12,7 +12,7 @@
 }
 
 .know-titles {
-  width: 1450px;
+  width: 1400px;
   max-width: 90%;
   margin: 0 auto 40px auto;
   color: var(--white);
@@ -20,19 +20,19 @@
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  font-size: 1rem;
 }
 
 .know-titles::after {
   content: "";
   display: block;
   position: relative;
-  width: 75%;
+  width: 50%;
   height: 1px;
   background: #494949;
 }
 
 .know-titles h2 {
-  width: 420px;
   font-size: 1.8rem;
 }
 
@@ -230,6 +230,22 @@
   position: relative;
 }
 
+@media screen and (max-width: 1350px) {
+  .know-titles {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .know-titles h2 {
+    width: 100%;
+  }
+
+  .know-titles::after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1142px) {
   .tech-related-wrapper {
     display: block;
@@ -250,20 +266,6 @@
 
   .separated-line {
     width: 70%;
-  }
-
-  .know-titles {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .know-titles h2 {
-    width: 100%;
-  }
-
-  .know-titles::after {
-    display: none;
   }
 }
 
@@ -315,7 +317,6 @@
     align-items: center;
     gap: 25px;
   }
-
 
   .project-objectives ul li {
     font-size: 0.95rem;

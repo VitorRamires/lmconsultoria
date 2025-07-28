@@ -27,7 +27,7 @@ export function Banner() {
           >
             <div className="wrap-name-role">
               <p className="name">
-                Lucas Martins <span>Ramires</span>
+                Lucas <span>Ramires</span>
               </p>
               <p className="role">{t("titleBanner")}</p>
               <p className="international-reach">
