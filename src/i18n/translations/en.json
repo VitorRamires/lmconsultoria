@@ -83,11 +83,19 @@
     },
 
     "techTitle": "Core Technologie",
+    "techTitleHome": "Technologies",
+
+    "highlights": {
+      "0": "Leadership of professionals throughout my career.",
+      "1": "Client savings",
+      "2": "Increase in financial margins",
+      "3": "Closure of strategic contracts."
+    },
 
     "homePageProject": {
       "title": "About my Projects",
       "text": "I invite you to explore my portfolio of real-world projects, showcasing the clients I have supported through project management and digital transformation consultancy, along with a summary of the key initiatives and outcomes delivered for each.",
-      "btn": "Visit Portifolio"
+      "btn": "Visit Portfolio "
     },
 
     "services": {

@@ -19,7 +19,7 @@ export function Technologies() {
   return (
     <>
       <section className="technologies">
-        <div className="tech-title">{t("techTitle")}</div>
+        <div className="tech-title">{t("techTitleHome")}</div>
         <motion.div
           className="tech-box"
           variants={containerVariants}

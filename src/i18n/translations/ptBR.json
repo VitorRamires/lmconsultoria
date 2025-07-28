@@ -82,6 +82,14 @@
     },
 
     "techTitle": "Tecnologia core",
+    "techTitleHome": "Tecnologias",
+
+    "highlights": {
+      "0": "Liderança de profissionais ao longo da carreira.",
+      "1": "Economia em clientes",
+      "2": "Aumento de margens financeiras",
+      "3": "Fechamento de contratos estratégicos."
+    },
 
     "homePageProject": {
       "title": "Conheça os projetos",

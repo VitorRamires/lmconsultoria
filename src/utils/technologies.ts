@@ -13,6 +13,9 @@ import devops from "@/assets/images/AzureDevOps.png";
 import freshdesk from "@/assets/images/freshdesk.png";
 import jira from "@/assets/images/jira.png";
 import trello from "@/assets/images/trello.png";
+import IA from "@/assets/images/IA.png";
+import data from "@/assets/images/data.png";
+import powerbi from "@/assets/images/powerbi.png";
 
 export const technologies = [
   {
@@ -74,5 +77,14 @@ export const technologies = [
   {
     name: "trello",
     url: trello,
+  },
+  { name: "IA", url: IA },
+  {
+    name: "data",
+    url: data,
+  },
+  {
+    name: "powerbi",
+    url: powerbi,
   },
 ];

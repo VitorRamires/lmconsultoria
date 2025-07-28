@@ -1,10 +1,11 @@
 import serviceImg from "@/assets/images/serviços-bg.png";
-import { servicesInformation } from "../../utils/services";
+import { servicesInformation } from "../utils/services";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+
 export function Services() {
-   const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <section className="services" id="services">
@@ -56,6 +57,7 @@ export function Services() {
           ></motion.div>
         </div>
       </section>
+
     </>
   );
 }

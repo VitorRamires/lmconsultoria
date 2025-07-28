@@ -3,10 +3,10 @@ import { Footer } from "../footer";
 import { Banner } from "./banner/banner";
 import { Contact } from "./contato";
 import { ProjectsHome } from "./projetosHome";
-import { Services } from "./serviços";
 import { Sobre } from "./sobre";
 import { Technologies } from "./tecnologias";
 import { useLocation } from "react-router-dom";
+import { Highlight } from "./highlights";
 
 export function HomePage() {
   const { hash } = useLocation();
@@ -23,9 +23,9 @@ export function HomePage() {
     <>
       <Banner />
       <Sobre />
+      <Highlight />
       <Technologies />
       <ProjectsHome />
-      <Services />
       <Contact />
       <Footer />
     </>

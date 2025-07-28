@@ -38,8 +38,10 @@
   width: 250px;
 }
 
-.sap {
-  width: 150px;
+.sap,
+.IA,
+.data {
+  width: 99px;
 }
 
 @media screen and (max-width: 1092px) {
@@ -49,16 +51,21 @@
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 524px) {
   .tech {
     width: 150px;
   }
 
   .excel {
-    width: 250px;
+    width: 150px;
   }
-  
-  .tech-title{
+
+  .tech-title {
     font-size: 2.5rem;
+  }
+
+  .data,
+  .IA {
+    width: 90px;
   }
 }

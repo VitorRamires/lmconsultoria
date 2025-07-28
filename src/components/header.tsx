@@ -134,22 +134,22 @@ export function Header() {
             </li>
             <li>
               <HashLink
-                to="/#services"
-                smooth={true}
-                onClick={handleNavLinkClick}
-                className={isHashActive("#services") ? "active" : ""}
-              >
-                {t("header.service")}
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
                 to="/#contact"
                 smooth={true}
                 onClick={handleNavLinkClick}
                 className={isHashActive("#contact") ? "active" : ""}
               >
                 {t("header.contact")}
+              </HashLink>
+            </li>
+            <li>
+              <HashLink
+                to="/services"
+                smooth={true}
+                onClick={handleNavLinkClick}
+                className={isHashActive("/services") ? "active" : ""}
+              >
+                {t("header.service")}
               </HashLink>
             </li>
             <li>
