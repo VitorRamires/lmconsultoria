@@ -200,6 +200,7 @@ img {
   align-self: flex-end;
 }
 
+
 @media screen and (max-width: 450px) {
   .title-page {
     font-size: 1.6rem;

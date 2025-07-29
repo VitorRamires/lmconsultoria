@@ -94,6 +94,7 @@ export function SliderProjects() {
             );
           })}
         </Swiper>
+        
         <div className="next-btn btn-swiper">
           <img src={arrow} alt="" />
         </div>

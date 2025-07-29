@@ -29,7 +29,7 @@ export function Header() {
   }
 
   useEffect(() => {
-    const sections = ["#home", "#about", "#services", "#contact"];
+    const sections = ["#home", "#about", "#contact"];
     function onScroll() {
       let found = "#home";
       for (const hash of sections) {

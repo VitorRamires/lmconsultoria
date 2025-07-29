@@ -1,6 +1,8 @@
 import { projectsInfos } from "../../utils/projects-infos";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { EffectFade, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 interface ActualSlide {
   actualSlide: number;
@@ -9,7 +11,7 @@ interface ActualSlide {
 
 export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
   const actualProject = projectsInfos[actualSlide];
-  const techsVerification = projectsInfos[actualSlide].techs.length > 0;
+  const segmentosArray = Object.entries(actualProject.segmentos || {});
   const { t } = useTranslation();
 
   return (
@@ -61,8 +63,6 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
             }`}
           >
             <div className={`center project-info ${actualSlide}`}>
-              
-
               <div className="about-client">
                 <h2 className="project-h2">
                   {t("projectsInfo.description.titleDescriptionClient")}
@@ -72,45 +72,108 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
 
               <div className="separated-line"></div>
 
-              <div className="project-objectives">
-                <h2 className="project-h2">
-                  {t("projectsInfo.objectives.objectiveTitle")}
-                </h2>
-                <ul>
-                  {actualProject.objetivos.map((objective, index) => (
-                    <li key={index}>{t(objective)}</li>
-                  ))}
-                </ul>
-              </div>
+              <div className="project-wrapper">
+                {Object.keys(actualProject.segmentos || {}).length > 0 ? (
+                  <div className="two-segs">
+                    <Swiper
+                      slidesPerView={1}
+                      loop={false}
+                      effect="fade"
+                      fadeEffect={{ crossFade: true }}
+                      modules={[EffectFade, Pagination]}
+                      simulateTouch={false}
+                      autoHeight={true}
+                      pagination={{
+                        clickable: true,
+                        renderBullet: (index, className) => {
+                          const nomeSegmento =
+                            segmentosArray[index]?.[1]?.nome ||
+                            `Segmento ${index + 1}`;
+                          return `<button type="button" class="${className} custom-bullet">${nomeSegmento}</button>`;
+                        },
+                      }}
+                    >
+                      {Object.entries(actualProject.segmentos || {}).map(
+                        ([key, segmento]) => (
+                          <SwiperSlide key={key}>
+                            <div className="project-objectives">
+                              <h2 className="project-h2">
+                                {t("projectsInfo.objectives.objectiveTitle")}
+                              </h2>
+                              <ul>
+                                {segmento.objetivos?.map((objective, index) => (
+                                  <li key={index}>{t(objective)}</li>
+                                ))}
+                              </ul>
+                            </div>
 
-              <div className="separated-line"></div>
 
-              <div className="about-project">
-                <h2 className="project-h2">
-                  {t("projectsInfo.description.titleDescriptionProject")}
-                </h2>
-                <p>{t(actualProject.descricaoProjeto)}</p>
-              </div>
-            </div>
+                            <div className="about-project">
+                              <h2 className="project-h2">
+                                {t(
+                                  "projectsInfo.description.titleDescriptionProject"
+                                )}
+                              </h2>
+                              <p>{t(segmento.descricaoProjeto)}</p>
+                            </div>
 
-            <div className="tecnologies-related">
-              <div className="center">
-                <p>{t("projectsInfo.techTitle")}</p>
-                <div className="tech-related-wrapper">
-                  {techsVerification ? (
-                    projectsInfos[actualSlide].techs.map((tech, index) => {
-                      return (
-                        <div className="related-tech" key={index}>
-                          <img src={tech} alt="" />
+                            <div className="tecnologies-related">
+                              <div className="center">
+                                <p>{t("projectsInfo.techTitle")}</p>
+                                <div className="tech-related-wrapper">
+                                  {segmento.techs?.map((tech, index) => {
+                                    return (
+                                      <div className="related-tech" key={index}>
+                                        <img src={tech} alt="" />
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            </div>
+                          </SwiperSlide>
+                        )
+                      )}
+                    </Swiper>
+                  </div>
+                ) : (
+                  <>
+                    <div className="project-objectives">
+                      <h2 className="project-h2">
+                        {t("projectsInfo.objectives.objectiveTitle")}
+                      </h2>
+                      <ul>
+                        {actualProject.objetivos?.map((objective, index) => (
+                          <li key={index}>{t(objective)}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="about-project">
+                      <h2 className="project-h2">
+                        {t("projectsInfo.description.titleDescriptionProject")}
+                      </h2>
+                      <p>{t(actualProject.descricaoProjeto ?? "")}</p>
+                    </div>
+
+                    <div className="tecnologies-related">
+                      <div className="center">
+                        <p>{t("projectsInfo.techTitle")}</p>
+                        <div className="tech-related-wrapper">
+                          {projectsInfos[actualSlide].techs?.map(
+                            (tech, index) => {
+                              return (
+                                <div className="related-tech" key={index}>
+                                  <img src={tech} alt="" />
+                                </div>
+                              );
+                            }
+                          )}
                         </div>
-                      );
-                    })
-                  ) : (
-                    <p className="without-tech">
-                      Nenhuma tecnologia está relacionada a este projeto
-                    </p>
-                  )}
-                </div>
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </motion.div>

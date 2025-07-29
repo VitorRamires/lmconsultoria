@@ -47,12 +47,12 @@ export function LiCounter({
     <>
       <li ref={ref}>
         <div className="wrapper-text-highlight">
-          <p>{t(text)}</p>
           <p className="number-highlight">
             {symbol[0]}
             <span>{number}</span>
             {symbol[1]}
           </p>
+          <p>{t(text)}</p>
         </div>
       </li>
     </>

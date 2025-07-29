@@ -49,6 +49,7 @@
   left: 50%;
   transform: translate(-50%, 0) !important;
   opacity: 0;
+  z-index: 98;
 }
 
 .center-header-fixed {
@@ -138,7 +139,12 @@
 }
 
 .project-objectives {
-  margin: 4rem 0;
+  width: 100%;
+}
+
+.about-project {
+  width: 100%;
+  margin-top: 4rem;
 }
 
 .project-objectives ul {
@@ -153,11 +159,12 @@
   width: max-content;
   padding: 25px;
   text-align: center;
-  background-color: var(--dark4);
+  background-color: var(--backgroundColor);
   color: var(--white);
   font-size: 1.15rem;
-  border-bottom: 5px solid var(--blue);
+  border-bottom: 1px solid var(--blue2);
   border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.384) 5px 5px 5px inset;
 }
 
 .project-info {
@@ -173,7 +180,7 @@
 }
 
 .tecnologies-related {
-  width: 95%;
+  width: 100%;
   height: 100%;
   background: var(--dark3);
   margin: 100px auto 0 auto;
@@ -228,6 +235,14 @@
 
 .project-content-wrapper {
   position: relative;
+}
+
+.two-segs .swiper-slide {
+  background: transparent;
+}
+
+.two-segs .project-objectives {
+  margin-top: 8rem;
 }
 
 @media screen and (max-width: 1350px) {
@@ -297,13 +312,13 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 520px) {
   .tecnologies-related p {
     text-align: center;
   }
 
   .btn-swiper {
-    width: 50px;
+    width: 40px;
     height: 40px;
   }
 
@@ -315,7 +330,7 @@
   .center-header-fixed {
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
   }
 
   .project-objectives ul li {
@@ -330,9 +345,20 @@
     font-size: 0.9rem;
   }
 
-  .project-content-header,
+  .project-content-header .center,
   .center-header-fixed {
     font-size: 1rem;
+    align-items: start;
+  }
+
+  .client-project {
+    justify-content: start;
+  }
+
+  .projects-counter-fixed {
+    font-size: 0.9rem;
+    padding: 5px 0;
+    width: 100px;
   }
 }
 
@@ -344,13 +370,10 @@
   .client-project img {
     width: 30px;
   }
+}
 
-  .client-project {
-    justify-content: start;
-  }
-
-  .project-content-header .center,
-  .center-header-fixed {
-    align-items: start;
+@media screen and (max-width: 340px) {
+  .two-segs .project-objectives {
+    margin-top: 11.5rem;
   }
 }

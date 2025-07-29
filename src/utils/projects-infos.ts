@@ -176,41 +176,43 @@ export const projectsInfos = [
     id: 10,
     pais: eua,
   },
+
   {
-    projeto: "Petrobras - RPA",
+    projeto: "Petrobras",
     descricaoCliente: "projectsInfo.description.aboutClient.10",
-    descricaoProjeto: "projectsInfo.description.aboutProject.10",
-    objetivos: [
-      "projectsInfo.objectives.tags.0",
-      "projectsInfo.objectives.tags.3",
-      "projectsInfo.objectives.tags.4",
-      "projectsInfo.objectives.tags.5",
-    ],
-    extras: ["RPA", "Brasil", "projectsInfo.extras.0"],
-    logo: petrobras,
-    techs: [techsData.automation, techsData.uipath, techsData.sap],
     id: 11,
     pais: brasil,
-  },
-  {
-    projeto: "Petrobras - OutSystems",
-    descricaoCliente: "projectsInfo.description.aboutClient.11",
-    descricaoProjeto: "projectsInfo.description.aboutProject.11",
-    objetivos: [
-      "projectsInfo.objectives.tags.0",
-      "projectsInfo.objectives.tags.13",
-    ],
-    extras: ["OutSystems", "Brasil", "projectsInfo.extras.0"],
+    extras: ["RPA / Outsystem", "Brasil", "projectsInfo.extras.0"],
     logo: petrobras,
-    techs: [
-      techsData.automation,
-      techsData.sap,
-      techsData.office,
-      techsData.citrix,
-    ],
-    id: 13,
-    pais: brasil,
+    segmentos: {
+      rpa: {
+        nome: "RPA",
+        descricaoProjeto: "projectsInfo.description.aboutProject.10",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.3",
+          "projectsInfo.objectives.tags.4",
+          "projectsInfo.objectives.tags.5",
+        ],
+        techs: [techsData.automation, techsData.uipath, techsData.sap],
+      },
+      outsystem: {
+        nome: "Outsystem",
+        descricaoProjeto: "projectsInfo.description.aboutProject.11",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.13",
+        ],
+        techs: [
+          techsData.automation,
+          techsData.sap,
+          techsData.office,
+          techsData.citrix,
+        ],
+      },
+    },
   },
+
   {
     projeto: "Roche",
     descricaoCliente: "projectsInfo.description.aboutClient.12",
