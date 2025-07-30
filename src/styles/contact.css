@@ -14,7 +14,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.contact img {
+.contact img:not(.form img) {
   height: 550px;
   object-fit: cover;
   border-radius: 0 10px 10px 0;

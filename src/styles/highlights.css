@@ -57,7 +57,7 @@
 }
 
 @media screen and (max-width: 1140px) {
-  .wrapper-text-highlight p:first-child {
+  .wrapper-text-highlight p:nth-child(2) {
     font-size: 1.2rem;
   }
 }
