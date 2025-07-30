@@ -82,7 +82,7 @@
       }
     },
 
-    "techTitle": "Core Technologie",
+    "techTitle": "Core Technology",
     "techTitleHome": "Technologies",
 
     "highlights": {
@@ -382,6 +382,7 @@
 
     "helMsg": "Do you need help? Contact me with ",
     "axisX": "Projects",
-    "axisY": "Quantity"
+    "axisY": "Quantity",
+    "billions": "Billions"
   }
 }

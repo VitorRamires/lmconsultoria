@@ -18,6 +18,10 @@ export function LiCounter({
   const { t } = useTranslation();
 
   useEffect(() => {
+    setNumber(0);
+  }, [end]);
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => setVisible(entry.isIntersecting),
       { threshold: 0.6 }
@@ -50,7 +54,7 @@ export function LiCounter({
           <p className="number-highlight">
             {symbol[0]}
             <span>{number}</span>
-            {symbol[1]}
+            {t(symbol[1])}
           </p>
           <p>{t(text)}</p>
         </div>
