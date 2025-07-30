@@ -1,7 +1,7 @@
 export const highlightData = [
   {
     text: "highlights.0",
-    number: 200,
+    number: 350,
     speed: 50,
     symbol: ["+"],
   },

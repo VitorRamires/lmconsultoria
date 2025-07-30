@@ -242,7 +242,7 @@
 }
 
 .two-segs .project-objectives {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 1350px) {
@@ -360,6 +360,9 @@
     padding: 5px 0;
     width: 100px;
   }
+  .know-titles h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -372,8 +375,4 @@
   }
 }
 
-@media screen and (max-width: 340px) {
-  .two-segs .project-objectives {
-    margin-top: 11.5rem;
-  }
-}
+

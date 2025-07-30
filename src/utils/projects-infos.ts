@@ -59,19 +59,67 @@ export const projectsInfos = [
   {
     projeto: "ArcelorMittal",
     descricaoCliente: "projectsInfo.description.aboutClient.2",
-    descricaoProjeto: "projectsInfo.description.aboutProject.2",
-    objetivos: [
-      "projectsInfo.objectives.tags.0",
-      "projectsInfo.objectives.tags.3",
-      "projectsInfo.objectives.tags.4",
-      "projectsInfo.objectives.tags.5",
-    ],
     extras: ["RPA", "Brasil", "projectsInfo.extras.4"],
     logo: arcelormittal,
-    techs: [techsData.automation, techsData.office],
     id: 3,
     pais: brasil,
+    segmentos: {
+      rpa: {
+        nome: "RPA",
+        descricaoProjeto: "projectsInfo.description.aboutProject.2",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.3",
+          "projectsInfo.objectives.tags.4",
+          "projectsInfo.objectives.tags.5",
+        ],
+        techs: [techsData.automation, techsData.office],
+      },
+
+      IA: {
+        nome: "IA",
+        descricaoProjeto: "projectsInfo.description.aboutProject.18",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.2",
+          "projectsInfo.objectives.tags.18",
+          "projectsInfo.objectives.tags.19",
+        ],
+        techs: [techsData.IA, techsData.excel, techsData.office, techsData.sap],
+      },
+
+      data: {
+        nome: "Data",
+        descricaoProjeto: "projectsInfo.description.aboutProject.17",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.14",
+          "projectsInfo.objectives.tags.15",
+          "projectsInfo.objectives.tags.16",
+          "projectsInfo.objectives.tags.17",
+        ],
+        techs: [
+          techsData.data,
+          techsData.sap,
+          techsData.excel,
+          techsData.devops,
+          techsData.powerbi,
+        ],
+      },
+
+      fullstack: {
+        nome: "Fullstack",
+        descricaoProjeto: "projectsInfo.description.aboutProject.19",
+        objetivos: [
+          "projectsInfo.objectives.tags.0",
+          "projectsInfo.objectives.tags.14",
+          "projectsInfo.objectives.tags.15",
+        ],
+        techs: [techsData.devops, techsData.excel],
+      },
+    },
   },
+
   {
     projeto: "Autoliv",
     descricaoCliente: "projectsInfo.description.aboutClient.3",

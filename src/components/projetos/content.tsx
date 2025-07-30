@@ -73,6 +73,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
               <div className="separated-line"></div>
 
               <div className="project-wrapper">
+                <div className="custom-pagination"></div>
                 {Object.keys(actualProject.segmentos || {}).length > 0 ? (
                   <div className="two-segs">
                     <Swiper
@@ -85,6 +86,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                       autoHeight={true}
                       pagination={{
                         clickable: true,
+                        el: ".custom-pagination",
                         renderBullet: (index, className) => {
                           const nomeSegmento =
                             segmentosArray[index]?.[1]?.nome ||
@@ -101,12 +103,13 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                                 {t("projectsInfo.objectives.objectiveTitle")}
                               </h2>
                               <ul>
-                                {segmento.objetivos?.map((objective, index) => (
-                                  <li key={index}>{t(objective)}</li>
-                                ))}
+                                {segmento.objetivos?.map(
+                                  (objective: string[], index: number) => (
+                                    <li key={index}>{t(objective)}</li>
+                                  )
+                                )}
                               </ul>
                             </div>
-
 
                             <div className="about-project">
                               <h2 className="project-h2">
@@ -121,13 +124,18 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                               <div className="center">
                                 <p>{t("projectsInfo.techTitle")}</p>
                                 <div className="tech-related-wrapper">
-                                  {segmento.techs?.map((tech, index) => {
-                                    return (
-                                      <div className="related-tech" key={index}>
-                                        <img src={tech} alt="" />
-                                      </div>
-                                    );
-                                  })}
+                                  {segmento.techs?.map(
+                                    (tech: string, index: number) => {
+                                      return (
+                                        <div
+                                          className="related-tech"
+                                          key={index}
+                                        >
+                                          <img src={tech} alt="" />
+                                        </div>
+                                      );
+                                    }
+                                  )}
                                 </div>
                               </div>
                             </div>

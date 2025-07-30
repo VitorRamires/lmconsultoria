@@ -46,7 +46,7 @@ export const data = [
   },
   {
     name: "project.chartData.industrial",
-    quantidade:1,
+    quantidade:4,
     fill:"#CEB5A7"
   }
 ];
