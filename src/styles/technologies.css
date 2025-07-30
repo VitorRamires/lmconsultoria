@@ -44,6 +44,10 @@
   width: 99px;
 }
 
+.IA{
+  width: 150px;
+}
+
 @media screen and (max-width: 1092px) {
   .tech-box {
     justify-content: center;

@@ -197,6 +197,7 @@
 
 .tech-related-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: start;
   gap: 35px;
@@ -208,7 +209,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--backgroundColor);
-  width: 300px;
+  width: 240px;
   height: 200px;
   box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.384);
   padding: 10px 20px;

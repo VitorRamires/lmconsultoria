@@ -115,7 +115,12 @@ export const projectsInfos = [
           "projectsInfo.objectives.tags.14",
           "projectsInfo.objectives.tags.15",
         ],
-        techs: [techsData.devops, techsData.excel],
+        techs: [
+          techsData.devops,
+          techsData.excel,
+          techsData.python,
+          techsData.java,
+        ],
       },
     },
   },

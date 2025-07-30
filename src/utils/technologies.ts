@@ -16,6 +16,8 @@ import trello from "@/assets/images/trello.png";
 import IA from "@/assets/images/IA.png";
 import data from "@/assets/images/data.png";
 import powerbi from "@/assets/images/powerbi.png";
+import java from "@/assets/images/java.png";
+import python from "@/assets/images/python.png";
 
 export const technologies = [
   {
@@ -86,5 +88,13 @@ export const technologies = [
   {
     name: "powerbi",
     url: powerbi,
+  },
+  {
+    name: "java",
+    url: java,
+  },
+  {
+    name: "python",
+    url: python,
   },
 ];
