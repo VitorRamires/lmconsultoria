@@ -10,9 +10,9 @@ export const getHighlightData = (lang: string) => {
     },
     {
       text: "highlights.1",
-      number: isPT ? 6 : 1, 
+      number: isPT ? 6 : 1,
       speed: 200,
-      symbol: ["", "billions"],
+      symbol: [`${isPT ? "" : "+"}`, "billions"],
     },
     {
       text: "highlights.2",
