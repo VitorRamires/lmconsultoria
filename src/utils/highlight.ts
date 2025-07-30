@@ -12,7 +12,7 @@ export const getHighlightData = (lang: string) => {
       text: "highlights.1",
       number: isPT ? 6 : 1,
       speed: 200,
-      symbol: [`${isPT ? "" : "+"}`, "billions"],
+      symbol: [" ", "billions", `${isPT ? "R$" : "USD $"}`],
     },
     {
       text: "highlights.2",

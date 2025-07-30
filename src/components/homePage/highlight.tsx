@@ -52,6 +52,7 @@ export function LiCounter({
       <li ref={ref}>
         <div className="wrapper-text-highlight">
           <p className="number-highlight">
+            {symbol[2]}
             {symbol[0]}
             <span>{number}</span>
             {t(symbol[1])}

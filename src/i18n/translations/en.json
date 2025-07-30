@@ -76,7 +76,7 @@
         "langDetail": "Languages: <span>Portuguese and English</span>",
         "reach": "Reach: <span>International</span>",
         "yearsOld": {
-          "age": "age",
+          "age": "Age",
           "year": "years"
         }
       }
@@ -89,7 +89,7 @@
       "0": "Professionals led throughout the career.",
       "1": "In savings generated for clients.",
       "2": "Increase in financial margins.",
-      "3": "Contracts secured with major corporations."
+      "3": "Contracts signed with major corporations."
     },
 
     "homePageProject": {
@@ -179,7 +179,7 @@
         }
       },
       "description": {
-        "titleDescriptionProject": "The project",
+        "titleDescriptionProject": "The Project",
         "titleDescriptionClient": "About the client",
         "aboutClient": {
           "0": "American Express is one of the world's leading financial services companies, specializing in credit cards, digital payments, travel, and banking services. With over 160 years of history, American Express operates in more than 130 countries, providing innovative financial solutions for consumers, businesses, and merchants worldwide. Serving millions of individuals and businesses of various sizes, the company is recognized for its commitment to excellence and trust in the financial market.",
@@ -243,7 +243,7 @@
 
     "clientTitle": "Client",
     "segmentTitle": "Segment",
-    "knowProjects": "Portfolio of Projects and Clients Served",
+    "knowProjects": "Project Portifolio & Accounts Managed",
 
     "pageTitles": {
       "project": "Operations",
@@ -383,6 +383,6 @@
     "helMsg": "Do you need help? Contact me with ",
     "axisX": "Projects",
     "axisY": "Quantity",
-    "billions": "Billions"
+    "billions": "Billion"
   }
 }

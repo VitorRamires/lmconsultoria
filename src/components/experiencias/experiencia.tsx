@@ -23,7 +23,7 @@ export function Experiencia({ experience }: ExperienciaProps) {
       ref={ref}
     >
       <div className="dados-experiencia">
-        <article className="infos-expx">
+        <article className="infos-exp">
           <h2 className="cargo">{t(experience.role)}</h2>
           <h3 className="empresa">{t(experience.company)}</h3>
         </article>
