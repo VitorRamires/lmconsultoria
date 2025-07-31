@@ -116,8 +116,8 @@
 
     "contact": {
       "title": "Get in Touch",
-      "text1": "It would be a pleasure to connect and learn more about your challenges so we can develop tailored solutions together.",
-      "text2": "Interested in a partnership or want to get in touch? Reach out through the channels below — I look forward to hearing from you!"
+      "text1": "It will be a pleasure to discuss your challenges and develop a tailored solution for them.",
+      "text2": "Please use the channels below to get in touch with me."
     },
 
     "project": {
@@ -246,7 +246,7 @@
     "knowProjects": "Project Portifolio & Accounts Managed",
 
     "pageTitles": {
-      "project": "Operations",
+      "project": "Portfolio",
       "volunteer": "Volunteer Work",
       "exp": "Experiences"
     },
@@ -377,7 +377,8 @@
       "volunteer": "Volunteer",
       "experience": "Experiences",
       "service": "Services",
-      "home": "Home"
+      "home": "Home",
+      "technologies": "Technologies"
     },
 
     "helMsg": "Do you need help? Contact me with ",

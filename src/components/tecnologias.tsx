@@ -1,6 +1,7 @@
-import { technologies } from "../../utils/technologies";
+import { technologies } from "../utils/technologies";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Footer } from "./footer";
 
 export function Technologies() {
   const { t } = useTranslation();
@@ -12,14 +13,28 @@ export function Technologies() {
   const containerVariants = {
     animate: {
       transition: {
-        staggerChildren: 0.1, // tempo entre cada card
+        staggerChildren: 0.1,
       },
     },
   };
   return (
     <>
       <section className="technologies">
-        <div className="tech-title">{t("techTitleHome")}</div>
+        <div className="title-page">
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+          >
+            {t("techTitleHome")}
+          </motion.h2>
+          <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: "100%" }}
+            transition={{ delay: 0.2 }}
+            className="title-line"
+          ></motion.div>
+        </div>
         <motion.div
           className="tech-box"
           variants={containerVariants}
@@ -40,6 +55,7 @@ export function Technologies() {
           })}
         </motion.div>
       </section>
+      <Footer />
     </>
   );
 }

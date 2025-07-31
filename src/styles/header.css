@@ -4,7 +4,7 @@
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
-  width: 1250px;
+  width: 1650px;
   max-width: 95%;
   height: 90px;
   background-color: var(--headerBg);
@@ -95,7 +95,7 @@
   border-radius: 0 5px 5px 0;
   color: var(--white);
   transition: 0.2s;
-  padding-bottom:6px;
+  padding-bottom: 6px;
 }
 
 .L:hover {
@@ -129,6 +129,15 @@
   height: 3px;
   background-color: var(--blue);
   transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  .header nav ul {
+    gap: 23px;
+  }
+  .header nav ul a {
+    font-size: 0.85rem;
+  }
 }
 
 @media screen and (max-width: 1050px) {

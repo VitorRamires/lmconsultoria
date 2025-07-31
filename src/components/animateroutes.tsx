@@ -4,6 +4,7 @@ import { Volunteer } from "./voluntario/voluntario";
 import { HomePage } from "./homePage/HomePage";
 import { Project } from "./projetos/projeto";
 import { Services } from "./serviços";
+import { Technologies } from "./tecnologias";
 
 export function AnimateRoutes() {
   return (
@@ -14,6 +15,7 @@ export function AnimateRoutes() {
         <Route path="/experience" element={<Experiences />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/technologies" element={<Technologies />} />
       </Routes>
     </>
   );

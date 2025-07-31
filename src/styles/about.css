@@ -61,7 +61,7 @@
   margin-top: 20px;
   overflow: auto;
   height: 268px;
-  padding-bottom:10px;
+  padding:0 10px 10px 0;
 }
 
 .all-skills {
@@ -136,26 +136,30 @@
   color: #777777;
 }
 
+.soft-skills-wrapper::-webkit-scrollbar,
+.hard-skills-wrapper::-webkit-scrollbar,
 .about-panel::-webkit-scrollbar {
   width: 3px;
   background: #0000001c;
-  transform: translateX(-130px);
 }
 
+.soft-skills-wrapper::-webkit-scrollbar-track,
+.hard-skills-wrapper::-webkit-scrollbar-track,
 .about-panel::-webkit-scrollbar-track {
   background: #0000001c;
 }
 
+.soft-skills-wrapper::-webkit-scrollbar-thumb,
+.hard-skills-wrapper::-webkit-scrollbar-thumb,
 .about-panel::-webkit-scrollbar-thumb {
   background: #00f7ff;
   border-radius: 5px;
 }
-
 /* ========= Resumo ========= */
 
 .resume p {
   position: relative;
-  margin-top:2rem;
+  margin-top: 2rem;
   font-size: 1.1rem !important;
   font-family: "Arial Light";
   text-align: center;

@@ -4,7 +4,6 @@ import { Banner } from "./banner/banner";
 import { Contact } from "./contato";
 import { ProjectsHome } from "./projetosHome";
 import { Sobre } from "./sobre";
-import { Technologies } from "./tecnologias";
 import { useLocation } from "react-router-dom";
 import { Highlight } from "./highlights";
 
@@ -24,7 +23,6 @@ export function HomePage() {
       <Banner />
       <Sobre />
       <Highlight />
-      <Technologies />
       <ProjectsHome />
       <Contact />
       <Footer />

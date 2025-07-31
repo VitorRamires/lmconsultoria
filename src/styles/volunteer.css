@@ -5,6 +5,7 @@
 .volunteer-list-wrapper {
   position: relative;
   z-index: 32;
+  padding: 0 0 3rem 0;
 }
 
 .volunteer .title-page {
@@ -35,7 +36,7 @@
 }
 
 .recolocation {
-  margin-bottom: 170px;
+  margin-bottom: 100px;
 }
 
 .recolocation-list {

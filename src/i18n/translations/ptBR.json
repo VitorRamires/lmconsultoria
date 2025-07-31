@@ -116,7 +116,7 @@
     "contact": {
       "title": "Entre em Contato",
       "text1": "Será um prazer conversarmos para entender seus desafios e elaborarmos uma solução para eles.",
-      "text2": "Gostaria de firmar uma parceria ou entrar em contato? Utilize os canais abaixo."
+      "text2": "Utilize os canais abaixo para entrar em contato comigo."
     },
 
     "project": {
@@ -242,10 +242,10 @@
 
     "clientTitle": "Cliente",
     "segmentTitle": "Segmento",
-    "knowProjects": "Portifólio de Projetos e Clientes Atendidos",
+    "knowProjects": "Portifólio de Projetos e Contas Gerenciadas",
 
     "pageTitles": {
-      "project": "Operações",
+      "project": "Portifólio",
       "volunteer": "Trabalho voluntário",
       "exp": "Experiências"
     },
@@ -376,13 +376,13 @@
       "volunteer": "Voluntário",
       "experience": "Experiências",
       "service": "Serviços",
-      "home": "Ínicio"
+      "home": "Ínicio",
+      "technologies": "Tecnologias"
     },
 
     "helMsg": "Está precisando de ajuda? Entre em contato comigo via ",
     "axisX": "Projetos",
     "axisY": "Quantidade",
     "billions": "Bilhões"
-   
   }
 }
