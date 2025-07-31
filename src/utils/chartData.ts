@@ -5,6 +5,11 @@ export const data = [
     fill: "#01BAEF",
   },
   {
+    name: "project.chartData.industrial",
+    quantidade: 4,
+    fill: "#CEB5A7",
+  },
+  {
     name: "project.chartData.tecnologia",
     quantidade: 3,
     fill: "#0B4F6C",
@@ -30,7 +35,7 @@ export const data = [
     fill: "#E3170A",
   },
   {
-    name: "project.chartData.cosmeticos",    
+    name: "project.chartData.cosmeticos",
     quantidade: 1,
     fill: "#F7B32B",
   },
@@ -44,9 +49,4 @@ export const data = [
     quantidade: 1,
     fill: "#00BD9D",
   },
-  {
-    name: "project.chartData.industrial",
-    quantidade:4,
-    fill:"#CEB5A7"
-  }
 ];

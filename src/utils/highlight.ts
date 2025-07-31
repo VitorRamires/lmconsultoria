@@ -21,16 +21,16 @@ export const getHighlightData = (lang: string) => {
       symbol: ["+", "%"],
     },
     {
-      text: "highlights.3",
-      number: 12,
-      speed: 150,
-      symbol: ["+"],
-    },
-    {
       text: "highlights.4",
       number: isPT ? 120 : 25,
       speed: 50,
       symbol: ["+", "M", `${isPT ? "R$" : "$"}`],
+    },
+    {
+      text: "highlights.3",
+      number: 12,
+      speed: 150,
+      symbol: ["+"],
     },
   ];
 };
