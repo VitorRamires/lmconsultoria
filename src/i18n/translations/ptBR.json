@@ -252,104 +252,45 @@
     },
     "experiences": {
       "enterprises": {
-        "0": "Tata Consultancy Services (Índia)",
-        "1": "Prime IT (Portugal)",
-        "2": "GAVB / Grupo Boticário (Brasil)",
-        "3": "Evonnis (Brasil)",
-        "4": "Evonnis (Brasil)"
+        "0": "Grupo LPJ",
+        "1": "Tata Consultancy Services (Índia)",
+        "2": "Prime IT (Portugal)",
+        "3": "GAVB / Grupo Boticário (Brasil)",
+        "4": "iProcess",
+        "5": "Evonnis (Brasil)",
+        "6": "Evonnis (Brasil)"
       },
       "roles": {
-        "0": "Gerente de Projetos",
-        "1": "Consultor",
-        "2": "Tech Lead",
-        "3": "Desenvolvedor Fullstack",
-        "4": "Supervisor Administrativo e Comercial"
+        "0": "Gerente de Projetos Especialista",
+        "1": "Gerente de Projetos",
+        "2": "Consultor de tecnologia",
+        "3": "Tech Lead",
+        "4": "Tech Lead",
+        "5": "Desenvolvedor Fullstack",
+        "6": "Supervisor Administrativo e Comercial"
       },
+
       "roleFunctions": {
         "0": {
-          "0": "Gestão de mais de 10 projetos/contas para clientes LATAM e EUA.",
-          "1": "Gestão de mais de 100 associados em projetos.",
-          "2": "Treinamento e mentoria para gerentes de projetos.",
-          "3": "Realização de reuniões de vendas/pré-vendas e apresentações de deck.",
-          "4": "Elaboração de RFPs.",
-          "5": "Identificação de oportunidades de negócio junto a clientes e stakeholders.",
-          "6": "Criação e implementação de KPIs e metas de projetos.",
-          "7": "Atuação direta no P&L do projeto com ações de MIP.",
-          "8": "Desenvolvimento de estratégias financeiras.",
-          "9": "Análise de riscos.",
-          "10": "Reestruturação e padronização de equipes.",
-          "11": "Construção e manutenção do Pipeline.",
-          "12": "Participação em renegociações contratuais e elaboração de claims.",
-          "13": "Adequação e acompanhamento de auditorias internas.",
-          "14": "Report para diretoria executiva e conselho.",
-          "15": "Acompanhamento do cumprimento de cláusulas contratuais entre empresa e cliente.",
-          "16": "Participação em iniciativas tecnológicas junto ao cliente.",
-          "17": "Implantação de planos de melhoria de performance para associados.",
-          "18": "Desenvolvimento de processos internos e distribuição de tarefas.",
-          "19": "Realização de 1-1 e feedbacks anuais."
+          "0": "Gerente de Projetos Especialista. Atuando na gestão de projetos com diferentes tecnologias, em uma empresa do ramo industrial, liderando iniciativas estratégicas voltadas à melhoria de relacionamento com o cliente e ao fortalecimento da parceria. Conduzo projetos nas frentes de BI, Inteligência Artificial, RPA, Fullstack e Dados, com foco na geração de valor, inovação e eficiência operacional. Sou responsável pela gestão de recursos técnicos, acompanhamento completo do fluxo de entrega e pelo uso da plataforma Azure para controle de demandas, garantindo organização, visibilidade e produtividade dos times. Realizo a elaboração de reports executivos para o cliente, mantendo comunicação constante com stakeholders e assegurando alinhamento nas expectativas, riscos e avanços dos projetos. Atuo também na produção e gestão de documentações de projetos, além de participar ativamente do planejamento estratégico e tático. Contribuo diretamente para o crescimento das equipes internas, apoiando na estruturação, desenvolvimento e capacitação dos profissionais envolvidos nas operações."
         },
         "1": {
-          "0": "Orientação na construção de fluxos de delivery na área de RPA.",
-          "1": "Orientação na implantação de padrões de documentação na área de RPA.",
-          "2": "Comparativo entre esforço humano e esforço robótico.",
-          "3": "Participação em cerimônias SCRUM.",
-          "4": "Elaboração de PDD, TDD, SDD, entre outros documentos técnicos.",
-          "5": "Leitura e mapeamento de estruturas AS-IS e TO-BE.",
-          "6": "Análise/especificação de requisitos e processos.",
-          "7": "Comunicação com clientes para atualizações, aprovações e viabilidade de projetos.",
-          "8": "Análise de viabilidade de novas automações.",
-          "9": "Estimativa de tempo de execução dos projetos em andamento.",
-          "10": "Automação de processos utilizando Automation Anywhere A360 e Control Room.",
-          "11": "Integrações com softwares, plataformas e sites.",
-          "12": "Análise, construção e padronização de arquiteturas e códigos de robôs.",
-          "13": "Operação e testes dentro e fora de produção.",
-          "14": "Aplicação dos conceitos de BPM, DRY e SOLID."
+          "0": "Gerenciamento de projetos e contas em 13 clientes simultâneos da América Latina e Estados Unidos, totalizando uma liderança de mais de 100 profissionais. Realizei treinamentos e mentorias para gestores de projetos, além de conduzir reuniões de vendas, pré-vendas e apresentações executivas. Participei da elaboração de RFPs e da identificação de oportunidades de negócios junto a clientes e stakeholders. Fui responsável pela implementação e gestão de operações de TI, criação de KPIs, definição de metas e acompanhamento de resultados. Atuei diretamente no P&L dos projetos, aplicando estratégias de MIP, além de desenvolver planos financeiros e realizar gerenciamento de riscos. Gerenciei pipeline comercial, participei de repactuações contratuais e elaboração de pleitos, além de conduzir processos de auditorias internas. Elaborei reports executivos, garanti o cumprimento de cláusulas contratuais e atuei em iniciativas tecnológicas junto aos clientes. Também implementei planos de melhoria de performance, elaborei processos internos, distribuí atividades, conduzi feedbacks com as equipes e liderei cerimônias de SCRUM."
         },
         "2": {
-          "0": "Automação de processos utilizando Automation Anywhere A360.",
-          "1": "Integrações com softwares, plataformas e sites.",
-          "2": "Análise, construção e padronização de arquiteturas e códigos de robôs.",
-          "3": "Operação e testes dentro e fora de produção, com presença do cliente quando necessário.",
-          "4": "Utilização de Control Room, IQBot, AARI e Bot Insights.",
-          "5": "Aplicação dos conceitos de BPM, DRY e SOLID.",
-          "6": "Desenvolvimento de POCs.",
-          "7": "Elaboração de PDD, TDD, SDD, entre outros documentos técnicos.",
-          "8": "Liderança de equipe em projetos.",
-          "9": "Análise de pontos fortes e de melhoria da equipe.",
-          "10": "Leitura e mapeamento de estruturas AS-IS e TO-BE.",
-          "11": "Análise/especificação de requisitos e processos.",
-          "12": "Comunicação com clientes para atualizações, aprovações e viabilidade de projetos.",
-          "13": "Avaliação da construção de código e aderência às boas práticas.",
-          "14": "Implantação da metodologia SCRUM na área de RPA.",
-          "15": "Análise de viabilidade de novas automações.",
-          "16": "Participação em reuniões técnicas de pré-vendas.",
-          "17": "Treinamento de desenvolvedores em RPA e SoftSkills."
+          "0": "Elaboração de fluxos de entrega e na definição de padrões de documentação na área de RPA, garantindo organização, qualidade e escalabilidade nos projetos. Realizei análises comparativas entre esforço humano e esforço de robôs para identificação de ganhos operacionais. Fui responsável pela elaboração de documentações técnicas, como PDD, TDD e SDD, além do mapeamento completo de processos nas visões AS-IS e TO-BE. Conduzi análises e especificações de requisitos, mantendo contato constante com os clientes para atualizações, homologações e avaliações de viabilidade. Realizei estudos de viabilidade técnica e financeira para novas automações, sempre alinhadas às demandas de negócio. Desenvolvi automações utilizando Automation Anywhere A360 e Control Room, além de realizar integrações com sistemas, plataformas e websites, abrangendo diferentes processos operacionais. Atuei na análise, construção e padronização de arquiteturas de robôs e códigos, garantindo aderência às melhores práticas. Também fui responsável por executar operações e testes dentro e fora de ambientes produtivos, assegurando a estabilidade, qualidade e performance das soluções entregues."
         },
         "3": {
-          "0": "Desenvolvimento de plataformas E-Commerce e Sites Institucionais.",
-          "1": "Participação em configuração de servidores via AWS.",
-          "2": "Gestão e participação em modelos de trabalho SCRUM, Metodologia Ágil e KANBAN.",
-          "3": "Utilização de PHP, CSS3, HTML5, MySQL e Javascript (padrão MVC).",
-          "4": "Participação em projetos utilizando OpenCart, WooCommerce e Wordpress.",
-          "5": "Atuação básica em manutenção de servidores.",
-          "6": "Utilização de plataformas de gestão de projetos (Jira e Notion).",
-          "7": "Utilização de ambientes de desenvolvimento (VsCode, Sublime e Xampp).",
-          "8": "Suporte e resolução de bugs junto a clientes.",
-          "9": "Treinamento de colaboradores sobre funcionalidades dos sistemas.",
-          "10": "Comunicação com gestores para novos projetos."
+          "0": "Atuação estratégica em projetos de automação de processos com a plataforma Automation Anywhere A360, abrangendo desde a análise e padronização de arquiteturas de robôs até a integração com sistemas, plataformas e websites, atendendo a diversos fluxos operacionais. Experiência na realização de operações e testes em ambientes produtivos e não produtivos, com participação ativa de clientes em fases críticas do projeto. Domínio das ferramentas Control Room, IQBot, AARI e Bot Insights, com aplicação prática de conceitos como BPM, DRY e SOLID no desenvolvimento de soluções escaláveis e sustentáveis. Responsável por liderar equipes técnicas, promovendo o desenvolvimento de profissionais por meio da identificação de pontos fortes e oportunidades de melhoria. Atuação em todas as etapas do ciclo de vida do projeto, incluindo a elaboração de documentações técnicas como PDD, TDD e SDD, além da condução de reuniões com clientes para validação, homologação e definição de viabilidade técnica. Experiência sólida com metodologias ágeis, com destaque para a implementação do SCRUM na área de RPA. Participação ativa em iniciativas de pré-venda técnica, desenvolvimento de POCs, análise de viabilidade de novas automações e capacitação de desenvolvedores tanto em hard skills quanto em soft skills. Forte capacidade de leitura e mapeamento de estruturas AS-IS e TO-BE, além da análise crítica de requisitos e avaliação de aderência a boas práticas de desenvolvimento."
         },
         "4": {
-          "0": "Elaboração de documentações e normas;",
-          "1": "Planejamento de recursos financeiros, contas a pagar e emissão de relatórios financeiros mensais;",
-          "2": "Construção de métricas de vendas;",
-          "3": "Análise de mercado Brasileiro para diferentes ramos onde nossos produtos poderiam ser inseridos e serem iniciadas as prospecções;",
-          "4": "Análise de relatórios para possíveis tomadas de decisões no que diz respeito a campo de atuação, meios de relacionamento, eficiência do ciclo de venda, entre outros;",
-          "5": "Análise de necessidades de mercado afim de estar constantemente atualizando o setor operacional para que sempre pudéssemos estar versionando nossos produtos para melhor atender nosso nicho de mercado;",
-          "6": "Acompanhamento de prospecção de novos clientes e fornecedores",
-          "7": "Venda direta com clientes cujos necessitam de produtos de alta individualidade e direcionados a um público em especial;",
-          "8": "Planejamento de melhoria contínua;",
-          "9": "Implementação e acompanhamento de KPI's;",
-          "10": "Precificação de produtos;"
+          "0": "Automatização de atividades e processos utilizando ferramentas de RPA, com ênfase na plataforma Automation Anywhere, abrangendo integrações com documentos, sistemas internos, plataformas web, websites e softwares corporativos, como SAP. Atuação no desenvolvimento de projetos com MetaBots, realizando desde a elaboração de especificações técnicas, PDDs, SDDs e planos de contingência até a execução de testes em ambientes produtivos e não produtivos. Condução de operações assistidas com envolvimento direto de clientes, garantindo a estabilidade e qualidade das entregas. Exercício de liderança técnica sobre equipes alocadas em cliente, incluindo o suporte e capacitação de desenvolvedores. Participação ativa na análise de processos com times de negócios para viabilização e desenvolvimento de novos robôs. Desenvolvimento de provas de conceito (POCs) e participação em reuniões técnicas com equipes internacionais. Gestão da Control Room para implantação e monitoramento de robôs em produção, além de forte atuação em comunicações com stakeholders, garantindo o alinhamento em atualizações, homologações e validações de projetos."
+        },
+        "5": {
+          "0": "Desenvolvimento de plataformas de E-Commerce e sites institucionais, com participação ativa em projetos baseados em OpenCart, WooCommerce e WordPress. Atuação em configuração e manutenção básica de servidores, com conhecimento prático em ambientes AWS. Vivência em modelos de trabalho ágeis, com destaque para metodologias SCRUM, Kanban e Ágil, exercendo funções de liderança e integração com as áreas técnicas e de negócio. Sólida base técnica com utilização de PHP, CSS3, HTML5, JavaScript (padrão MVC) e banco de dados MySQL, além de atuação em ambientes de desenvolvimento como VSCode, Sublime Text e XAMPP. Utilização de plataformas de gestão de projetos como Jira e Notion, com foco em organização, acompanhamento e controle de entregas. Responsável por suporte a clientes, correção de bugs e treinamento de colaboradores sobre funcionalidades dos sistemas, além de realizar comunicação direta com gestores para definição e viabilidade de novos projetos."
+        },
+        "6": {
+          "0": "Experiência na elaboração de documentações e normas operacionais, bem como no planejamento de recursos financeiros, gerenciamento de contas a pagar e emissão de relatórios financeiros mensais. Atuação estratégica na análise de mercado brasileiro, identificando oportunidades em diferentes setores para inserção de produtos e direcionamento de prospecções comerciais. Responsável pela construção de métricas de vendas e pela análise de relatórios gerenciais voltados à tomada de decisão, considerando aspectos como canais de atuação, estratégias de relacionamento, eficiência do ciclo de vendas e adequação do portfólio. Forte foco em análise de necessidades de mercado e na constante evolução do setor operacional, garantindo o versionamento e alinhamento dos produtos às demandas específicas do nicho atendido. Participação ativa no acompanhamento de prospecção de clientes e fornecedores, com atuação direta na venda consultiva de produtos personalizados, voltados a públicos específicos. Experiência em planejamento de melhoria contínua, definição e acompanhamento de indicadores de performance (KPIs) e precificação estratégica de produtos para maximizar competitividade e margem de lucro."
         }
       }
     },

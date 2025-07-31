@@ -88,7 +88,7 @@
     "highlights": {
       "0": "Professionals led throughout the career.",
       "1": "Dollars saved in National and International clients.",
-      "2": "Increase in financial margins.",
+      "2": "Increase in financial margins in strategic projects.",
       "3": "Contracts signed with major corporations.",
       "4": "Dollars in contracts managed with major clients."
     },
@@ -254,104 +254,44 @@
 
     "experiences": {
       "enterprises": {
-        "0": "Tata Consultancy Services (India)",
-        "1": "Prime IT (Portugal)",
-        "2": "GAVB / Grupo Boticário (Brazil)",
-        "3": "Evonnis (Brazil)",
-        "4": "Evonnis (Brazil)"
+        "0": "LPJ Group",
+        "1": "Tata Consultancy Services (India)",
+        "2": "Prime IT (Portugal)",
+        "3": "GAVB / Grupo Boticário (Brazil)",
+        "4": "iProcess",
+        "5": "Evonnis (Brazil)",
+        "6": "Evonnis (Brazil)"
       },
       "roles": {
-        "0": "Project Manager",
-        "1": "Consultant",
-        "2": "Tech Lead",
-        "3": "Fullstack Developer",
-        "4": "Administrative and Commercial Supervisor"
+        "0": "Senior Project Manager",
+        "1": "Project Manager",
+        "2": "Technology Consultant",
+        "3": "Tech Lead",
+        "4": "Tech Lead",
+        "5": "Fullstack Developer",
+        "6": "Administrative and Commercial Supervisor"
       },
       "roleFunctions": {
         "0": {
-          "0": "Management of a portfolio comprising over 10 projects and accounts for clients across LATAM and the United States.",
-          "1": "Oversight of more than 100 associates distributed across multiple initiatives.",
-          "2": "Training and mentoring of project managers to enhance leadership capabilities and delivery performance.",
-          "3": "Leading sales and pre-sales meetings, including the preparation and delivery of strategic presentations.",
-          "4": "Preparation and review of Requests for Proposal (RFPs).",
-          "5": "Identification and pursuit of new business opportunities in collaboration with clients and key stakeholders.",
-          "6": "Design and implementation of KPIs and project objectives aligned with organizational goals.",
-          "7": "Direct involvement in project profitability through Margin Improvement Plan (MIP) initiatives.",
-          "8": "Development and execution of financial strategies to support sustainable growth.",
-          "9": "Conducting comprehensive risk analyses to mitigate potential project and business impacts.",
-          "10": "Restructuring and standardization of multidisciplinary teams to optimize efficiency and scalability.",
-          "11": "Management of the sales pipeline and forecasting to ensure business continuity.",
-          "12": "Active participation in contract renegotiations and preparation of claims and supporting documentation.",
-          "13": "Monitoring of internal audits and implementation of corrective and preventive actions as required.",
-          "14": "Regular reporting to executive leadership and the board of directors, ensuring transparency and alignment.",
-          "15": "Ensuring compliance with contractual obligations between the company and its clients.",
-          "16": "Engagement in technological and innovation initiatives in partnership with clients.",
-          "17": "Implementation of performance improvement plans to support associate development and retention.",
-          "18": "Development and refinement of internal processes, including the structuring and distribution of tasks.",
-          "19": "Execution of one-on-one sessions and annual performance evaluations to foster continuous feedback and growth."
+          "0": "Senior Project Manager. Responsible for managing projects involving various technologies at an industrial sector company, leading strategic initiatives aimed at improving customer relationships and strengthening partnerships. I lead projects in BI, Artificial Intelligence, RPA, Fullstack, and Data, focusing on value generation, innovation, and operational efficiency. I manage technical resources, oversee the full delivery flow, and utilize the Azure platform for demand control, ensuring organization, visibility, and team productivity. I prepare executive reports for clients, maintaining constant communication with stakeholders and ensuring alignment on expectations, risks, and project progress. I also handle the production and management of project documentation and actively participate in strategic and tactical planning. I directly contribute to team growth by supporting the structuring, development, and training of professionals involved in operations."
         },
         "1": {
-          "0": "Provided strategic guidance in establishing delivery workflows within the RPA (Robotic Process Automation) domain.",
-          "1": "Led the implementation of documentation standards to ensure consistency and compliance in RPA projects.",
-          "2": "Conducted comparative analyses between human effort and robotic workload to support decision-making and automation viability.",
-          "3": "Actively participated in SCRUM ceremonies to drive Agile delivery and team alignment.",
-          "4": "Oversaw the preparation of key technical documentation, including Process Design Documents (PDD), Technical Design Documents (TDD), Solution Design Documents (SDD), among others.",
-          "5": "Performed end-to-end mapping and analysis of AS-IS and TO-BE process structures.",
-          "6": "Led requirements gathering and process analysis/specification in close collaboration with business stakeholders.",
-          "7": "Maintained clear and consistent communication with clients regarding project updates, approvals, and feasibility assessments.",
-          "8": "Conducted feasibility analyses for new automation opportunities, considering business value and technical constraints.",
-          "9": "Estimated development and execution timelines for ongoing RPA initiatives.",
-          "10": "Delivered process automation solutions using Automation Anywhere A360 and Control Room, ensuring scalability and resilience.",
-          "11": "Executed integrations with various software applications, platforms, and web-based systems to expand automation capabilities.",
-          "12": "Designed, built, and standardized robot architectures and codebases, promoting reusability and maintainability.",
-          "13": "Managed testing and operations across both production and non-production environments.",
-          "14": "Applied best practices and principles such as BPM (Business Process Management), DRY (Don't Repeat Yourself), and SOLID to ensure high-quality, scalable solutions."
+          "0": "Managed projects and accounts for 13 clients across Latin America and the United States, leading more than 100 professionals. Delivered training and mentoring to project managers and conducted sales, pre-sales, and executive meetings. Participated in RFP preparation and identified business opportunities with clients and stakeholders. Responsible for IT operations implementation and management, KPI creation, goal setting, and performance monitoring. Oversaw project P&L, applied MIP strategies, developed financial plans, and managed risks. Managed the sales pipeline, participated in contractual renegotiations and claims development, and led internal audit processes. Produced executive reports, ensured compliance with contractual clauses, and engaged in technological initiatives with clients. Implemented performance improvement plans, developed internal processes, delegated tasks, conducted team feedback sessions, and led SCRUM ceremonies."
         },
         "2": {
-          "0": "Led the automation of business processes using Automation Anywhere A360, ensuring alignment with organizational objectives.",
-          "1": "Oversaw integrations with various software systems, platforms, and web applications to enable end-to-end automation.",
-          "2": "Conducted in-depth analysis, design, and standardization of robotic architectures and code to promote efficiency, scalability, and maintainability.",
-          "3": "Supervised operations and testing in both production and non-production environments, engaging clients when necessary to ensure alignment and transparency.",
-          "4": "Utilized tools such as Control Room, IQBot, AARI, and Bot Insights to manage bots, enhance cognitive capabilities, and monitor performance metrics.",
-          "5": "Applied best practices and principles, including BPM (Business Process Management), DRY (Don't Repeat Yourself), and SOLID, to ensure the delivery of high-quality solutions.",
-          "6": "Directed the development of Proofs of Concept (POCs) to validate the feasibility and value of proposed automation initiatives.",
-          "7": "Oversaw the preparation of comprehensive technical documentation, including PDD, TDD, SDD, and related deliverables.",
-          "8": "Provided leadership and strategic direction to project teams, fostering collaboration and accountability.",
-          "9": "Conducted evaluations of team strengths and areas for improvement, promoting continuous development and alignment with business goals.",
-          "10": "Led the reading and mapping of AS-IS and TO-BE process structures to identify optimization opportunities.",
-          "11": "Supervised the analysis and specification of business requirements and processes, ensuring clarity and completeness.",
-          "12": "Maintained ongoing communication with clients for status updates, requirement approvals, and feasibility validation.",
-          "13": "Evaluated code quality across automation projects, ensuring adherence to industry standards and internal best practices.",
-          "14": "Implemented the SCRUM methodology within the RPA practice to improve delivery speed, flexibility, and team engagement.",
-          "15": "Performed feasibility analyses of new automation requests, balancing technical capabilities and business impact.",
-          "16": "Participated in technical pre-sales meetings, providing expertise to shape client proposals and define solution architecture.",
-          "17": "Led training initiatives for RPA developers, focusing on both technical proficiency and soft skills development."
+          "0": "Defined delivery workflows and documentation standards in the RPA domain, ensuring organization, quality, and scalability in projects. Conducted comparative analyses between human effort and bot effort to identify operational gains. Prepared technical documentation such as PDD, TDD, and SDD, and performed complete process mapping (AS-IS and TO-BE). Led requirements analysis and specifications, maintaining frequent client communication for updates, approvals, and feasibility assessments. Carried out technical and financial feasibility studies for new automations aligned with business needs. Developed automations using Automation Anywhere A360 and Control Room, and integrated with various systems, platforms, and websites across operational processes. Standardized bot architectures and codes, ensuring adherence to best practices. Also executed operations and testing inside and outside production environments, ensuring stability, quality, and performance."
         },
         "3": {
-          "0": "Development of e-commerce platforms and institutional websites.",
-          "1": "Participation in server configuration via AWS.",
-          "2": "Management and participation in SCRUM, Agile methodology, and KANBAN work models.",
-          "3": "Use of PHP, CSS3, HTML5, MySQL, and JavaScript (MVC pattern).",
-          "4": "Participation in projects using OpenCart, WooCommerce, and WordPress.",
-          "5": "Basic server maintenance tasks.",
-          "6": "Use of project management platforms (Jira and Notion).",
-          "7": "Use of development environments (VSCode, Sublime, and XAMPP).",
-          "8": "Client support and bug resolution.",
-          "9": "Training of employees on system functionalities.",
-          "10": "Communication with managers regarding new projects."
+          "0": "Strategic involvement in process automation projects using the Automation Anywhere A360 platform, from bot architecture analysis and standardization to integration with systems, platforms, and websites. Experience in operations and testing in both production and non-production environments, with active client involvement during critical project stages. Proficient in Control Room, IQBot, AARI, and Bot Insights tools, with practical application of concepts such as BPM, DRY, and SOLID to develop scalable and sustainable solutions. Led technical teams and fostered team growth by identifying strengths and improvement areas. Handled all stages of the project lifecycle, including the preparation of technical documentation (PDD, TDD, and SDD) and client meetings for validation, approval, and technical feasibility. Strong background in agile methodologies, especially in implementing SCRUM in the RPA area. Actively contributed to technical pre-sales, POC development, automation feasibility analysis, and training developers in both hard and soft skills. Skilled in reading and mapping AS-IS and TO-BE structures and critically analyzing requirements for adherence to best development practices."
         },
         "4": {
-          "0": "Preparation of documentation and standards;",
-          "1": "Financial resource planning, accounts payable management, and issuance of monthly financial reports;",
-          "2": "Development of sales metrics;",
-          "3": "Market analysis of the Brazilian sector for different industries where our products could be introduced and prospecting could begin;",
-          "4": "Analysis of reports to support decision-making regarding areas of operation, relationship channels, sales cycle efficiency, among others;",
-          "5": "Assessment of market needs to ensure the operational sector is constantly updated, allowing us to continuously version our products to better serve our market niche;",
-          "6": "Monitoring the prospecting of new clients and suppliers;",
-          "7": "Direct sales to clients requiring highly individualized products tailored to a specific audience;",
-          "8": "Continuous improvement planning;",
-          "9": "Implementation and monitoring of KPIs;",
-          "10": "Product pricing;"
+          "0": "Automated tasks and processes using RPA tools, with a focus on the Automation Anywhere platform, integrating with documents, internal systems, web platforms, websites, and enterprise software such as SAP. Developed projects using MetaBots, from technical specification, PDDs, SDDs, and contingency plans to testing in production and non-production environments. Conducted assisted operations with direct client involvement, ensuring delivery stability and quality. Provided technical leadership for client-allocated teams, including developer support and training. Actively analyzed processes with business teams to evaluate and develop new bots. Developed proof of concept (POC) and participated in technical meetings with international teams. Managed Control Room for bot deployment and monitoring in production, and maintained close communication with stakeholders to ensure alignment in project updates, validations, and approvals."
+        },
+        "5": {
+          "0": "Developed e-commerce platforms and institutional websites, actively contributing to projects based on OpenCart, WooCommerce, and WordPress. Configured and maintained basic server infrastructure with practical experience in AWS environments. Worked in agile frameworks, with a focus on SCRUM, Kanban, and Agile methodologies, holding leadership roles and ensuring integration between technical and business teams. Strong technical foundation in PHP, CSS3, HTML5, JavaScript (MVC standard), and MySQL, and worked in development environments like VSCode, Sublime Text, and XAMPP. Used project management tools such as Jira and Notion for organization, tracking, and delivery control. Provided client support, bug fixing, and staff training on system functionalities, and engaged in direct communication with managers to define and assess new project viability."
+        },
+        "6": {
+          "0": "Prepared operational documentation and standards, managed financial resources, accounts payable, and monthly financial reporting. Strategically analyzed the Brazilian market to identify opportunities across sectors for product placement and guided commercial prospecting. Built sales metrics and analyzed management reports for decision-making based on channels, relationship strategies, sales cycle efficiency, and portfolio alignment. Focused on market need analysis and continuous operational improvement, ensuring product versioning and alignment with niche-specific demands. Actively involved in client and supplier prospecting and conducted consultative sales of customized products for targeted audiences. Experienced in continuous improvement planning, KPI definition and monitoring, and strategic product pricing to maximize competitiveness and profit margins."
         }
       }
     },
