@@ -308,13 +308,20 @@
         "3": "Presenting various approaches tailored to different job roles.",
         "4": "Offering support in aligning the individual’s knowledge with their desired position or career path.",
         "5": "Conducting end-to-end professional follow-up until a job offer is accepted."
+      },
+      "mentoringList": {
+        "0": "Measuring attitudes in specific customer-facing situations;",
+        "1": "How to lead your teams and manage operations effectively;",
+        "2": "Defining the most relevant KPIs for project monitoring;",
+        "3": "Structuring high-performance squads;",
+        "4": "How to mitigate high-risk situations involving stakeholders."
       }
     },
 
     "header": {
       "about": "About",
       "contact": "Contact",
-      "project": "Projects",
+      "project": "Portfolio",
       "volunteer": "Volunteer",
       "experience": "Experiences",
       "service": "Services",

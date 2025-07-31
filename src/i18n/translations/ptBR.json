@@ -272,7 +272,7 @@
 
       "roleFunctions": {
         "0": {
-          "0": "Gerente de Projetos Especialista. Atuando na gestão de projetos com diferentes tecnologias, em uma empresa do ramo industrial, liderando iniciativas estratégicas voltadas à melhoria de relacionamento com o cliente e ao fortalecimento da parceria. Conduzo projetos nas frentes de BI, Inteligência Artificial, RPA, Fullstack e Dados, com foco na geração de valor, inovação e eficiência operacional. Sou responsável pela gestão de recursos técnicos, acompanhamento completo do fluxo de entrega e pelo uso da plataforma Azure para controle de demandas, garantindo organização, visibilidade e produtividade dos times. Realizo a elaboração de reports executivos para o cliente, mantendo comunicação constante com stakeholders e assegurando alinhamento nas expectativas, riscos e avanços dos projetos. Atuo também na produção e gestão de documentações de projetos, além de participar ativamente do planejamento estratégico e tático. Contribuo diretamente para o crescimento das equipes internas, apoiando na estruturação, desenvolvimento e capacitação dos profissionais envolvidos nas operações."
+          "0": "Atuando na gestão de projetos com diferentes tecnologias, em uma empresa do ramo industrial, liderando iniciativas estratégicas voltadas à melhoria de relacionamento com o cliente e ao fortalecimento da parceria. Conduzo projetos nas frentes de BI, Inteligência Artificial, RPA, Fullstack e Dados, com foco na geração de valor, inovação e eficiência operacional. Sou responsável pela gestão de recursos técnicos, acompanhamento completo do fluxo de entrega e pelo uso da plataforma Azure para controle de demandas, garantindo organização, visibilidade e produtividade dos times. Realizo a elaboração de reports executivos para o cliente, mantendo comunicação constante com stakeholders e assegurando alinhamento nas expectativas, riscos e avanços dos projetos. Atuo também na produção e gestão de documentações de projetos, além de participar ativamente do planejamento estratégico e tático. Contribuo diretamente para o crescimento das equipes internas, apoiando na estruturação, desenvolvimento e capacitação dos profissionais envolvidos nas operações."
         },
         "1": {
           "0": "Gerenciamento de projetos e contas em 13 clientes simultâneos da América Latina e Estados Unidos, totalizando uma liderança de mais de 100 profissionais. Realizei treinamentos e mentorias para gestores de projetos, além de conduzir reuniões de vendas, pré-vendas e apresentações executivas. Participei da elaboração de RFPs e da identificação de oportunidades de negócios junto a clientes e stakeholders. Fui responsável pela implementação e gestão de operações de TI, criação de KPIs, definição de metas e acompanhamento de resultados. Atuei diretamente no P&L dos projetos, aplicando estratégias de MIP, além de desenvolver planos financeiros e realizar gerenciamento de riscos. Gerenciei pipeline comercial, participei de repactuações contratuais e elaboração de pleitos, além de conduzir processos de auditorias internas. Elaborei reports executivos, garanti o cumprimento de cláusulas contratuais e atuei em iniciativas tecnológicas junto aos clientes. Também implementei planos de melhoria de performance, elaborei processos internos, distribuí atividades, conduzi feedbacks com as equipes e liderei cerimônias de SCRUM."
@@ -308,13 +308,21 @@
         "4": "Apresentação dos diversos tipos de abordagens, para diversas vagas de emprego;",
         "5": "Apoio no entendimento da conexão entre o conhecimento da pessoa com o cargo/atribuição que ela traçou como meta;",
         "6": "Acompanhamento de ponta a ponta o profissional, até o momento da aceitação da proposta de emprego."
+      },
+
+      "mentoringList": {
+        "0": "Mensurar atitudes em determinadas situações com clientes;",
+        "1": "Como liderar suas equipes e operações;",
+        "2": "Definição dos melhores KPIs para monitoramento de projetos;",
+        "3": "Estruturação de squads;",
+        "4": "Como amenizar situações de alto risco com stakeholders."
       }
     },
 
     "header": {
       "about": "Sobre",
       "contact": "Contato",
-      "project": "Projetos",
+      "project": "Portifolio",
       "volunteer": "Voluntário",
       "experience": "Experiências",
       "service": "Serviços",

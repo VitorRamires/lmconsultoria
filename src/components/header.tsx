@@ -49,7 +49,6 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-
   useEffect(() => {
     setActiveSection(location.hash || "#home");
   }, [location.hash]);
@@ -162,15 +161,6 @@ export function Header() {
             </li>
             <li>
               <HashLink
-                to="/volunteer"
-                className={isPathActive("/volunteer") ? "active" : ""}
-                onClick={handleNavLinkClick}
-              >
-                {t("header.volunteer")}
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
                 to="/technologies"
                 className={isPathActive("/technologies") ? "active" : ""}
                 onClick={handleNavLinkClick}
@@ -186,6 +176,15 @@ export function Header() {
                 className={isPathActive("/services") ? "active" : ""}
               >
                 {t("header.service")}
+              </HashLink>
+            </li>
+            <li>
+              <HashLink
+                to="/volunteer"
+                className={isPathActive("/volunteer") ? "active" : ""}
+                onClick={handleNavLinkClick}
+              >
+                {t("header.volunteer")}
               </HashLink>
             </li>
           </ul>

@@ -1,9 +1,9 @@
-import { volunteer } from "../../utils/volunteer";
+import { mentoring, volunteer } from "../../utils/volunteer";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function VolunteerList() {
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="volunteer-list-wrapper">
@@ -34,7 +34,15 @@ export function VolunteerList() {
           className="leader-formation"
         >
           <h3 className="volunteer-title">{t("volunteer.title2")}</h3>
-          <p>{t("volunteer.volunteerText2")}</p>
+          <div className="recolocation-list">
+            <ul>
+              {mentoring.map((item, index) => (
+                <li key={index}>
+                  <span>{t(item.item)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </motion.div>
       </div>
     </div>

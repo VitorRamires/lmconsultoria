@@ -21,3 +21,21 @@ export const volunteer = [
     item: "volunteer.volunteerList.6",
   },
 ];
+
+export const mentoring = [
+  {
+    item: "volunteer.mentoringList.0",
+  },
+  {
+    item: "volunteer.mentoringList.1",
+  },
+  {
+    item: "volunteer.mentoringList.2",
+  },
+  {
+    item: "volunteer.mentoringList.3",
+  },
+  {
+    item: "volunteer.mentoringList.4",
+  }
+];
