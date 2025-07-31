@@ -89,7 +89,8 @@
       "0": "Professionals led throughout the career.",
       "1": "Dollars saved in National and International clients.",
       "2": "Increase in financial margins.",
-      "3": "Contracts signed with major corporations."
+      "3": "Contracts signed with major corporations.",
+      "4": "Dollars in contracts managed with major clients."
     },
 
     "homePageProject": {
@@ -384,6 +385,6 @@
     "helMsg": "Do you need help? Contact me with ",
     "axisX": "Projects",
     "axisY": "Quantity",
-    "billions": "Billion"
+    "billions": "Bi"
   }
 }

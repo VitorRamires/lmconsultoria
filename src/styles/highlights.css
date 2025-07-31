@@ -46,6 +46,10 @@
   padding: 0 25px;
 }
 
+.highlights .wrapper-text-highlight p:nth-child(2) {
+  font-size: 1.2rem;
+}
+
 .number-highlight {
   color: var(--blue);
   font-size: 2.2rem;
