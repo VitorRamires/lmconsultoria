@@ -162,10 +162,6 @@
   .descritivo li {
     margin-left: 0;
   }
-
-  .dados-experiencia {
-    align-items: center;
-  }
 }
 
 @media screen and (max-width: 450px) {
