@@ -28,7 +28,7 @@
   justify-content: center;
   background: linear-gradient(180deg, var(--blue), var(--blue2));
   font-family: "Arial";
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
   padding: 0 20px;
 }
 

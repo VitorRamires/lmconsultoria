@@ -34,6 +34,8 @@ export function Sobre() {
         </motion.h2>
 
         <div className="about-decoration"></div>
+
+        
         <div className="about-panel">
           <div
             className={`resume ${aboutOption === "resumo" ? "optionOn" : ""}`}

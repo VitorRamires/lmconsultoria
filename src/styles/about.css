@@ -61,7 +61,7 @@
   margin-top: 20px;
   overflow: auto;
   height: 268px;
-  padding:0 10px 10px 0;
+  padding: 0 10px 10px 0;
 }
 
 .all-skills {
@@ -116,6 +116,7 @@
   padding: 0 10px;
   overflow: auto;
 }
+
 
 .extra-details {
   width: calc(1850px / 1.5);
