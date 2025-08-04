@@ -21,7 +21,7 @@ export function SliderProjects() {
     function onScroll() {
       if (!swiperContainerRef.current) return;
       const rect = swiperContainerRef.current.getBoundingClientRect();
-      setShowFixedButtons(rect.top <= -280);
+      setShowFixedButtons(rect.top <= -330);
     }
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);

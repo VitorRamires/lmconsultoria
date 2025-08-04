@@ -127,6 +127,10 @@
   .title-services::before {
     display: none;
   }
+
+  .service-wrapper {
+    margin: 18rem auto 0 auto;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -166,8 +170,6 @@
     font-size: 2em;
   }
 }
-
-
 
 @media screen and (max-width: 480px) {
   .service {

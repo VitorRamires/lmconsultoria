@@ -16,7 +16,6 @@ export function Sobre() {
   function handleAboutChanger(event: React.MouseEvent) {
     const targetOption = event.currentTarget.getAttribute("data-option") || "";
     const aboutSection = ref.current;
-
     aboutSection?.scrollIntoView({
       behavior: "smooth",
     });

@@ -16,7 +16,7 @@ export function Contact() {
           opacity: 1,
           transition: { duration: 0.5, ease: "easeInOut" },
         }}
-        viewport={{ amount: 0.5, once: true }}
+        viewport={{ amount: 0.2, once: true }}
         className="contact"
         id="contact"
       >

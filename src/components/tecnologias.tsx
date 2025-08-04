@@ -14,6 +14,7 @@ export function Technologies() {
     animate: {
       transition: {
         staggerChildren: 0.1,
+        delay: 0.3,
       },
     },
   };
@@ -21,17 +22,12 @@ export function Technologies() {
     <>
       <section className="technologies">
         <div className="title-page">
-          <motion.h2
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-          >
+          <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             {t("techTitleHome")}
           </motion.h2>
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
-            transition={{ delay: 0.2 }}
             className="title-line"
           ></motion.div>
         </div>
@@ -40,7 +36,7 @@ export function Technologies() {
           variants={containerVariants}
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true }}
         >
           {techs.map((tech, index) => {
             return (
