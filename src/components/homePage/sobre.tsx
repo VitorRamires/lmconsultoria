@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { aboutInformation } from "../../utils/about.ts";
 import { motion } from "framer-motion";
 import { Trans, useTranslation } from "react-i18next";
 
 export function Sobre() {
   const [aboutOption, setAboutOption] = useState("resumo");
+  const ref = useRef<HTMLDivElement | null>(null);
   const { t } = useTranslation();
 
   const age =
@@ -14,12 +15,17 @@ export function Sobre() {
 
   function handleAboutChanger(event: React.MouseEvent) {
     const targetOption = event.currentTarget.getAttribute("data-option") || "";
+    const aboutSection = ref.current;
+
+    aboutSection?.scrollIntoView({
+      behavior: "smooth",
+    });
     setAboutOption(targetOption.toLowerCase());
   }
 
   return (
     <>
-      <div className="about" id="about">
+      <div className="about" id="about" ref={ref}>
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -44,7 +50,9 @@ export function Sobre() {
             data-option="resultados"
           >
             {aboutInformation.results.map((result, index) => (
-              <p className={result.class} key={index}>{t(result.description)}</p>
+              <p className={result.class} key={index}>
+                {t(result.description)}
+              </p>
             ))}
           </div>
 
@@ -83,16 +91,28 @@ export function Sobre() {
 
         <div className="extra-details">
           <p>
-            <Trans i18nKey="aboutInfo.extra.expDetail" components={{ span: <span /> }} />
+            <Trans
+              i18nKey="aboutInfo.extra.expDetail"
+              components={{ span: <span /> }}
+            />
           </p>
           <p>
-            <Trans i18nKey="aboutInfo.extra.langDetail" components={{ span: <span /> }} />
+            <Trans
+              i18nKey="aboutInfo.extra.langDetail"
+              components={{ span: <span /> }}
+            />
           </p>
           <p>
-            <Trans i18nKey="aboutInfo.extra.reach" components={{ span: <span /> }} />
+            <Trans
+              i18nKey="aboutInfo.extra.reach"
+              components={{ span: <span /> }}
+            />
           </p>
           <p>
-            {t("aboutInfo.extra.yearsOld.age")}: <span>{age}  {t("aboutInfo.extra.yearsOld.year")}</span>
+            {t("aboutInfo.extra.yearsOld.age")}:{" "}
+            <span>
+              {age} {t("aboutInfo.extra.yearsOld.year")}
+            </span>
           </p>
         </div>
 
