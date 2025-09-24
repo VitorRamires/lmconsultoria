@@ -1,7 +1,7 @@
 export const data = [
   {
     name: "project.chartData.energia",
-    quantidade: 5,
+    quantidade: 8,
     fill: "#01BAEF",
   },
   {

@@ -34,14 +34,17 @@ export function VolunteerList() {
           className="leader-formation"
         >
           <h3 className="volunteer-title">{t("volunteer.title2")}</h3>
-          <div className="recolocation-list">
-            <ul>
-              {mentoring.map((item, index) => (
-                <li key={index}>
-                  <span>{t(item.item)}</span>
-                </li>
-              ))}
-            </ul>
+          <div className="recolocation-box">
+            <h4>{t("volunteer.volunteerText2")}</h4>
+            <div className="recolocation-list">
+              <ul>
+                {mentoring.map((item, index) => (
+                  <li key={index}>
+                    <span>{t(item.item)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </motion.div>
       </div>

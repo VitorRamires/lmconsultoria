@@ -26,7 +26,7 @@ function ChartWithTranslation() {
           width={300}
           height={500}
           margin={{
-            top: 10,
+            top: 30,
             right: 30,
             left: 30,
             bottom: 10,
