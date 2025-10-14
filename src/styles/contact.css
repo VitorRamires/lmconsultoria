@@ -28,7 +28,7 @@
   justify-content: center;
   background: linear-gradient(180deg, var(--blue), var(--blue2));
   font-family: "Arial";
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   padding: 0 20px;
 }
 
@@ -132,6 +132,7 @@
   .get-in-touch {
     padding: 100px 0;
     text-align: center;
+    border-radius: 0;
   }
 }
 
