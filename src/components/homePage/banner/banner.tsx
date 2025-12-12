@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
 import { Trans, useTranslation } from "react-i18next";
+import bgImage from "../../../assets/images/banner-bg.webp";
 import { t } from "i18next";
 
 export function Banner() {
@@ -17,10 +18,10 @@ export function Banner() {
       <div className="banner" id="home">
         <div className="banner-content">
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{
               opacity: 1,
-              transition: { duration: 0.5, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className={`name-role ${isInView ? "view" : ""}`}
             ref={ref}
@@ -37,25 +38,35 @@ export function Banner() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: "-3%" }}
+            initial={{ opacity: 1, y: "-3%" }}
             animate={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.7, delay: 0.5 },
+              transition: { duration: 0.4, delay: 0.2 },
             }}
             className={`main-image ${isInView ? "view" : ""}`}
             ref={ref}
           >
-            <img className="image" src={mainImage} alt="" />
+            <img
+              className="image"
+              src={mainImage}
+              alt="Lucas Ramires photo"
+              fetchPriority="high"
+            />
             <img
               className="decoration-image"
               src={decorationMainImage}
-              alt=""
+              alt="decoration image behing Lucas Ramires photo"
             />
           </motion.div>
         </div>
         <div className="overlay"></div>
-        <motion.div className="banner-bg"></motion.div>
+        <img
+          src={bgImage}
+          className="banner-bg"
+          fetchPriority="high"
+          alt="background image fulled of buildings"
+        />
       </div>
 
       <BannerCards />

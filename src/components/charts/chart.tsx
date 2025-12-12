@@ -76,6 +76,8 @@ function ChartWithTranslation() {
   );
 }
 
+
+
 export default class Chart extends PureComponent {
   render() {
     return <ChartWithTranslation />;
