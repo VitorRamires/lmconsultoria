@@ -21,7 +21,7 @@ export function Banner() {
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
-              transition: { duration: 0.5, delay: 0.2 },
+              transition: { duration: 0.2, delay: 0.2 },
             }}
             className={`name-role ${isInView ? "view" : ""}`}
             ref={ref}
@@ -42,7 +42,7 @@ export function Banner() {
             animate={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.4, delay: 0.2 },
+              transition: { duration: 0.2, delay: 0.2 },
             }}
             className={`main-image ${isInView ? "view" : ""}`}
             ref={ref}
