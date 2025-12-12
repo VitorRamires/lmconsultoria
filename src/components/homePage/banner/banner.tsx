@@ -18,7 +18,7 @@ export function Banner() {
       <div className="banner" id="home">
         <div className="banner-content">
           <motion.div
-            initial={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
               transition: { duration: 0.5, delay: 0.2 },
@@ -38,7 +38,7 @@ export function Banner() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 1, y: "-3%" }}
+            initial={{ opacity: 0, y: "-3%" }}
             animate={{
               opacity: 1,
               y: 0,
