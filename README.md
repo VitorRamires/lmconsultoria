@@ -1,6 +1,6 @@
 <img width="1903" height="900" alt="image" src="https://github.com/user-attachments/assets/d7c91fcf-a569-4559-ab5a-2fc14309d2db" />
 
-<h2>Projeto portifólio - Lucas Ramires</h2>
+<h2>LM Consultoria</h2>
 <br />
 <h3>🎯 Objetivo</h3>
 Este portfólio foi desenvolvido com o propósito de apresentar, de forma objetiva e estratégica, a trajetória profissional de um Gerente de Projetos com atuação sólida e resultados comprovados em ambientes nacionais e internacionais. 
