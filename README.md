@@ -2,6 +2,7 @@
 
 <h2>Projeto portifólio - Lucas Ramires</h2>
 <br />
+<h3>🎯 Objetivo</h3>
 Este portfólio foi desenvolvido com o propósito de apresentar, de forma objetiva e estratégica, a trajetória profissional de um Gerente de Projetos com atuação sólida e resultados comprovados em ambientes nacionais e internacionais. 
 Através de uma curadoria cuidadosa de experiências, competências e conquistas, este material visa ampliar a visibilidade e relevância do profissional no mercado global, destacando sua capacidade de liderar iniciativas complexas, promover inovação e entregar valor sustentável às organizações.
 <br />
