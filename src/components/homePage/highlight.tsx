@@ -41,7 +41,7 @@ export function LiCounter({
           clearInterval(interval);
           return prev;
         }
-        return end >= 100 ? prev + 10 : prev + 1;
+        return end >= 100 ? prev + 1 : prev + 1;
       });
     }, speed);
     return () => clearInterval(interval);

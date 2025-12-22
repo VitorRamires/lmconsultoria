@@ -31,7 +31,6 @@
 .name-role {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   text-align: center;
@@ -69,7 +68,7 @@
 }
 
 .role {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 .main-image {
@@ -104,9 +103,6 @@
     font-size: 4rem;
   }
 
-  .role {
-    font-size: 1.5rem;
-  }
 
   .view.name-role::after,
   .view.name-role::before {
@@ -136,10 +132,6 @@
   .name {
     font-size: 3rem;
     line-height: 55px;
-  }
-
-  .role {
-    font-size: 1.3rem;
   }
 }
 

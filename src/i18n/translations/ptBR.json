@@ -1,6 +1,6 @@
 {
   "translation": {
-    "titleBanner": "Diretor • Gerente Executivo • Gerente de Projetos Especialista",
+    "titleBanner": "Diretor de Operações & Delivery • Gerente Executivo • Gerente de Projetos e Operações Especialista ",
     "titleBanner2": "com experiência <span>internacional</span>",
 
     "cards": {
@@ -72,10 +72,10 @@
       },
       "extra": {
         "expDetail": "Expêriencia: <span>+10 anos</span>",
-        "langDetail": "Línguas: <span>Português e Inglês</span>",
+        "langDetail": "Idiomas: <span>Português e Inglês</span>",
         "reach": "Alcance: <span>Internacional</span>",
         "yearsOld": {
-          "age": "idade",
+          "age": "Idade",
           "year": "anos"
         }
       }
@@ -238,7 +238,9 @@
       },
       "techTitle": "Tecnologias Relacionadas",
       "techDevelopmentType": "Desenvolvimento",
-      "techDataType": "Dados"
+      "techDataType": "Dados",
+      "infraestructure": "Infraestrutura",
+      "sustentation": "Sustentação"
     },
 
     "clientTitle": "Cliente",

@@ -1,6 +1,6 @@
 {
   "translation": {
-    "titleBanner": "Head • Executive Manager • Senior Project Manager",
+    "titleBanner": "Expertise: Finance • Strategy • Business • Operations • Leadership • Expansion • Relationship Management • Mentorships",
     "titleBanner2": "with <span>international</span> experience",
 
     "cards": {
@@ -239,7 +239,9 @@
       },
       "techTitle": "Related Technologies",
       "techDevelopmentType": "Development",
-      "techDataType": "Data"
+      "techDataType": "Data",
+      "infraestructure": "Infraestructure",
+      "sustentation": "Sustentation"
     },
 
     "clientTitle": "Client",

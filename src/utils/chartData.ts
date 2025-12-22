@@ -6,12 +6,12 @@ export const data = [
   },
   {
     name: "project.chartData.industrial",
-    quantidade: 4,
+    quantidade: 12,
     fill: "#CEB5A7",
   },
   {
     name: "project.chartData.tecnologia",
-    quantidade: 3,
+    quantidade: 5,
     fill: "#0B4F6C",
   },
   {
