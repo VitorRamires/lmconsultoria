@@ -1,23 +1,22 @@
-<h2>Projeto portifólio - Lucas Ramires</h2>
+<img width="1903" height="900" alt="image" src="https://github.com/user-attachments/assets/d7c91fcf-a569-4559-ab5a-2fc14309d2db" />
+
+<h2>LM Consultoria</h2>
 <br />
-Este portfólio foi desenvolvido com o propósito de apresentar, de forma objetiva e estratégica, a trajetória profissional de um Gerente de Projetos com atuação sólida e resultados comprovados em ambientes nacionais e internacionais. 
+<h3>🎯 Objetivo</h3>
+Este site foi desenvolvido com o propósito de apresentar, de forma objetiva e estratégica, a trajetória profissional de um Gerente de Projetos com atuação sólida e resultados comprovados em ambientes nacionais e internacionais. 
 Através de uma curadoria cuidadosa de experiências, competências e conquistas, este material visa ampliar a visibilidade e relevância do profissional no mercado global, destacando sua capacidade de liderar iniciativas complexas, promover inovação e entregar valor sustentável às organizações.
 <br />
 <br />
-🛠️ Construído com:
-<br />
-Typescript - linguagem base do projeto
-<br />
-React.js - Framework
-<br />
-Swiper - Biblioteca de slider
-<br />
-Motion Frame - Biblioteca de animação
-<br />
-i18n - Internacionalização da aplicação
-<br />
-React Router - Gerenciador de rotas React
-<br />
+<h3>🛠️ Construído com:</h3>
+<ul>
+  <li>Typescript - linguagem base do projeto</li>
+  <li>React.js - Framework</li>
+  <li>Swiper - Biblioteca de slider</li>
+  <li>Motion Frame - Biblioteca de animação</li>
+  <li>i18n - Internacionalização da aplicação</li>
+  <li>React Router - Gerenciador de rotas React</li>
+</ul>
+
 <br />
 ✒️ Autores
 <br />
