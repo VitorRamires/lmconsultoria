@@ -1,6 +1,5 @@
 import mainImage from "@/assets/images/lucas.webp";
 import decorationMainImage from "@/assets/icons/main-image.svg";
-import { BannerCards } from "./cards";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
@@ -69,7 +68,6 @@ export function Banner() {
         />
       </div>
 
-      <BannerCards />
     </>
   );
 }
