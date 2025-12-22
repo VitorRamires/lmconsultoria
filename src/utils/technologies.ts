@@ -16,8 +16,12 @@ import trello from "@/assets/images/trello.png";
 import IA from "@/assets/images/IA.png";
 import data from "@/assets/images/data.png";
 import powerbi from "@/assets/images/powerbi.png";
-import java from "@/assets/images/java.png";
 import python from "@/assets/images/python.png";
+import msproject from "@/assets/images/ms-project.png";
+import fullstack from "@/assets/images/fullstack.png";
+import ux from "@/assets/images/ux.png";
+import powerapps from "@/assets/images/Powerapps.png";
+import infra from "@/assets/images/infra.png";
 
 export const technologies = [
   {
@@ -90,11 +94,27 @@ export const technologies = [
     url: powerbi,
   },
   {
-    name: "java",
-    url: java,
-  },
-  {
     name: "python",
     url: python,
+  },
+  {
+    name: "msproject",
+    url: msproject,
+  },
+  {
+    name: "fullstack",
+    url: fullstack,
+  },
+  {
+    name: "ux",
+    url: ux,
+  },
+    {
+    name: "powerapps",
+    url: powerapps,
+  },
+    {
+    name: "infra",
+    url: infra,
   },
 ];

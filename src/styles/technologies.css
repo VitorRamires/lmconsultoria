@@ -43,7 +43,11 @@
 
 .data img,
 .IA img,
-.devops img {
+.devops img,
+.fullstack img,
+.ux img,
+.powerapps img,
+.infra img {
   width: 90px;
 }
 
@@ -59,4 +63,3 @@
     grid-template-columns: 1fr !important;
   }
 }
-
